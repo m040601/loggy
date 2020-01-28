@@ -20,3 +20,14 @@ copy as markdown (tabs) chitsaou)
 > ## Keyboard Shortcuts
 > 
 > You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
+
+
+ROLLING
+=====
+
+METABESTBEST
+=====
+simon down csv.zip to git repo and commit to sqlite - clean code
+----
+
+[simonw/fara-history: Tracking the history of the FARA data from https://www.justice.gov/nsd-fara](https://github.com/simonw/fara-history)
