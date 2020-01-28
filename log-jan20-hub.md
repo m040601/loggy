@@ -198,3 +198,17 @@ spent two years working on data journalism projects at the Guardian in London
 before being sucked into the tech startup world. My Datasette project was
 inspired by the challenges I saw at the Guardian, and I’m hoping to evolve it
 (and its accompanying ecosystem) in as useful a way as possible.
+
+
+simon down fbi csv GitHub Actions 
+----
+[Deploying a data API using GitHub Actions and Cloud Run](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/)
+
+> It’s all still pretty fascinating though, in part because it gets updated. A lot. Almost every business day in fact.
+> 
+> ### Tracking FARA history
+> 
+> I know this because seven months ago I set up a scraper for it. Every twelve hours I have code which downloads the [four bulk CSVs](https://efile.fara.gov/ords/f?p=API:BULKDATA) published by the Justice department and saves them to [a git repository](https://github.com/simonw/fara-history). It’s the same trick I’ve been using [to track San Francisco’s database of trees](https://simonwillison.net/2019/Mar/13/tree-history/) and [PG&E’s outage map](https://simonwillison.net/2019/Oct/10/pge-outages/).
+> 
+> I’ve been running the scraper using Circle CI, but this weekend I decided to switch it over to [GitHub Actions](https://github.com/features/actions) to get a better idea for how they work.
+
