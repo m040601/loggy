@@ -24,8 +24,6 @@ Highlighted Tabs as a List of Links
 ROLLING
 =====
 
-again fugitive
------
 
 METABEST
 ====
@@ -96,5 +94,14 @@ project. Data from that project is now archived in irma-2017-archive/.
 
 [Scraping hurricane Irma](https://simonwillison.net/2017/Sep/10/scraping-irma/)
 
+### disaster scrapers (py disaster lib and circle ci with venv)
+
+py reqs
+
+
+github-contents
+requests
+bs4
+html5lib
  
 
