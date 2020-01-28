@@ -42,6 +42,20 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 
 ### Datasette: A tool for exploring and publishing data
 ### csvs-to-sqlite: Convert CSV files into a SQLite database
+[simonw/csvs-to-sqlite: Convert CSV files into a SQLite database](https://github.com/simonw/csvs-to-sqlite)
+
+> Convert CSV files into a SQLite database. Browse and publish that SQLite database with [Datasette](https://github.com/simonw/datasette).
+> 
+> Basic usage:
+> 
+>     csvs-to-sqlite myfile.csv mydatabase.db
+>     
+> 
+> This will create a new SQLite database called `mydatabase.db` containing a
+> single table, `myfile`, containing the CSV content.
+
+
+
 ### db-to-sqlite: CLI tool for exporting a MySQL or PostgreSQL database as a SQLite file
 ### sqlite-utils
 [simonw/sqlite-utils: Python CLI utility and library for manipulating SQLite databases](https://github.com/simonw/sqlite-utils)
@@ -81,3 +95,4 @@ project. Data from that project is now archived in irma-2017-archive/.
 
 [Scraping hurricane Irma](https://simonwillison.net/2017/Sep/10/scraping-irma/)
 
+ 
