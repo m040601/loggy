@@ -68,6 +68,9 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 > 
 >     pip3 install sqlite-utils
 
+### yaml-to-sqlite
+[simonw/yaml-to-sqlite: Utility for converting YAML files to SQLite](https://github.com/simonw/yaml-to-sqlite)
+
 ### trees: with circleci dotfolder yaml tasks
 [simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
 
@@ -106,3 +109,92 @@ bs4
 html5lib
  
 
+METABESTBESTBEST a la recutils - yaml file to sqlite  - Niche Museums  simonw
+----
+[About Niche Museums](https://www.niche-museums.com/about)
+
+> My aim is to add a new museum to this website every week. The most recently
+> added museum is always the first item on the homepage.
+> 
+> The source code for this website is available [on
+> GitHub](https://github.com/simonw/museums). You can read more about how it
+> works in [niche-museums.com, powered by
+> Datasette](https://simonwillison.net/2019/Nov/25/niche-museums/).
+> 
+
+
+
+
+
+[niche-museums.com, powered by Datasette](https://simonwillison.net/2019/Nov/25/niche-museums/)o
+
+The site is now rendered server-side. The previous version used lit-html to
+render content using JavaScript.
+[lit-html](https://lit-html.polymer-project.org/)
+
+
+Notably, the site is entirely powered by Datasette. It’s a heavily customized
+Datasette instance, making extensive use of custom templates and plugins.
+
+It’s a really fun experiment. I’m essentially using Datasette as a weird twist
+on a static site generator—no moving parts since the database is immutable but
+there’s still stuff
+
+
+
+happening server-side to render the pages.
+Continuous deployment
+
+The site is entirely stateless and is published using Circle CI to a serverless hosting provider (currently Zeit Now v1, but I’ll probably move it to Google Cloud Run in the near future.)
+
+The site content—46 museums and counting—lives in the museums.yaml file. I’ve been adding a new museum listing every day by editing the YAML file using Working Copy on my iPhone.
+
+The build script runs automatically on every commit. It converts the YAML file into a SQLite database using my yaml-to-sqlite tool, then runs datasette publish now... to deploy the resulting database.
+
+### hacker discussion apropos recutils
+
+
+I've been experimenting recently with YAML for this kind of thing, and it's working out really well for me so far.
+
+I have a tool called yaml-to-sqlite ( https://github.com/simonw/yaml-to-sqlite ) which converts a YAML file into a SQLite database, which I can then use with Datasette ( https://github.com/simonw/datasette )
+
+My biggest project with it so far has been my site https://www.niche-museums.com/ - a guide to small and niche museums. The museums themselves live in a single ~100KB YAML file in GitHub: https://github.com/simonw/museums/blob/master/museums.yaml
+
+I have a CI script which builds that YAML file into a SQLite database and deploys it + Datasette + custom templates to https://www.niche-museums.com/
+
+I've been running the site like this for a few months now and I really like it. I love having my content in source control, I find editing the YAML to be reasonably pleasant (I even edit it on my iPhone sometimes using the W
+
+
+### [simonw/yaml-to-sqlite: Utility for converting YAML files to SQLite](https://github.com/simonw/yaml-to-sqlite)
+
+### I also built a simple JavaScript image gallery 
+
+to better display the 54 photos I published from our trip to Ray Bandar’s basement.
+
+### annotate_nominatim.py uses the OpenStreetMap Nominatim API
+to reverse geocode the latitude and longitude of each museum, adding extra
+columns for the city, state, country and all kinds of other interesting
+geographical details.
+
+
+simon created django ? datasette for journalists ?
+----
+[My JSK Fellowship: Building an open source ecosystem of tools for data journalism](https://simonwillison.net/2019/Sep/10/jsk-fellowship/)
+
+[John S. Knight Journalism Fellowships at Stanford | The John S. Knight Journalism Fellowships program supports diverse, resilient leaders with collaborative mindsets who are exploring solutions to journalism’s biggest problems in a time of tremendous change.](https://jsk.stanford.edu/)
+
+https://en.wikipedia.org/wiki/John_S._and_James_L._Knight_Foundation
+
+> I started a new chapter of my career last week: I began a year long
+> fellowship with the [John S. Knight Journalism Fellowships
+> program](https://jsk.stanford.edu/) at Stanford.
+
+How might we grow an open source ecosystem of tools to help data journalists
+collect, analyze and publish the data underlying their stories?
+
+I’ve worked with newspapers a few times in the past: I helped create what would
+later become Django at the Lawrence Journal-World fifteen years ago, and I
+spent two years working on data journalism projects at the Guardian in London
+before being sucked into the tech startup world. My Datasette project was
+inspired by the challenges I saw at the Guardian, and I’m hoping to evolve it
+(and its accompanying ecosystem) in as useful a way as possible.
