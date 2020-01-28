@@ -24,7 +24,7 @@ Highlighted Tabs as a List of Links
 ROLLING
 =====
 
-test deleteme cred cache
+test deleteme cred cache from fugitive
 -----
 
 METABEST
