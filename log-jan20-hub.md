@@ -9,13 +9,12 @@ copy as markdown (tabs) chitsaou)
 [chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
 
 > **Copy as Markdown** is a browser extension helps you copy the following things as Markdown to your system clipboard:
-> 
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) Current Tab as Link  
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) A Link in the Page  
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) An Image in the Page  
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) An Image that is wrapped with a Link  
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) All Tabs as a List of Links  
-> ![ballot_box_with_check](https://github.githubassets.com/images/icons/emoji/unicode/2611.png) Highlighted Tabs as a List of Links
+Current Tab as Link  
+A Link in the Page  
+An Image in the Page  
+An Image that is wrapped with a Link  
+All Tabs as a List of Links  
+Highlighted Tabs as a List of Links
 > 
 > ## Keyboard Shortcuts
 > 
@@ -34,6 +33,16 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 
 [simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
 
+### sqlite-utils
+[simonw/sqlite-utils: Python CLI utility and library for manipulating SQLite databases](https://github.com/simonw/sqlite-utils)
+
+> Python CLI utility and library for manipulating SQLite databases.
+> 
+> Read more on my blog: [sqlite-utils: a Python library and CLI tool for building SQLite databases](https://simonwillison.net/2019/Feb/25/sqlite-utils/)
+> 
+> Install it like this:
+> 
+>     pip3 install sqlite-utils
 
 ### trees: with circleci dotfolder yaml tasks
 [simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
