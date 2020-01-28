@@ -1,7 +1,8 @@
 BROWSER
 ====
-copy as markdown (tabs) chitsaou)
+copy as markdown (tabs) chitsaou/copy-as-markdown
 -----
+
 [chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
 
 
