@@ -31,3 +31,23 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 ----
 
 [simonw/fara-history: Tracking the history of the FARA data from https://www.justice.gov/nsd-fara](https://github.com/simonw/fara-history)
+
+[simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
+
+
+### trees: with circleci dotfolder yaml tasks
+[simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
+
+> This repository [uses CircleCI](https://circleci.com/gh/simonw/sf-tree-history) to retrieve the [official CSV file of trees in San Francisco](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq) once a day and track any changes to it over time using the git commit history.
+> 
+> It uses [csv-diff](https://github.com/simonw/csv-diff) to generate human-readable commit message
+### fara: with a glue shell script and python datasette sqlite utils cvs (local)
+[simonw/fara-history: Tracking the history of the FARA data from https://www.justice.gov/nsd-fara](https://github.com/simonw/fara-history)
+
+
+
+### convert json to html
+
+
+[simonw/datasette-json-html: Datasette plugin for rendering HTML based on JSON values](https://github.com/simonw/datasette-json-html)
+
