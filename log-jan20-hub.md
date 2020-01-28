@@ -68,3 +68,14 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 
 [simonw/datasette-json-html: Datasette plugin for rendering HTML based on JSON values](https://github.com/simonw/datasette-json-html)
 
+
+### irma hurricane
+https://github.com/simonw/disaster-data
+
+Data scraped by https://github.com/simonw/disaster-scrapers
+
+See Scraping hurricane Irma for details on a previous iteration of this
+project. Data from that project is now archived in irma-2017-archive/.
+
+[Scraping hurricane Irma](https://simonwillison.net/2017/Sep/10/scraping-irma/)
+
