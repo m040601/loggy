@@ -33,6 +33,12 @@ simon down csv.zip to git repo and commit to sqlite - clean code
 
 [simonw/sf-tree-history: Tracking the history of trees in San Francisco](https://github.com/simonw/sf-tree-history)
 
+
+
+
+### Datasette: A tool for exploring and publishing data
+### csvs-to-sqlite: Convert CSV files into a SQLite database
+### db-to-sqlite: CLI tool for exporting a MySQL or PostgreSQL database as a SQLite file
 ### sqlite-utils
 [simonw/sqlite-utils: Python CLI utility and library for manipulating SQLite databases](https://github.com/simonw/sqlite-utils)
 
