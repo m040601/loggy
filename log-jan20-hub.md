@@ -28,6 +28,16 @@ Highlighted Tabs as a List of Links
 > 
 > You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
 
+NEOVIM
+=====
+
+dirvish keep netrw gx
+-----
+[config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
+
+> " Disable netrw, but autoload it for \`gx\`. let g:loaded_netrwPlugin = 0 nmap gx <Plug>NetrwBrowseX nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
+      
+        
 
 OPENWRT
 ====
@@ -56,7 +66,11 @@ Hit Esc to exit selection mode.
 
 
 
+FUCK
+====
 
+libinput man libinput and man 4 libinput
+-----
 
 ROLLING
 =====
