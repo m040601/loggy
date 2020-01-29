@@ -32,7 +32,10 @@ Highlighted Tabs as a List of Links
 OPENWRT
 ====
 
+netperf and openwrt scripts (a la speedtest)
+---
 
+[OpenWrtScripts/README.md at master · richb-hanover/OpenWrtScripts](https://github.com/richb-hanover/OpenWrtScripts/blob/master/README.md)
 
 separate instance of the web server uhttpd for host a web and 
 ----
