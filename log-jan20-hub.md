@@ -1,4 +1,11 @@
-BROWSER
+HELPDESK
+====
+
+long urls in urxvt (seems no fix)
+----
+[url-select: selection of long urls · Issue #61 · muennich/urxvt-perls](https://github.com/muennich/urxvt-perls/issues/61)
+
+> When urxvt wraps a line containing an url, url-select only catches the first line.BROWSER
 ====
 copy as markdown (tabs) chitsaou/copy-as-markdown
 -----
