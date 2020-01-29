@@ -29,6 +29,32 @@ Highlighted Tabs as a List of Links
 > You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
 
 
+OPENWRT
+====
+
+
+
+separate instance of the web server uhttpd for host a web and 
+----
+
+practice some HTTP and CSS and installed openssh-sftp-server for edit 
+the files from my computer. I planninf to add some DBMS for do some kind
+ of web app and practice DB, maybe for record my spends or i don't know.
+Remember the Perl Extensions we copied before?
+Now it’s the time to load them and make keybinds to call them.
+M means meta, or in these modern days called Alt.
+To copy some text in the terminal, mark them using mouse then hit Alt+C.
+To paste it to URxvt, hit Alt+V.
+But if you want to paste it on the other app, just use Ctrl+V normally.
+That Perl Extension also contains other useful features.
+Like select URL in terminal by pressing Alt+U, then use arrow keys if there are
+more than one URL in current buffer. Then hit Enter to launch the selected URL in Firefox.
+Hit Esc to exit selection mode.
+
+
+
+
+
 ROLLING
 =====
 
