@@ -32,6 +32,31 @@ deleteme cred username
 ----
 METABEST
 ====
+
+flatten a directory tree and how to copy a list of files to a folder 
+----
+
+
+having a bit of trouble trying to copy a list of files with full paths into a single directory without preserving the paths.
+
+for example the list is a file called 'list' containing the following:
+
+/foo/bar/1.txt
+/bar/2.txt
+/bar/foo/3.txt
+/foo/bar/foooo/baaar/4.txt
+
+and i want to copy all the txt files into a single directory called 'directory' like this:
+
+./directory/1.txt
+./directory/2.txt
+./directory/3.txt
+./directory/4.txt
+
+ive managed to copy all the files into the directory
+? / GNU/Linux Discussion / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=252250)
+
+> rsync -v --files-from=list --no-relative / ./directory
 METABESTBEST
 =====
 simon down csv.zip to git repo and commit to sqlite - clean code
