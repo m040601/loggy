@@ -57,6 +57,8 @@ ive managed to copy all the files into the directory
 ? / GNU/Linux Discussion / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=252250)
 
 > rsync -v --files-from=list --no-relative / ./directory
+
+
 METABESTBEST
 =====
 simon down csv.zip to git repo and commit to sqlite - clean code
