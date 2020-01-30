@@ -50,7 +50,7 @@ Highlighted Tabs as a List of Links
 
 NEOVIM
 =====
-justinmk function for lynx in term
+metabest justinmk function for lynx in term
 -----
 [config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
 
