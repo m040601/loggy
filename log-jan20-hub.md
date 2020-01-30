@@ -99,6 +99,24 @@ FUCK
 
 libinput man libinput and man 4 libinput
 -----
+THESETUP
+====
+
+bashrc mkcdd and bd
+---
+ change to parent directory matching partial string, eg:
+ 94 # in directory /home/foo/bar/baz, 'bd f' changes to /home/foo
+ 95 bd() {
+ 96   local old_dir=`pwd`
+ 97   local new_dir=`echo $old_dir | sed 's|\(.*/'$1'[^/]*/\).*|\1|'`
+ 98   index=`echo $new_dir | awk '{ print index($1,"/'$1'"); }'`
+ 99   if [ $index -eq 0 ] ; then
+100     echo "No such occurrence."
+101   else
+102     echo $new_dir
+103     cd "$new_dir"
+104   fi
+
 
 ROLLING
 =====
@@ -218,7 +236,9 @@ bs4
 html5lib
  
 
-METABESTBESTBEST a la recutils - yaml file to sqlite  - Niche Museums  simonw
+METABESTBESTBEST
+=====
+a la recutils - yaml file to sqlite  - Niche Museums  simonw
 ----
 [About Niche Museums](https://www.niche-museums.com/about)
 
