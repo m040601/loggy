@@ -5,6 +5,18 @@ FUCK
 the setup
 ----
 
+[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
+
+> -   `BROWSER` contains the path to the web browser. Helpful to set in an interactive shell configuration file so that it may be dynamically altered depending on the availability of a graphic environment, such as [X](https://wiki.archlinux.org/index.php/X "X"):
+> 
+> if \[ -n "$DISPLAY" \]; then
+>     export BROWSER=firefox
+> else 
+>     export BROWSER=links
+> fi
+
+
+
 pkgfile infocmp
 core/ncurses
 gets it from /usr/share/terminfo/t/tmux
