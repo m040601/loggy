@@ -1,3 +1,19 @@
+FUCK
+====
+
+
+the setup
+----
+
+pkgfile infocmp
+core/ncurses
+gets it from /usr/share/terminfo/t/tmux
+
+tmux.conf:
+
+Use "tmux-256color" if available, to enable more capabilities.
+if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
+    
 HELPDESK
 ====
 
