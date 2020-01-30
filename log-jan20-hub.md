@@ -130,6 +130,25 @@ bashrc mkcdd and bd
 103     cd "$new_dir"
 104   fi
 
+[Bash/Functions - ArchWiki](https://wiki.archlinux.org/index.php/Bash/Functions)
+
+> her way to do this is to install a specialized package, see [Archiving and compression tools#Convenience tools](https://wiki.archlinux.org/index.php/Archiving_and_compression_tools#Convenience_tools "Archiving and compression tools").
+> 
+> cd and ls in one
+> 
+> Very often changing to a directory is followed by the `ls` command to list its contents. Therefore it is helpful to have a second function doing both at once. In this example we will name it `cl` (change list) and show an error message if the specified directory does not exist.
+> 
+> cl() {
+> 	local dir="$1"
+> 	local dir="${dir:=$HOME}"
+> 	if \[\[ -d "$dir" \]\]; then
+> 		cd "$dir" >/dev/null; ls
+> 	else
+> 		echo "bash: cl: $dir: Directory not found"
+> 	fi
+> }
+
+
 
 ROLLING
 =====
