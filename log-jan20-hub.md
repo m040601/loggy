@@ -50,6 +50,7 @@ Highlighted Tabs as a List of Links
 
 NEOVIM
 =====
+
 metabest justinmk function for lynx in term
 -----
 [config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
@@ -340,8 +341,11 @@ simon down fbi csv GitHub Actions
 > I know this because seven months ago I set up a scraper for it. Every twelve hours I have code which downloads the [four bulk CSVs](https://efile.fara.gov/ords/f?p=API:BULKDATA) published by the Justice department and saves them to [a git repository](https://github.com/simonw/fara-history). It’s the same trick I’ve been using [to track San Francisco’s database of trees](https://simonwillison.net/2019/Mar/13/tree-history/) and [PG&E’s outage map](https://simonwillison.net/2019/Oct/10/pge-outages/).
 > 
 > I’ve been running the scraper using Circle CI, but this weekend I decided to switch it over to [GitHub Actions](https://github.com/features/actions) to get a better idea for how they work.
-metabestbest justinmk function for lynx in term neovim
 
+
+
+
+metabestbest justinmk function for lynx in term neovim
 -----
 
 [config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
