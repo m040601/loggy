@@ -1,5 +1,12 @@
 NEWTOOLS
 ===
+
+python (wants gigantic matplot lib dow) [mcastorina/graph-cli
+----
+
+: Flexible command line tool to create graphs from CSV data](https://github.com/mcastorina/graph-cli)
+
+
 metabest [guptarohit/asciigraph: Go package to make lightweight ASCII line graph 
 -----
  
