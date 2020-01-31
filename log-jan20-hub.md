@@ -1,8 +1,9 @@
 NEWTOOLS
 ===
-[guptarohit/asciigraph: Go package to make lightweight ASCII line graph 
+metabest [guptarohit/asciigraph: Go package to make lightweight ASCII line graph 
 -----
  
+ $ seq 1 72 | asciigraph -h 10 -c "plot data from stdin"
 ╭┈╯ in command line apps with no other dependencies.](https://github.com/guptarohit/asciigraph)
 
 
