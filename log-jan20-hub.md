@@ -1,5 +1,12 @@
 NEWTOOLS
 ===
+
+[sharkdp/hexyl: A command-line hex viewer](https://github.com/sharkdp/hexyl)
+----
+
+> `hexyl` is a simple hex viewer for the terminal. It uses a colored output to distinguish different categories of bytes (NULL bytes, printable ASCII characters, ASCII whitespace characters, other ASCII characters and non-ASCII).
+
+
 metabestbest [okbob/pspg: Unix pager designed for work with tables.
 ----
 
