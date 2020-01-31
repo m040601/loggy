@@ -5,6 +5,37 @@ metabestbest [okbob/pspg: Unix pager designed for work with tables.
 
 Designed for PostgreSQL, but MySQL is supported too. Now it can be used as CSV or TSV viewer.](https://github.com/okbob/pspg)
 
+
+Usage as csv viewer
+It works well with miller http://johnkerl.org/miller/doc/index.html
+
+
+mlr --icsv --opprint --barred put '' obce.csv | pspg --force-uniborder
+
+New version has integrated csv support - just use --csv option.
+
+
+It can be integrated into mc
+
+
+copy file from /etc/mc/mc.ext to your ~/.config/mc directory
+insert there
+
+#csv
+regex/\.csv
+    View=pspg -f %f --csv
+
+restart mc
+
+Usage in watch mode
+The result of query can be refreshed every n seconds. pspg remembers cursor row,
+possible vertical cursor, possible ordering. The refreshing should be paused by pressing
+space key. Repeated pressing of this key enables refreshing again.
+
+
+
+
+
 [zyocum/dedup: Find duplicate text files.](https://github.com/zyocum/dedup)
 ----
 
