@@ -1,6 +1,9 @@
 NEWTOOLS
 ===
+metabestbest [okbob/pspg: Unix pager designed for work with tables.
+----
 
+Designed for PostgreSQL, but MySQL is supported too. Now it can be used as CSV or TSV viewer.](https://github.com/okbob/pspg)
 
 [zyocum/dedup: Find duplicate text files.](https://github.com/zyocum/dedup)
 ----
