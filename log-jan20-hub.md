@@ -1,5 +1,10 @@
 NEWTOOLS
 ===
+[guptarohit/asciigraph: Go package to make lightweight ASCII line graph 
+-----
+ 
+╭┈╯ in command line apps with no other dependencies.](https://github.com/guptarohit/asciigraph)
+
 
 [sharkdp/hexyl: A command-line hex viewer](https://github.com/sharkdp/hexyl)
 ----
