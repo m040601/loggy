@@ -83,6 +83,13 @@ readability
 
 > The creators of the Mercury Web Parser initially offered it as a free service via a ReSTful API, but have since open sourced it. The API was shut down April 15, 2019. To continue using the parser, install its command-line driver using [`yarn`](https://github.com/yarnpkg/yarn) or [`npm`](https://github.com/npm/cli) package managers:
 
+BROWSER
+=====
+
+metabestbest elinks conf (plugs lua) glacambre (tridacy dev ?)
+------
+
+[.dotfiles/default/.config at master · glacambre/.dotfiles](https://github.com/glacambre/.dotfiles/tree/master/default/.config)
 
 FUCK
 ====
