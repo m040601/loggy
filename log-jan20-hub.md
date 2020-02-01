@@ -1,6 +1,10 @@
 KOBO
 ====
 
+[MobileRead Wiki - Kobo Configuration Options]
+----
+
+(https://wiki.mobileread.com/wiki/Kobo_Configuration_Options)
 pack images in a zip cbz
 ----
 ust copy the files onto the device.  Each file will be listed as it's 
@@ -231,6 +235,13 @@ Hit Esc to exit selection mode.
 
 FUCK
 ====
+[MobileRead Wiki - Kobo Configuration Options]
+----
+
+
+
+(https://wiki.mobileread.com/wiki/Kobo_Configuration_Options)
+
 
 libinput man libinput and man 4 libinput
 -----
