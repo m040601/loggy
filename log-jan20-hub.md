@@ -1,3 +1,32 @@
+KOBO
+====
+
+pack images in a zip cbz
+----
+ust copy the files onto the device.  Each file will be listed as it's 
+own 'book', (by filename for the title).  Of course, that will become 
+hard to manage, so I would suggest putting all your pictures together 
+into a zip file, rename the .zip to .cbz, that will become sort of an 
+album.
+
+
+
+It is a bit of an odd thing to do with an e-ink screen, since most 
+people will have some kind of handheld colour device much better suited 
+to viewing photos.
+		
+  
+  
+  
+  
+[How to Export Highlights/Annotations from Kobo eReaders
+-----
+https://medium.com/@angeldan1989/how-to-export-notes-highlights-annotations-from-kobo-ereaders-20606b7159b6)
+
+> Then, add the following code to the file:  
+> **_\[FeatureSettings\]  
+> ExportHighlights=true_**
+
 NEWTOOLS
 ===
 
