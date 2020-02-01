@@ -1,3 +1,18 @@
+BROWSER
+====
+
+tridactyl own readability
+----
+
+
+eoirtirt[Keybindings lost in Reader View · Issue #102 · tridactyl/tridactyl](https://github.com/tridactyl/tridactyl/issues/102)
+
+> Would it be hard to implement a reader mode owned by tridactyl?
+
+
+
+
+
 HELPDESK
 =====
 
