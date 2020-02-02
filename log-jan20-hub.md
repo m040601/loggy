@@ -1,18 +1,3 @@
-BROWSER
-====
-
-tridactyl own readability
-----
-
-
-eoirtirt[Keybindings lost in Reader View · Issue #102 · tridactyl/tridactyl](https://github.com/tridactyl/tridactyl/issues/102)
-
-> Would it be hard to implement a reader mode owned by tridactyl?
-
-
-
-
-
 HELPDESK
 =====
 
@@ -21,35 +6,36 @@ watch github wikis
 [How can you track or be notified of changes to GitHub wikis? - Stack Overflow](https://stackoverflow.com/questions/8407917/how-can-you-track-or-be-notified-of-changes-to-github-wikis)
 
 
-THESETUP
 ====
 
 
-metabest rofi eye candy galore rofi-menus-git
+long urls in urxvt (seems no fix)
 ----
+wont fix ?
+[url-select: selection of long urls · Issue #61 · muennich/urxvt-perls](https://github.com/muennich/urxvt-perls/issues/61)
 
-[vahnrr / rofi-menus · GitLab](https://gitlab.com/vahnrr/rofi-menus)
+ When urxvt wraps a line containing an url, url-select only catches the first line
+MICROTOPICS
+====
 
-> The package is available in the Arch User Repository as [rofi-menus-git](https://aur.archlinux.org/packages/rofi-menus-git).
+readability
+-------
+
+
+### mercury now open source ?
+[postlight/mercury-parser: 📜 Extract meaningful content from the chaos of a web page](https://github.com/postlight/mercury-parser)
+
+> [Postlight](https://postlight.com)'s Mercury Parser extracts the bits that humans care about from any URL you give it. That includes article content, titles, authors, published dates, excerpts, lead images, and more.
 > 
->     yay -S rofi-menus-git
+> Mercury Parser powers the [Mercury AMP Converter](https://mercury.postlight.com/amp-converter/) and [Mercury Reader](https://mercury.postlight.com/reader/), a Chrome extension that removes ads and distractions, leaving only text and images for a beautiful reading view on any site.
 > 
-> You can then call the menus with these commands:
-> 
->     rofi-appsmenu
->     rofi-i3layout
->     rofi-mpd
->     rofi-network
->     rofi-power
->     rofi-scrot
->     rofi-vpn
+> Mercury Parser allows you to easily create custom parsers using simple JavaScript and CSS selectors. This allows you to proactively manage parsing and migration edge cases. There are [many examples available](https://github.com/postlight/mercury-parser/tree/master/src/extractors/custom) along with [documentation](https://github.com/postlight/mercury-parser/blob/master/src/extractors/custom/README.md).
 
 
-metabestbest dmenu script youtube viewer invidio.us
------
-[Dmenu Hacking Thread (Page 14) / Programming & Scripting / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=80145&p=14)
+[zyocum/reader: Extract clean(er), readable text from web pages via Mercury Web Parser.](https://github.com/zyocum/reader)
 
-> With your advice and some code in this topics i came with a youtube viewer but  get videos from invidio.us :
+> The creators of the Mercury Web Parser initially offered it as a free service via a ReSTful API, but have since open sourced it. The API was shut down April 15, 2019. To continue using the parser, install its command-line driver using [`yarn`](https://github.com/yarnpkg/yarn) or [`npm`](https://github.com/npm/cli) package managers:
+
 
 KOBO
 ====
@@ -83,6 +69,189 @@ https://medium.com/@angeldan1989/how-to-export-notes-highlights-annotations-from
 > Then, add the following code to the file:  
 > **_\[FeatureSettings\]  
 > ExportHighlights=true_**
+
+OPENWRT
+====
+
+netperf and openwrt scripts (a la speedtest)
+---
+
+[OpenWrtScripts/README.md at master · richb-hanover/OpenWrtScripts](https://github.com/richb-hanover/OpenWrtScripts/blob/master/README.md)
+
+separate instance of the web server uhttpd for host a web and 
+----
+
+practice some HTTP and CSS and installed openssh-sftp-server for edit 
+the files from my computer. I planninf to add some DBMS for do some kind
+ of web app and practice DB, maybe for record my spends or i don't know.
+Remember the Perl Extensions we copied before?
+Now it’s the time to load them and make keybinds to call them.
+M means meta, or in these modern days called Alt.
+To copy some text in the terminal, mark them using mouse then hit Alt+C.
+To paste it to URxvt, hit Alt+V.
+But if you want to paste it on the other app, just use Ctrl+V normally.
+That Perl Extension also contains other useful features.
+Like select URL in terminal by pressing Alt+U, then use arrow keys if there are
+more than one URL in current buffer. Then hit Enter to launch the selected URL in Firefox.
+Hit Esc to exit selection mode.
+
+
+
+FUCK
+====
+
+
+the setup
+----
+
+[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
+
+> -   `BROWSER` contains the path to the web browser. Helpful to set in an interactive shell configuration file so that it may be dynamically altered depending on the availability of a graphic environment, such as [X](https://wiki.archlinux.org/index.php/X "X"):
+> 
+> if \[ -n "$DISPLAY" \]; then
+>     export BROWSER=firefox
+> else 
+>     export BROWSER=links
+> fi
+
+
+
+pkgfile infocmp
+core/ncurses
+gets it from /usr/share/terminfo/t/tmux
+
+tmux.conf:
+
+Use "tmux-256color" if available, to enable more capabilities.
+if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
+    
+BROWSER
+====
+
+metabestbest elinks conf (plugs lua) glacambre (tridacy dev ?)
+------
+
+[.dotfiles/default/.config at master · glacambre/.dotfiles](https://github.com/glacambre/.dotfiles/tree/master/default/.config)
+
+tridactyl own readability
+----
+
+
+eoirtirt[Keybindings lost in Reader View · Issue #102 · tridactyl/tridactyl](https://github.com/tridactyl/tridactyl/issues/102)
+
+> Would it be hard to implement a reader mode owned by tridactyl?
+
+
+
+
+
+
+
+
+copy as markdown (tabs) chitsaou/copy-as-markdown
+-----
+
+[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
+
+
+
+[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
+
+> **Copy as Markdown** is a browser extension helps you copy the following things as Markdown to your system clipboard:
+Current Tab as Link  
+A Link in the Page  
+An Image in the Page  
+An Image that is wrapped with a Link  
+All Tabs as a List of Links  
+Highlighted Tabs as a List of Links
+> 
+> ## Keyboard Shortcuts
+> 
+> You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
+
+NEOVIM
+=====
+
+metabest justinmk function for lynx in term
+-----
+[config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
+
+> function! s:init_lynx() abort nnoremap <nowait><buffer> <C-F> i<PageDown><C-\\><C-N> tnoremap <nowait><buffer> <C-F> <PageDown> nnoremap <nowait><buffer> <C-B> i<PageUp><C-\\><C-N> tnoremap <nowait><buffer> <C-B> <PageUp> nnoremap <nowait><buffer> <C-D> i:DOWN_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-D> :DOWN_HALF<CR> nnoremap <nowait><buffer> <C-U> i:UP_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-U> :UP_HALF<CR> nnoremap <nowait><buffer> <C-N> i<Delete><C-\\><C-N> tnoremap <nowait><buffer> <C-N> <Delete> nnoremap <nowait><buffer> <C-P> i<Insert><C-\\><C-N> tnoremap <nowait><buffer> <C-P> <Insert> nnoremap <nowait><buffer> u i<Left><C-\\><C-N> nnoremap <nowait><buffer> <C-R> i<C-U><C-\\><C-N> nnoremap <nowait><buffer> <CR> i<CR><C-\\><C-N> nnoremap <nowait><buffer> gg i:HOME<CR><C-\\><C-N> nnoremap <nowait><buffer> G i:END<CR><C-\\><C-N> nnoremap <nowait><buffer> zl i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zL i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zr i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> zR i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> gh i:HELP<CR><C-\\><C-N> nnoremap <nowait><buffer> cow i:LINEWRAP_TOGGLE<CR><C-\\><C-N> tnoremap <buffer> <C-C> <C-G><C-\\><C-N> nnoremap <buffer> <C-C> i<C-G><C-\\><C-N> endfunction command! -nargs=1 Web vnew|call termopen('lynx -use_mouse '.shellescape(<q-args>))|call <SID>init_lynx() command! -nargs=1 Websearch vnew|call termopen('lynx -use_mouse https://duckduckgo.com/?q='.shellescape(substitute(<q-args>,'#','%23','g')))|call <SID>init_lynx() nnoremap gow :Start "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" --no-proxy-server "%:p"<cr> silent! source ~/.vimrc.local
+      
+
+      
+
+justinmk dirvish keep netrw gx
+-----
+[config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
+
+> " Disable netrw, but autoload it for \`gx\`. let g:loaded_netrwPlugin = 0 nmap gx <Plug>NetrwBrowseX nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
+      
+        
+
+THESETUP
+====
+
+metabest rofi eye candy galore rofi-menus-git
+----
+
+[vahnrr / rofi-menus · GitLab](https://gitlab.com/vahnrr/rofi-menus)
+
+> The package is available in the Arch User Repository as [rofi-menus-git](https://aur.archlinux.org/packages/rofi-menus-git).
+> 
+>     yay -S rofi-menus-git
+> 
+> You can then call the menus with these commands:
+> 
+>     rofi-appsmenu
+>     rofi-i3layout
+>     rofi-mpd
+>     rofi-network
+>     rofi-power
+>     rofi-scrot
+>     rofi-vpn
+
+
+metabestbest dmenu script youtube viewer invidio.us
+-----
+[Dmenu Hacking Thread (Page 14) / Programming & Scripting / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=80145&p=14)
+
+> With your advice and some code in this topics i came with a youtube viewer but  get videos from invidio.us :
+
+bashrc mkcdd and bd
+---
+ change to parent directory matching partial string, eg:
+ 94 # in directory /home/foo/bar/baz, 'bd f' changes to /home/foo
+ 95 bd() {
+ 96   local old_dir=`pwd`
+ 97   local new_dir=`echo $old_dir | sed 's|\(.*/'$1'[^/]*/\).*|\1|'`
+ 98   index=`echo $new_dir | awk '{ print index($1,"/'$1'"); }'`
+ 99   if [ $index -eq 0 ] ; then
+100     echo "No such occurrence."
+101   else
+102     echo $new_dir
+103     cd "$new_dir"
+104   fi
+
+[Bash/Functions - ArchWiki](https://wiki.archlinux.org/index.php/Bash/Functions)
+
+> her way to do this is to install a specialized package, see [Archiving and compression tools#Convenience tools](https://wiki.archlinux.org/index.php/Archiving_and_compression_tools#Convenience_tools "Archiving and compression tools").
+> 
+> cd and ls in one
+> 
+> Very often changing to a directory is followed by the `ls` command to list its contents. Therefore it is helpful to have a second function doing both at once. In this example we will name it `cl` (change list) and show an error message if the specified directory does not exist.
+> 
+> cl() {
+> 	local dir="$1"
+> 	local dir="${dir:=$HOME}"
+> 	if \[\[ -d "$dir" \]\]; then
+> 		cd "$dir" >/dev/null; ls
+> 	else
+> 		echo "bash: cl: $dir: Directory not found"
+> 	fi
+> }
+
+
 
 NEWTOOLS
 ===
@@ -148,144 +317,6 @@ space key. Repeated pressing of this key enables refreshing again.
 
 > The script uses locality sensitive hashing (LSH) to compare texts. LSHs are a kind of hashing function that, unlike normal hashing functions, have the property that the probability of a hash collision is proportional to the similarity of objects hashed. In this case, the LSH implemented is simhash (described [here](http://matpalm.com/resemblance/simhash/)).
 
-MICROTOPICS
-====
-
-readability
--------
-
-
-### mercury now open source ?
-[postlight/mercury-parser: 📜 Extract meaningful content from the chaos of a web page](https://github.com/postlight/mercury-parser)
-
-> [Postlight](https://postlight.com)'s Mercury Parser extracts the bits that humans care about from any URL you give it. That includes article content, titles, authors, published dates, excerpts, lead images, and more.
-> 
-> Mercury Parser powers the [Mercury AMP Converter](https://mercury.postlight.com/amp-converter/) and [Mercury Reader](https://mercury.postlight.com/reader/), a Chrome extension that removes ads and distractions, leaving only text and images for a beautiful reading view on any site.
-> 
-> Mercury Parser allows you to easily create custom parsers using simple JavaScript and CSS selectors. This allows you to proactively manage parsing and migration edge cases. There are [many examples available](https://github.com/postlight/mercury-parser/tree/master/src/extractors/custom) along with [documentation](https://github.com/postlight/mercury-parser/blob/master/src/extractors/custom/README.md).
-
-
-[zyocum/reader: Extract clean(er), readable text from web pages via Mercury Web Parser.](https://github.com/zyocum/reader)
-
-> The creators of the Mercury Web Parser initially offered it as a free service via a ReSTful API, but have since open sourced it. The API was shut down April 15, 2019. To continue using the parser, install its command-line driver using [`yarn`](https://github.com/yarnpkg/yarn) or [`npm`](https://github.com/npm/cli) package managers:
-
-BROWSER
-=====
-
-metabestbest elinks conf (plugs lua) glacambre (tridacy dev ?)
-------
-
-[.dotfiles/default/.config at master · glacambre/.dotfiles](https://github.com/glacambre/.dotfiles/tree/master/default/.config)
-
-FUCK
-====
-
-
-the setup
-----
-
-[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
-
-> -   `BROWSER` contains the path to the web browser. Helpful to set in an interactive shell configuration file so that it may be dynamically altered depending on the availability of a graphic environment, such as [X](https://wiki.archlinux.org/index.php/X "X"):
-> 
-> if \[ -n "$DISPLAY" \]; then
->     export BROWSER=firefox
-> else 
->     export BROWSER=links
-> fi
-
-
-
-pkgfile infocmp
-core/ncurses
-gets it from /usr/share/terminfo/t/tmux
-
-tmux.conf:
-
-Use "tmux-256color" if available, to enable more capabilities.
-if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
-    
-HELPDESK
-====
-
-long urls in urxvt (seems no fix)
-----
-[url-select: selection of long urls · Issue #61 · muennich/urxvt-perls](https://github.com/muennich/urxvt-perls/issues/61)
-
-> When urxvt wraps a line containing an url, url-select only catches the first line.BROWSER
-====
-
-
-
-
-copy as markdown (tabs) chitsaou/copy-as-markdown
------
-
-[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
-
-
-
-[chitsaou/copy-as-markdown: Copying Link, Image and Tab(s) as Markdown Much Easier.](https://github.com/chitsaou/copy-as-markdown)
-
-> **Copy as Markdown** is a browser extension helps you copy the following things as Markdown to your system clipboard:
-Current Tab as Link  
-A Link in the Page  
-An Image in the Page  
-An Image that is wrapped with a Link  
-All Tabs as a List of Links  
-Highlighted Tabs as a List of Links
-> 
-> ## Keyboard Shortcuts
-> 
-> You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
-
-NEOVIM
-=====
-
-metabest justinmk function for lynx in term
------
-[config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
-
-> function! s:init_lynx() abort nnoremap <nowait><buffer> <C-F> i<PageDown><C-\\><C-N> tnoremap <nowait><buffer> <C-F> <PageDown> nnoremap <nowait><buffer> <C-B> i<PageUp><C-\\><C-N> tnoremap <nowait><buffer> <C-B> <PageUp> nnoremap <nowait><buffer> <C-D> i:DOWN_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-D> :DOWN_HALF<CR> nnoremap <nowait><buffer> <C-U> i:UP_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-U> :UP_HALF<CR> nnoremap <nowait><buffer> <C-N> i<Delete><C-\\><C-N> tnoremap <nowait><buffer> <C-N> <Delete> nnoremap <nowait><buffer> <C-P> i<Insert><C-\\><C-N> tnoremap <nowait><buffer> <C-P> <Insert> nnoremap <nowait><buffer> u i<Left><C-\\><C-N> nnoremap <nowait><buffer> <C-R> i<C-U><C-\\><C-N> nnoremap <nowait><buffer> <CR> i<CR><C-\\><C-N> nnoremap <nowait><buffer> gg i:HOME<CR><C-\\><C-N> nnoremap <nowait><buffer> G i:END<CR><C-\\><C-N> nnoremap <nowait><buffer> zl i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zL i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zr i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> zR i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> gh i:HELP<CR><C-\\><C-N> nnoremap <nowait><buffer> cow i:LINEWRAP_TOGGLE<CR><C-\\><C-N> tnoremap <buffer> <C-C> <C-G><C-\\><C-N> nnoremap <buffer> <C-C> i<C-G><C-\\><C-N> endfunction command! -nargs=1 Web vnew|call termopen('lynx -use_mouse '.shellescape(<q-args>))|call <SID>init_lynx() command! -nargs=1 Websearch vnew|call termopen('lynx -use_mouse https://duckduckgo.com/?q='.shellescape(substitute(<q-args>,'#','%23','g')))|call <SID>init_lynx() nnoremap gow :Start "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" --no-proxy-server "%:p"<cr> silent! source ~/.vimrc.local
-      
-
-      
-
-justinmk dirvish keep netrw gx
------
-[config/init.vim at master · justinmk/config](https://github.com/justinmk/config/blob/master/.config/nvim/init.vim)
-
-> " Disable netrw, but autoload it for \`gx\`. let g:loaded_netrwPlugin = 0 nmap gx <Plug>NetrwBrowseX nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
-      
-        
-
-OPENWRT
-====
-
-netperf and openwrt scripts (a la speedtest)
----
-
-[OpenWrtScripts/README.md at master · richb-hanover/OpenWrtScripts](https://github.com/richb-hanover/OpenWrtScripts/blob/master/README.md)
-
-separate instance of the web server uhttpd for host a web and 
-----
-
-practice some HTTP and CSS and installed openssh-sftp-server for edit 
-the files from my computer. I planninf to add some DBMS for do some kind
- of web app and practice DB, maybe for record my spends or i don't know.
-Remember the Perl Extensions we copied before?
-Now it’s the time to load them and make keybinds to call them.
-M means meta, or in these modern days called Alt.
-To copy some text in the terminal, mark them using mouse then hit Alt+C.
-To paste it to URxvt, hit Alt+V.
-But if you want to paste it on the other app, just use Ctrl+V normally.
-That Perl Extension also contains other useful features.
-Like select URL in terminal by pressing Alt+U, then use arrow keys if there are
-more than one URL in current buffer. Then hit Enter to launch the selected URL in Firefox.
-Hit Esc to exit selection mode.
-
-
-
 FUCK
 ====
 [MobileRead Wiki - Kobo Configuration Options]
@@ -298,52 +329,6 @@ FUCK
 
 libinput man libinput and man 4 libinput
 -----
-THESETUP
-====
-
-bashrc mkcdd and bd
----
- change to parent directory matching partial string, eg:
- 94 # in directory /home/foo/bar/baz, 'bd f' changes to /home/foo
- 95 bd() {
- 96   local old_dir=`pwd`
- 97   local new_dir=`echo $old_dir | sed 's|\(.*/'$1'[^/]*/\).*|\1|'`
- 98   index=`echo $new_dir | awk '{ print index($1,"/'$1'"); }'`
- 99   if [ $index -eq 0 ] ; then
-100     echo "No such occurrence."
-101   else
-102     echo $new_dir
-103     cd "$new_dir"
-104   fi
-
-[Bash/Functions - ArchWiki](https://wiki.archlinux.org/index.php/Bash/Functions)
-
-> her way to do this is to install a specialized package, see [Archiving and compression tools#Convenience tools](https://wiki.archlinux.org/index.php/Archiving_and_compression_tools#Convenience_tools "Archiving and compression tools").
-> 
-> cd and ls in one
-> 
-> Very often changing to a directory is followed by the `ls` command to list its contents. Therefore it is helpful to have a second function doing both at once. In this example we will name it `cl` (change list) and show an error message if the specified directory does not exist.
-> 
-> cl() {
-> 	local dir="$1"
-> 	local dir="${dir:=$HOME}"
-> 	if \[\[ -d "$dir" \]\]; then
-> 		cd "$dir" >/dev/null; ls
-> 	else
-> 		echo "bash: cl: $dir: Directory not found"
-> 	fi
-> }
-
-
-
-ROLLING
-=====
-
-
-deleteme2
----
-deleteme cred username
-----
 METABEST
 ====
 
@@ -524,8 +509,8 @@ columns for the city, state, country and all kinds of other interesting
 geographical details.
 
 
-simon created django ? datasette for journalists ?
-----
+
+###  simon created django ? datasette for journalists ?
 [My JSK Fellowship: Building an open source ecosystem of tools for data journalism](https://simonwillison.net/2019/Sep/10/jsk-fellowship/)
 
 [John S. Knight Journalism Fellowships at Stanford | The John S. Knight Journalism Fellowships program supports diverse, resilient leaders with collaborative mindsets who are exploring solutions to journalism’s biggest problems in a time of tremendous change.](https://jsk.stanford.edu/)
@@ -547,7 +532,7 @@ inspired by the challenges I saw at the Guardian, and I’m hoping to evolve it
 (and its accompanying ecosystem) in as useful a way as possible.
 
 
-simon down fbi csv GitHub Actions 
+simon download zipped fbi csv gov files  GitHub Actions 
 ----
 [Deploying a data API using GitHub Actions and Cloud Run](https://simonwillison.net/2020/Jan/21/github-actions-cloud-run/)
 
@@ -570,3 +555,43 @@ metabestbest justinmk function for lynx in term neovim
 
 
 > function! s:init_lynx() abort nnoremap <nowait><buffer> <C-F> i<PageDown><C-\\><C-N> tnoremap <nowait><buffer> <C-F> <PageDown> nnoremap <nowait><buffer> <C-B> i<PageUp><C-\\><C-N> tnoremap <nowait><buffer> <C-B> <PageUp> nnoremap <nowait><buffer> <C-D> i:DOWN_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-D> :DOWN_HALF<CR> nnoremap <nowait><buffer> <C-U> i:UP_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-U> :UP_HALF<CR> nnoremap <nowait><buffer> <C-N> i<Delete><C-\\><C-N> tnoremap <nowait><buffer> <C-N> <Delete> nnoremap <nowait><buffer> <C-P> i<Insert><C-\\><C-N> tnoremap <nowait><buffer> <C-P> <Insert> nnoremap <nowait><buffer> u i<Left><C-\\><C-N> nnoremap <nowait><buffer> <C-R> i<C-U><C-\\><C-N> nnoremap <nowait><buffer> <CR> i<CR><C-\\><C-N> nnoremap <nowait><buffer> gg i:HOME<CR><C-\\><C-N> nnoremap <nowait><buffer> G i:END<CR><C-\\><C-N> nnoremap <nowait><buffer> zl i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zL i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zr i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> zR i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> gh i:HELP<CR><C-\\><C-N> nnoremap <nowait><buffer> cow i:LINEWRAP_TOGGLE<CR><C-\\><C-N> tnoremap <buffer> <C-C> <C-G><C-\\><C-N> nnoremap <buffer> <C-C> i<C-G><C-\\><C-N> endfunction command! -nargs=1 Web vnew|call termopen('lynx -use_mouse '.shellescape(<q-args>))|call <SID>init_lynx() command! -nargs=1 Websearch vnew|call termopen('lynx -use_mouse https://duckduckgo.com/?q='.shellescape(substitute(<q-args>,'#','%23','g')))|call <SID>init_lynx() nnoremap gow :Start "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" --no-proxy-server "%:p"<cr> silent! source ~/.vimrc.local
+ROLLING
+=====
+
+
+deleteme2
+---
+deleteme cred username
+----
+
+
+$ ip a | convert label:@- myipaddress.png
+
+In recent Ubuntu Linux distributions, certain convert operations are restricted for security reasons. If you tried the above commands in Ubuntu OS, you might be encountered with the following error message:
+
+convert-im6.q16: not authorized `@-' @ error/property.c/InterpretImageProperties/3516.
+
+hange the policy.
+
+$ sudo nano /etc/ImageMagick-6/policy.xml
+Find the following line:
+
+<policy domain="path" rights="none" pattern="@*" />
+Comment out or remove the following line:
+
+[...]
+<!--  <policy domain="path" rights="none" pattern="@*"/> -->
+[...]
+
+### save to existing image
+$ convert -font -misc-fixed-*-*-*-*-*-*-*-*-*-*-*-* -fill black -draw "text 270,260 \" `lsb_release -a` \"" image.png systemdetails.png
+
+his command will print the output of “lsb_release -a” command to an image called image.png and saves it with a new name “systemdetails.png”
+
+### tee
+
+You might wanted to write the output of a command to multiple files. Here is how to do it.
+
+$ uname -a | tee file1 file2
+The above command w
+
