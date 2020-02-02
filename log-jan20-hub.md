@@ -24,6 +24,27 @@ watch github wikis
 THESETUP
 ====
 
+
+metabest rofi eye candy galore rofi-menus-git
+----
+
+[vahnrr / rofi-menus · GitLab](https://gitlab.com/vahnrr/rofi-menus)
+
+> The package is available in the Arch User Repository as [rofi-menus-git](https://aur.archlinux.org/packages/rofi-menus-git).
+> 
+>     yay -S rofi-menus-git
+> 
+> You can then call the menus with these commands:
+> 
+>     rofi-appsmenu
+>     rofi-i3layout
+>     rofi-mpd
+>     rofi-network
+>     rofi-power
+>     rofi-scrot
+>     rofi-vpn
+
+
 metabestbest dmenu script youtube viewer invidio.us
 -----
 [Dmenu Hacking Thread (Page 14) / Programming & Scripting / Arch Linux Forums](https://bbs.archlinux.org/viewtopic.php?id=80145&p=14)
