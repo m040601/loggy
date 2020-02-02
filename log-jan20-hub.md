@@ -96,7 +96,6 @@ Hit Esc to exit selection mode.
 
 
 
-FUCK
 ====
 
 
