@@ -6,7 +6,6 @@ watch github wikis
 [How can you track or be notified of changes to GitHub wikis? - Stack Overflow](https://stackoverflow.com/questions/8407917/how-can-you-track-or-be-notified-of-changes-to-github-wikis)
 
 
-====
 
 
 long urls in urxvt (seems no fix)
@@ -101,30 +100,6 @@ FUCK
 ====
 
 
-the setup
-----
-
-[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
-
-> -   `BROWSER` contains the path to the web browser. Helpful to set in an interactive shell configuration file so that it may be dynamically altered depending on the availability of a graphic environment, such as [X](https://wiki.archlinux.org/index.php/X "X"):
-> 
-> if \[ -n "$DISPLAY" \]; then
->     export BROWSER=firefox
-> else 
->     export BROWSER=links
-> fi
-
-
-
-pkgfile infocmp
-core/ncurses
-gets it from /usr/share/terminfo/t/tmux
-
-tmux.conf:
-
-Use "tmux-256color" if available, to enable more capabilities.
-if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
-    
 BROWSER
 ====
 
@@ -329,6 +304,32 @@ FUCK
 
 libinput man libinput and man 4 libinput
 -----
+the setup
+----
+
+### browser display env
+[Environment variables - ArchWiki](https://wiki.archlinux.org/index.php/Environment_variables)
+
+> -   `BROWSER` contains the path to the web browser. Helpful to set in an interactive shell configuration file so that it may be dynamically altered depending on the availability of a graphic environment, such as [X](https://wiki.archlinux.org/index.php/X "X"):
+> 
+> if \[ -n "$DISPLAY" \]; then
+>     export BROWSER=firefox
+> else 
+>     export BROWSER=links
+> fi
+
+
+
+### tmux and infocmp
+pkgfile infocmp
+core/ncurses
+gets it from /usr/share/terminfo/t/tmux
+
+tmux.conf:
+
+Use "tmux-256color" if available, to enable more capabilities.
+if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
+    
 METABEST
 ====
 
