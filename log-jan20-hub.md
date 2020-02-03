@@ -360,6 +360,7 @@ ive managed to copy all the files into the directory
 the compiler qutebrowser stikked php curl api pastebin service
 ------
 
+https://github.com/claudehohl/Stikked
 the-compiler.org-pastebin
 
 https://paste.the-compiler.org/about
