@@ -357,6 +357,45 @@ ive managed to copy all the files into the directory
 > rsync -v --files-from=list --no-relative / ./directory
 
 
+the compiler qutebrowser stikked php curl api pastebin service
+------
+
+the-compiler.org-pastebin
+
+https://paste.the-compiler.org/about
+Stikked is an Open-Source PHP Pastebin, with the aim of keeping a simple and easy to use user interface.
+
+
+the-compiler.org-pastebin
+https://paste.the-compiler.org/api
+Create pastes from the commandline
+
+the-compiler.org-pastebin
+
+https://paste.the-compiler.org/api
+Examples
+Create paste
+curl -d text='this is my text' https://paste.the-compiler.org/api/create
+Create a paste with the text 'this is my text'.
+
+Create paste from a file
+curl -d private=1 -d name=Herbert --data-urlencode text@/etc/passwd https://paste.the-compiler.org/api/create
+Create a private paste with the author 'Herbert' and the contents of '/etc/passwd'.
+
+Create paste from a php file
+curl -d lang=php --data-urlencode text@main.php https://paste.the-compiler.org/api/create
+Create a paste with PHP syntax highlighting.
+
+Create paste via a pipe
+echo foo | curl --data-urlencode text@- https://paste.the-compiler.org/api/create
+Create a paste based on standard output of a command.
+
+Get paste ;-)
+curl https://paste.the-compiler.org/view/raw/[pasteid]
+Display paste.
+
+
+
 METABESTBEST
 =====
 a la recutils - yaml file to sqlite  - Niche Museums  simonw
