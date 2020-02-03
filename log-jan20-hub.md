@@ -357,7 +357,7 @@ ive managed to copy all the files into the directory
 > rsync -v --files-from=list --no-relative / ./directory
 
 
-the compiler qutebrowser stikked php curl api pastebin service
+the compiler qutebrowser stikked php curl api pastebin service - qrcodes encrypt etc
 ------
 
 https://github.com/claudehohl/Stikked
