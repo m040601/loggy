@@ -365,6 +365,11 @@ space key. Repeated pressing of this key enables refreshing again.
 
 > The script uses locality sensitive hashing (LSH) to compare texts. LSHs are a kind of hashing function that, unlike normal hashing functions, have the property that the probability of a hash collision is proportional to the similarity of objects hashed. In this case, the LSH implemented is simhash (described [here](http://matpalm.com/resemblance/simhash/)).
 
+
+
+community/jp2a 1.0.7-2
+----
+    A small utility for converting JPG images to ASCII
 FUCK
 ====
 [MobileRead Wiki - Kobo Configuration Options]
