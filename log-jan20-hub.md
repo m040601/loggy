@@ -226,6 +226,81 @@ bashrc mkcdd and bd
 
 
 
+
+
+free bash and console keys
+----
+busy stty setterm etc
+stty -a
+
+busy bash
+bind -psvX
+
+busy keys stty outside bash (CDOQRSUVWZ \ ? )
+----
+stty -a
+
+Q/S "hides and continues" input
+c-o is kind of c-d without logout
+
+intr = ^C
+quit = ^\
+erase = ^?
+kill = ^U
+eof = ^D
+eol = <undef>
+eol2 = <undef>
+swtch = <undef>
+start = ^Q
+stop = ^S
+susp = ^Z
+rprnt = ^R
+werase = ^W
+lnext = ^V
+discard = ^O
+
+console screensaver and etc issue
+-----
+
+/usr/share/doc/arch-wiki/html/en/Display_Power_Management_Signaling.html
+
+ * 4 DPMS interaction in a Linux console with setterm
+   + 4.1 Prevent screen from turning off
+   + 4.2 Pipe the output to a cat to see the escapes
+   + 4.3 Pipe the escapes to any tty (with write/append perms) to modify that
+    terminal
+
+
+DPMS interaction in a Linux console with setterm
+
+The setterm utility issues terminal recognized escape codes to alter the
+terminal. Essentially it just writes/echos the terminal sequences to the
+current terminal device, whether that be in screen, a remote ssh terminal,
+console mode, serial consoles, etc.
+
+setterm Syntax: (0 disables)
+
+setterm -blank [0-60|force|poke]
+setterm -powersave [on|vsync|hsync|powerdown|off]
+setterm -powerdown [0-60]
+
+
+Prevent screen from turning off
+	$ setterm -blank 0 -powerdown 0
+Alternatively 
+	# echo -ne "\033[9;0]" >> /etc/issue
+Changing 0 (after the semicolon) to e.g. 3, will keep the screen on for
+minutes, before entering standby mode.
+
+Pipe the output to a cat to see the escapes
+	$ setterm -powerdown 2>&1 | exec cat -v 2>&1 | sed "s/\\^\\[/\\\\033/g"
+
+Pipe the escapes to any tty (with write/append perms) to modify that terminal
+	$ setterm -powerdown 0 >> /dev/tty3
+
+
+
+
 NEWTOOLS
 ===
 
@@ -394,6 +469,79 @@ Create a paste based on standard output of a command.
 Get paste ;-)
 curl https://paste.the-compiler.org/view/raw/[pasteid]
 Display paste.
+
+
+
+free bash and console keys
+----
+busy stty setterm etc
+stty -a
+
+busy bash
+bind -psvX
+
+busy keys stty outside bash (CDOQRSUVWZ \ ? )
+----
+stty -a
+
+Q/S "hides and continues" input
+c-o is kind of c-d without logout
+
+intr = ^C
+quit = ^\
+erase = ^?
+kill = ^U
+eof = ^D
+eol = <undef>
+eol2 = <undef>
+swtch = <undef>
+start = ^Q
+stop = ^S
+susp = ^Z
+rprnt = ^R
+werase = ^W
+lnext = ^V
+discard = ^O
+
+console screensaver and etc issue
+-----
+
+/usr/share/doc/arch-wiki/html/en/Display_Power_Management_Signaling.html
+
+ * 4 DPMS interaction in a Linux console with setterm
+   + 4.1 Prevent screen from turning off
+   + 4.2 Pipe the output to a cat to see the escapes
+   + 4.3 Pipe the escapes to any tty (with write/append perms) to modify that
+    terminal
+
+
+DPMS interaction in a Linux console with setterm
+
+The setterm utility issues terminal recognized escape codes to alter the
+terminal. Essentially it just writes/echos the terminal sequences to the
+current terminal device, whether that be in screen, a remote ssh terminal,
+console mode, serial consoles, etc.
+
+setterm Syntax: (0 disables)
+
+setterm -blank [0-60|force|poke]
+setterm -powersave [on|vsync|hsync|powerdown|off]
+setterm -powerdown [0-60]
+
+
+Prevent screen from turning off
+	$ setterm -blank 0 -powerdown 0
+Alternatively 
+	# echo -ne "\033[9;0]" >> /etc/issue
+Changing 0 (after the semicolon) to e.g. 3, will keep the screen on for
+minutes, before entering standby mode.
+
+Pipe the output to a cat to see the escapes
+	$ setterm -powerdown 2>&1 | exec cat -v 2>&1 | sed "s/\\^\\[/\\\\033/g"
+
+Pipe the escapes to any tty (with write/append perms) to modify that terminal
+	$ setterm -powerdown 0 >> /dev/tty3
+
 
 
 
