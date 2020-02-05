@@ -838,3 +838,22 @@ You might wanted to write the output of a command to multiple files. Here is how
 $ uname -a | tee file1 file2
 The above command w
 
+
+
+
+PI
+===
+
+ROLLING
+====
+
+cheapest sonoff basic and a contactor
+[High Power Mains Switching with Sonoff - Scargill's Tech Blog](https://tech.scargill.net/high-power-mains-switching-with-sonoff/)
+
+https://pt.wikipedia.org/wiki/Contator
+https://pt.wikipedia.org/wiki/Disjuntor
+https://en.wikipedia.org/wiki/Circuit_breaker
+
+https://de.wikipedia.org/wiki/Sch%C3%BCtz_(Schalter)
+https://en.wikipedia.org/wiki/Contactor
+
