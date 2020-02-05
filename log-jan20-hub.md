@@ -423,8 +423,7 @@ Use "tmux-256color" if available, to enable more capabilities.
 if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
     
 
-sysctl has nothing to do with systemd ( free pgrep top vmstat ...)
------
+### sysctl has nothing to do with systemd ( free pgrep top vmstat ...)
 core/procps-ng
 
 core/procps-ng	/usr/bin/free
@@ -462,6 +461,79 @@ core/procps-ng 3.3.15-2 [installed]
 > sysctl as a [virtual file
 > system](https://en.wikipedia.org/wiki/Virtual_file_system "Virtual file
 > system")
+
+### Arch Linux has deprecated net-tools [net-tools (arp ifconfig netstat route)
+
+
+core/net-tools	/usr/bin/
+core/net-tools	/usr/bin/arp
+core/net-tools	/usr/bin/ifconfig
+core/net-tools	/usr/bin/ipmaddr
+core/net-tools	/usr/bin/iptunnel
+core/net-tools	/usr/bin/mii-tool
+core/net-tools	/usr/bin/nameif
+core/net-tools	/usr/bin/netstat
+core/net-tools	/usr/bin/plipconfig
+core/net-tools	/usr/bin/rarp
+core/net-tools	/usr/bin/route
+core/net-tools	/usr/bin/slattach
+
+
+
+core/iproute2	/usr/bin/arpd
+core/iproute2	/usr/bin/bridge
+core/iproute2	/usr/bin/ctstat
+core/iproute2	/usr/bin/devlink
+core/iproute2	/usr/bin/genl
+core/iproute2	/usr/bin/ifcfg
+core/iproute2	/usr/bin/ifstat
+core/iproute2	/usr/bin/ip
+core/iproute2	/usr/bin/lnstat
+core/iproute2	/usr/bin/nstat
+core/iproute2	/usr/bin/rdma
+core/iproute2	/usr/bin/routef
+core/iproute2	/usr/bin/routel
+core/iproute2	/usr/bin/rtacct
+core/iproute2	/usr/bin/rtmon
+core/iproute2	/usr/bin/rtpr
+core/iproute2	/usr/bin/rtstat
+core/iproute2	/usr/bin/ss
+core/iproute2	/usr/bin/tc
+core/iproute2	/usr/bin/tipc
+
+
+
+[Network configuration - ArchWiki](https://wiki.archlinux.org/index.php/Network_manager)
+
+> 
+> Arch Linux has deprecated [net-tools](https://www.archlinux.org/packages/?name=net-tools) in favor of [iproute2](https://www.archlinux.org/packages/?name=iproute2).[\[2\]](https://www.archlinux.org/news/deprecation-of-net-tools/)
+> 
+> Deprecated command
+> 
+> Replacement commands
+> 
+> arp
+> 
+> ip neighbor
+> 
+> [ifconfig](https://en.wikipedia.org/wiki/ifconfig "wikipedia:ifconfig")
+> 
+> ip address, ip link
+> 
+> netstat
+> 
+> [ss](https://wiki.archlinux.org/index.php/Network_manager#Investigate_sockets)
+> 
+> route
+> 
+> ip route
+
+#### ss
+
+ss   --tcp --udp --all --resolve  --numeric
+resolve is for adds
+numeric is for ports
+
 
 METABEST
 ====
