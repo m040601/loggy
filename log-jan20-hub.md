@@ -376,6 +376,14 @@ along with a GUI window showing the dot output of the edited file.
 The dot output window automatically refreshes everytime the file
 is saved in the editor.
 
+NEWTOOLSWEB
+=====
+
+[mayswind/AriaNg: AriaNg, a modern web frontend making aria2 easier to use.]
+----
+(https://github.com/mayswind/AriaNg)
+AriaNg is a modern web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment. You can just put AriaNg in your web server and open it in your browser. AriaNg uses responsive layout, and supports any desktop or mobile devices.
+
 FUCK
 ====
 [MobileRead Wiki - Kobo Configuration Options]
