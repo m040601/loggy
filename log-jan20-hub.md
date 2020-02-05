@@ -370,6 +370,12 @@ space key. Repeated pressing of this key enables refreshing again.
 community/jp2a 1.0.7-2
 ----
     A small utility for converting JPG images to ASCII
+vimdot is a simple script which launches the gvim or vim editor 
+----
+along with a GUI window showing the dot output of the edited file.
+The dot output window automatically refreshes everytime the file
+is saved in the editor.
+
 FUCK
 ====
 [MobileRead Wiki - Kobo Configuration Options]
@@ -549,6 +555,12 @@ Pipe the escapes to any tty (with write/append perms) to modify that terminal
 
 
 
+
+vimdot is a simple script which launches the gvim or vim editor 
+----
+along with a GUI window showing the dot output of the edited file.
+The dot output window automatically refreshes everytime the file
+is saved in the editor.
 
 METABESTBEST
 =====
