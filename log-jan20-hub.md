@@ -528,6 +528,70 @@ core/iproute2	/usr/bin/tipc
 > 
 > ip route
 
+#### wpa_cli MUSTDO (get net list etc)
+Optionally, also install the official wpa_supplicant_guiAUR which provides wpa_gui, a graphical front-end for wpa_supplicant, or wpa-cuteAUR which is a fork from an earlier version of wpa_gui with a couple of fixes and improvements. .
+
+
+At boot (systemd)
+
+The wpa_supplicant package provides multiple systemd service files:
+
+    wpa_supplicant.service - uses D-Bus, recommended for NetworkManager users.
+    wpa_supplicant@interface.service - accepts the interface name as an argument and starts the wpa_supplicant daemon for this interface. It reads a /etc/wpa_supplicant/wpa_supplicant-interface.conf configuration file.
+    wpa_supplicant-nl80211@interface.service - also interface specific, but explicitly forces the nl80211 driver (see below). The configuration file path is /etc/wpa_supplicant/wpa_supplicant-nl80211-interface.conf.
+    wpa_supplicant-wired@interface.service - also interface specific, uses the wired driver. The configuration file path is /etc/wpa_supplicant/wpa_supplicant-wired-interface.conf.
+
+To enable wireless at boot, enable an instance of one of the above services on a particular wireless interface. For example, enable the wpa_supplicant@interface systemd unit.
+
+Now choose and enable an instance of a service to obtain an ip address for the particular interface as indicated in the #Overview. For example, enable the dhcpcd@interface systemd unit.
+
+
+
+
+##### METABEST wpa_cli action script
+
+wpa_cli can run in daemon mode and execute a specified script based on events from wpa_supplicant. Two events are supported: CONNECTED and DISCONNECTED. Some environment variables are available to the script, see wpa_cli(8) for details.
+
+The following example will use desktop notifications to notify the user about the events:
+
+	#!/bin/bash
+
+	case "$2" in
+	    CONNECTED)
+		notify-send "WPA supplicant: connection established";
+		;;
+	    DISCONNECTED)
+		notify-send "WPA supplicant: connection lost";
+		;;
+	esac
+
+Remember to make the script executable, then use the -a flag to pass the script path to wpa_cli:
+
+
+
+#### you fucknig dont need dhcpcd neither the tool nor the service - sysd-netd has an "internal" one
+#### if netctl then dhcpcd ( then openresolv ???)
+also some gui's (gigantic deps)
+
+
+	# netctl enable profile
+	This will create and enable a systemd service that will start when the computer boots. Changes to the profile file will not propagate to the service file automatically. After such changes, it is necessary to reenable the profile:
+	# netctl reenable profile
+
+
+#### ip MUST DO
+#### package wireless_tools (iwinfo etc) bash completion
+
+/bin/bash: pkgfiles: command not found
+core/wireless_tools	/usr/bin/ifrename
+core/wireless_tools	/usr/bin/iwconfig
+core/wireless_tools	/usr/bin/iwevent
+core/wireless_tools	/usr/bin/iwgetid
+core/wireless_tools	/usr/bin/iwlist
+core/wireless_tools	/usr/bin/iwpriv
+core/wireless_tools	/usr/bin/iwspy
+#### ifstat
+#### no need for 'iw',  'ip' also wireless
 #### ss
 
 ss   --tcp --udp --all --resolve  --numeric
