@@ -414,6 +414,47 @@ tmux.conf:
 Use "tmux-256color" if available, to enable more capabilities.
 if-shell 'infocmp tmux-256color' 'set -g default-terminal "tmux-256color"' 'set -g default-terminal "screen-256color"'
     
+
+sysctl has nothing to do with systemd ( free pgrep top vmstat ...)
+-----
+core/procps-ng
+
+core/procps-ng	/usr/bin/free
+core/procps-ng	/usr/bin/pgrep
+core/procps-ng	/usr/bin/pidof
+core/procps-ng	/usr/bin/pkill
+core/procps-ng	/usr/bin/pmap
+core/procps-ng	/usr/bin/ps
+core/procps-ng	/usr/bin/pwdx
+core/procps-ng	/usr/bin/slabtop
+core/procps-ng	/usr/bin/sysctl
+core/procps-ng	/usr/bin/tload
+core/procps-ng	/usr/bin/top
+core/procps-ng	/usr/bin/uptime
+core/procps-ng	/usr/bin/vmstat
+core/procps-ng	/usr/bin/w
+core/procps-ng	/usr/bin/watch
+
+
+core/procps-ng 3.3.15-2 [installed]
+    Utilities for monitoring your system and its processes
+
+[sysctl - Wikipedia](https://en.wikipedia.org/wiki/Sysctl)
+
+> **sysctl** is a software utility of some
+> [Unix-like](https://en.wikipedia.org/wiki/Unix-like "Unix-like") operating
+> systems that reads and modifies the attributes of the system
+> [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system) "Kernel
+> (operating system)") such as its version number, maximum limits, and security
+> settings.[\[1\]](https://en.wikipedia.org/wiki/Sysctl#cite_note-n-sysctl-7-1)
+> It is available both as a [system
+> call](https://en.wikipedia.org/wiki/System_call "System call") for compiled
+> programs, and an administrator command for interactive use and scripting.
+> [Linux](https://en.wikipedia.org/wiki/Linux "Linux") additionally exposes
+> sysctl as a [virtual file
+> system](https://en.wikipedia.org/wiki/Virtual_file_system "Virtual file
+> system")
+
 METABEST
 ====
 
