@@ -14,6 +14,33 @@ wont fix ?
 [url-select: selection of long urls · Issue #61 · muennich/urxvt-perls](https://github.com/muennich/urxvt-perls/issues/61)
 
  When urxvt wraps a line containing an url, url-select only catches the first line
+ MAPS
+ =====
+
+METABEST [FOSDEM 2020 - Creating GPX tracks from cycle routes in OpenStreetMap](https://fosdem.org/2020/schedule/event/creating_gpx_tracks_from_cycle_routes_in_openstreetmap/)
+----
+> In this talk I will present an Open Source tool to download GPX tracks of
+> cycle routes, and a website for people to download the generated GPX files. I
+> will discuss some of the nuances of how cycle routes are stored as relations
+> and what processing needs to be performed in order to create a continuous
+> route. In addition, I will speak about how the tool can be used to identify
+> inconsistencies in OpenStreetMap data.
+
+[hpgmiskin/OpenCycleExport: Python tool to export OpenStreetMap cycle routes as GPX tracks](https://github.com/hpgmiskin/OpenCycleExport)
+
+[FOSDEM 2020 - Frictionless Data for Reproducible Research]
+---
+
+(https://fosdem.org/2020/schedule/event/open_research_frictionless_data/)
+
+> The Frictionless Data project is comprised of a set of specifications
+> (https://frictionlessdata.io/specs/) for data and metadata interoperability,
+> accompanied by a collection of open source software libraries
+> (https://frictionlessdata.io/software/) that implement these specifications,
+> and a range of best practices for data management. Over the past year and a
+> half, we have been wo.
+
+[Frictionless Data](https://github.com/frictionlessdata/)
 MICROTOPICS
 ====
 
@@ -300,6 +327,59 @@ Pipe the escapes to any tty (with write/append perms) to modify that terminal
 
 
 
+
+cat /etc/machine-id
+------
+
+ko
+
+[FOSDEM 2020 - A tool for Community Supported Agriculture (CSA) management, OpenOlitor]
+----
+
+(https://fosdem.org/2020/schedule/event/openolitor_community_supported_agriculture/)
+
+> OpenOlitor is a SaaS open-source tool facilitating the organization and
+> management of CSAs (Community Supported Agriculture) communities. This tool
+> covers a large spectrum of functionalities needed for CSAs such as member
+> management, emailing, invoicing, share planning and delivery, absence
+> scheduling, etc. This software is organized and monitored by an international
+> community that promotes the tool, helps operate it and support the interested
+> communities. In order to promote the sustainability of the tool and this
+> international community an organization based on CSS (Community Supported
+> Software) has been proposed.
+
+[OpenOlitor](https://github.com/OpenOlitor)
+
+> Administrationsplattform für Vertragslandwirtschaftsprojekte, für Initiativen
+> der solidarischen Landwirtschaft und für Direktvermarktung im
+> Abonnementssystem.
+
+http://openolitor.org/main-page/
+
+OpenSMTPD/OpenSMTPD
+----
+
+This is official OpenSMTPD Portable repository. Forks, pull requests and other
+contributions are welcome!](https://github.com/OpenSMTPD/OpenSMTPD/)
+
+[FOSDEM 2020 - Orchestrating jails with nomad and pot](https://fosdem.org/2020/schedule/event/orchestrating_jails/)
+----
+
+> Docker and Kubernetes are changing the way to deploy services and
+> applications in the Linux world. What about FreeBSD? 2 years ago we presented
+> pot, another jail abstraction framework. In time, the pot framework has
+> developed to provide features containers-alike. The plugin interface provided
+> by nomad (a container orchestrator), allowed us to develop a driver for pot,
+> enabling nomad to orchestrate pot jails. In this talk, we'd like to present
+> this FreeBSD-based ambitious alternative to Docker-Kubernetes
+
+
+linphone and flexisip - [FOSDEM 2020 - Building an embedded VoIP network for video intercom systems](https://fosdem.org/2020/schedule/event/ema_embedded_voip/)
+----
+
+> Linphone (a SIP user-agent) and Flexisip (a SIP proxy server) can be
+> integrated into IP video door phones, in-house panels and video surveillance
+> devices to build a complete VoIP network..
 
 NEWTOOLS
 ===
