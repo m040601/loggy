@@ -376,6 +376,13 @@ along with a GUI window showing the dot output of the edited file.
 The dot output window automatically refreshes everytime the file
 is saved in the editor.
 
+[About Write Freely](https://writefreely.org/about)
+----
+
+> WriteFreely is a [Go (golang)](https://golang.org/) application, built with [LESS](http://lesscss.org/) and some plain Javascript on the frontend. This makes it easy to quickly understand and modify to your liking; you can deploy it anywhere; and it's _fast_, too.
+> 
+> It can be backed by a MySQL or a SQLite database. You can deploy it on a cloud server with as little as 256 MB RAM, or even a Raspberry Pi.
+
 NEWTOOLSWEB
 =====
 
