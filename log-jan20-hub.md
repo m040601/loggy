@@ -169,6 +169,14 @@ Highlighted Tabs as a List of Links
 > 
 > You can add keyboard shortuts for copying tab(s) as Markdown. By default, Copy as Markdown does not assign any keyboard shortcuts\\\\
 
+buku To avoid title fetch from the web, add the `--title` option to the script.
+----
+
+[System integration · jarun/buku Wiki](https://github.com/jarun/buku/wiki/System-integration)
+
+> To avoid title fetch from the web, add the `--title` option to the script.
+> 
+> To verify that the bookmark has indeed been added, run:
 NEOVIM
 =====
 
@@ -435,6 +443,28 @@ mostly command-line compatible with wdiff. Only the --autopager,
 
 chroot arch-chroot proot fakechroot fakeroot firejail
 ----
+
+
+also in home dot.asoundrc  dot.terminfo 
+----
+https://github.com/lervag/dotfiles
+
+
+gitconfig includes
+---
+
+
+
+https://github.com/lervag/dotfiles
+
+[include]
+  path = .gitconfig-local
+
+[includeIf "gitdir:~/sintef/"]
+  path = .gitconfig-work
+
+[includeIf "gitdir:~/.vim/"]
+  path = .gitconfig-personal
 NEWTOOLS
 ===
 
@@ -516,6 +546,73 @@ is saved in the editor.
 > WriteFreely is a [Go (golang)](https://golang.org/) application, built with [LESS](http://lesscss.org/) and some plain Javascript on the frontend. This makes it easy to quickly understand and modify to your liking; you can deploy it anywhere; and it's _fast_, too.
 > 
 > It can be backed by a MySQL or a SQLite database. You can deploy it on a cloud server with as little as 256 MB RAM, or even a Raspberry Pi.
+
+[icyphox/shlide: a slide deck presentation tool written in pure bash](https://github.com/icyphox/shlide)
+----
+
+
+Welcome to ${GRN}shlide${RST}. ${STR}Here${RST} are a few bullet points:
+
+- first point
+- second point
+    * ${ITA}sub point${RST}
+    * ${BLD}another${RST} sub point
+
+simple shell script works with escape sequesces and printf's
+
+	 6 # Color definitions.
+	  7 export BLK="\e[38;5;30m"
+	    8 export RED="\e[38;5;31m"
+	      9 export GRN="\e[38;5;32m"
+	       10 export YLW="\e[38;5;33m"
+
+
+rr-/drill: A CLI program for learning things through spaced repetition.
+-----
+
+guys' user case ,  poorly documented card format
+The deck format is a simple SQLite database, schema of which can be
+easily inspected with any graphical browser / editor. It's left
+deliberately undocumented, but the column and table names are pretty
+intuitive..
+
+(https://github.com/rr-/drill)
+
+
+Questions
+
+Q: Why not anki?
+A: I like anki, but there's no CLI version I could use remotely, so I decided to roll my own simple program.
+
+Q: Why not SuperMemo or other better algorithms?
+A: These are cool, but I wanted drill to stay simple. Additionally, the system used by drill is very similar to the one used by wanikani.com, which I hold in very high regard.
+
+
+> A CLI program for learning things through [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition).
+> 
+> ### Features
+> 
+> -   CLI (ideal for `tmux`+`ssh`)
+> -   Multiple decks
+> -   No configuration needed
+> -   Colorful tags
+> -   JSON exports/imports for easy deck manipulation
+> -   HTML reports
+
+[joelibaceta/xls-cli: A simple cli tool to explore xls files](https://github.com/joelibaceta/xls-cli)
+----
+
+
+gitbatch (go) manage all your repos also (mr joey) and ghq (go)
+----
+https://github.com/isacikgoz/gitbatch/releases
+[x-motemen/ghq: Remote repository management made easy](https://github.com/x-motemen/ghq)
+
+> 'ghq' provides a way to organize remote repository clones, like go get
+> does. When you clone a remote repository by ghq get, ghq makes a
+> directory under a specific root directory (by default ~/ghq) using the
+> remote repository URL’s host and path..
+
 
 NEWTOOLSWEB
 =====
@@ -1083,6 +1180,40 @@ metabestbest justinmk function for lynx in term neovim
 
 
 > function! s:init_lynx() abort nnoremap <nowait><buffer> <C-F> i<PageDown><C-\\><C-N> tnoremap <nowait><buffer> <C-F> <PageDown> nnoremap <nowait><buffer> <C-B> i<PageUp><C-\\><C-N> tnoremap <nowait><buffer> <C-B> <PageUp> nnoremap <nowait><buffer> <C-D> i:DOWN_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-D> :DOWN_HALF<CR> nnoremap <nowait><buffer> <C-U> i:UP_HALF<CR><C-\\><C-N> tnoremap <nowait><buffer> <C-U> :UP_HALF<CR> nnoremap <nowait><buffer> <C-N> i<Delete><C-\\><C-N> tnoremap <nowait><buffer> <C-N> <Delete> nnoremap <nowait><buffer> <C-P> i<Insert><C-\\><C-N> tnoremap <nowait><buffer> <C-P> <Insert> nnoremap <nowait><buffer> u i<Left><C-\\><C-N> nnoremap <nowait><buffer> <C-R> i<C-U><C-\\><C-N> nnoremap <nowait><buffer> <CR> i<CR><C-\\><C-N> nnoremap <nowait><buffer> gg i:HOME<CR><C-\\><C-N> nnoremap <nowait><buffer> G i:END<CR><C-\\><C-N> nnoremap <nowait><buffer> zl i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zL i:SHIFT_LEFT<CR><C-\\><C-N> nnoremap <nowait><buffer> zr i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> zR i:SHIFT_RIGHT<CR><C-\\><C-N> nnoremap <nowait><buffer> gh i:HELP<CR><C-\\><C-N> nnoremap <nowait><buffer> cow i:LINEWRAP_TOGGLE<CR><C-\\><C-N> tnoremap <buffer> <C-C> <C-G><C-\\><C-N> nnoremap <buffer> <C-C> i<C-G><C-\\><C-N> endfunction command! -nargs=1 Web vnew|call termopen('lynx -use_mouse '.shellescape(<q-args>))|call <SID>init_lynx() command! -nargs=1 Websearch vnew|call termopen('lynx -use_mouse https://duckduckgo.com/?q='.shellescape(substitute(<q-args>,'#','%23','g')))|call <SID>init_lynx() nnoremap gow :Start "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" --no-proxy-server "%:p"<cr> silent! source ~/.vimrc.local
+metabest [lervag/apy: CLI script for interacting with local Anki collection](https://github.com/lervag/apy)
+----
+
+Important: apy uses the python API from the Anki desktop app. So please
+make sure to install the Anki source. Note that the releases on Ankiweb
+only include precompiled binaries. Ankiweb recommends that one uses
+these precompiled binaries, but for apy to work one needs the Anki
+source to be available. These are typically included if one installs
+from repositories (e.g. with sudo apt install anki or pacman -S anki).
+One may also download the source either from the "Development" tab on
+Ankiweb or from github.
+
+apy assumes that the Anki source is available at /usr/share/anki. If you
+put it somewhere else, then you must set the environment variable
+APY_ANKI_PATH, e.g. export APY_ANKI_PATH=/my/path/to/anki.
+
+
+> [Anki](https://apps.ankiweb.net/index.html) is a flash card program
+> which makes remembering things easy. `apy` is a Python script for
+> easily adding cards to Anki.
+
+
+anki vim [tbabej/knowledge: Never forget anything!](https://github.com/tbabej/knowledge)
+----
+
+> Knowledge is a (Neo)Vim plugin that helps you actually remember what you wrote down in your notes, forever.
+> 
+> To achieve its goal, Knowledge generates flash cards that are piped
+> into the [SRS
+> software](https://en.wikipedia.org/wiki/Spaced_repetition) of your
+> choice (currently Anki and Mnemosyne are supported)..
+
+
+
 ROLLING
 =====
 
