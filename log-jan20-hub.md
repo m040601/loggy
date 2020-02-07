@@ -381,6 +381,60 @@ linphone and flexisip - [FOSDEM 2020 - Building an embedded VoIP network for vid
 > integrated into IP video door phones, in-house panels and video surveillance
 > devices to build a complete VoIP network..
 
+
+
+
+community/patchutils 0.3.4-3 , dhtmldiff, grepdiff , eee sdiff, 
+----
+https://en.wikipedia.org/wiki/Diff_utility
+    A small collection of programs that operate on patch files
+
+
+    https://en.wikipedia.org/wiki/Diff_utility
+
+https://en.wikipedia.org/wiki/Diff_utility
+
+community/patchutils	/usr/bin/
+
+/usr/bin/combinediff
+/usr/bin/dehtmldiff
+/usr/bin/editdiff
+/usr/bin/espdiff
+/usr/bin/filterdiff
+/usr/bin/fixcvsdiff
+/usr/bin/flipdiff
+/usr/bin/grepdiff
+/usr/bin/interdiff
+/usr/bin/lsdiff
+/usr/bin/recountdiff
+/usr/bin/rediff
+/usr/bin/splitdiff
+/usr/bin/unwrapdiff
+/usr/share/man/man1/combinediff.1.gz
+
+by deff in arch
+core/diffutils	/usr/bin/
+core/diffutils	/usr/bin/cmp
+core/diffutils	/usr/bin/diff
+core/diffutils	/usr/bin/diff3
+core/diffutils	/usr/bin/sdiff
+
+### wdiff and dwdiff
+
+
+dwdiff is a diff program that operates at the word level instead
+of the line level. It is different from wdiff in that it allows
+the user to specify what should be considered whitespace, and in
+that it takes an optional list of characters that should be
+considered delimiters. Delimiters are single characters that are
+treated as if they are words, even when there is no whitespace
+separating them from preceding words or delimiters. dwdiff is
+mostly command-line compatible with wdiff. Only the --autopager,
+--terminal and --avoid-wraps options are not supported.
+
+
+chroot arch-chroot proot fakechroot fakeroot firejail
+----
 NEWTOOLS
 ===
 
