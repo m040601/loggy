@@ -47,6 +47,110 @@ METABEST [FOSDEM 2020 - Creating GPX tracks from cycle routes in OpenStreetMap](
 > half, we have been wo.
 
 [Frictionless Data](https://github.com/frictionlessdata/)
+
+
+
+METABEST rotate xrandr touchpad(xinput) and gestures
+---
+
+https://askubuntu.com/questions/978803/rotate-touchpad-when-screen-is-orientation-rotated
+https://wiki.archlinux.org/index.php/Tablet_PC#Automatic_rotation
+
+
+put the following in ~/bin after replacing eDP1 with the screen your touchpad
+to follow. can get a list of your screens by running xrandr.
+
+change --output eDP1 to -o if you want to rotate all screens.
+
+you may need to play around with the code that gets the xinput id for your
+touchpad.
+
+make sure it is executable and also bin is in $PATH variable.
+
+without stuff that doesn't pretain your question
+
+	#!/bin/bash
+	#inverted -> right -> normal -> left -> inverted
+	status="$(xrandr -q|grep eDP1|awk '{print $3}')"
+	if [ $status == 'primary' ]; then
+	   state="$(xrandr -q|grep eDP1|awk '{print $5}')"
+	else
+	   state="$(xrandr -q|grep eDP1|awk '{print $4}')"
+	fi
+	touchpad=$(xinput | awk '/Touchpad/ {print $7}' | grep -oP [0-9]+) #
+
+
+	case "${state}" in
+	'inverted')
+	  xrandr --output eDP1 --rotate right
+	  xinput set-prop "$touchpad" --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 0 0 0 1
+	  ;;
+	'right')
+	  xrandr --output eDP1 --rotate normal
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 1
+	  ;;
+	'(normal')
+	  xrandr --output eDP1 --rotate left
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" 0 -1 0 1 0 0 0 0 1
+	  ;;
+	'left')
+	  xrandr --output eDP1 --rotate inverted
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" -1 0 0 0 -1 0 0 0 1
+	  ;;
+	esac
+
+
+I have it doing custom things as well
+
+	#!/bin/bash
+	#inverted -> right -> normal -> left -> inverted
+	state="$(orientation)"
+	#[ "${state}" == 'inverted' ] && xrandr --output eDP1 --rotate right || ([ "${state}" == 'right' ] && xrandr --output eDP1 --rotate normal || ([ "${state}" == 'left' ] && xrandr --output eDP1 --rotate inverted || xrandr --output eDP1 --rotate left));
+	#sleep 2
+	#xrandr-invert-colors;
+	touchpad=$(xinput | awk '/Touchpad/ {print $7}' | grep -oP [0-9]+) #xinput list --id-only "ipts 1B96:005E Touchscreen"
+	libinput_enabled=false
+	gestures_enabled=true
+
+	case "${state}" in
+	'inverted')
+	  xrandr --output eDP1 --rotate right
+	  xinput set-prop "$touchpad" --type=float "Coordinate Transformation Matrix" 0 1 0 -1 0 0 0 0 1
+	  if [ "$libinput_" = true ]; then
+	    cp ~/.config/libinput-gestures.conf_right ~/.config/libinput-gestures.conf
+	    libinput-gestures-setup restart
+	  fi
+	  ;;
+	'right')
+	  xrandr --output eDP1 --rotate normal
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 1
+	  if [ "$libinput_" = true ]; then
+	    cp ~/.config/libinput-gestures.conf_normal ~/.config/libinput-gestures.conf
+	    libinput-gestures-setup restart
+	  fi
+	  ;;
+	'(normal')
+	  xrandr --output eDP1 --rotate left
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" 0 -1 0 1 0 0 0 0 1
+	  if [ "$libinput_" = true ]; then
+	    cp ~/.config/libinput-gestures.conf_left ~/.config/libinput-gestures.conf
+	    libinput-gestures-setup restart
+	  fi
+	  ;;
+	'left')
+	  xrandr --output eDP1 --rotate inverted
+	  xinput set-prop ${touchpad} --type=float "Coordinate Transformation Matrix" -1 0 0 0 -1 0 0 0 1
+	  if [ "$libinput_" = true ]; then
+	    cp ~/.config/libinput-gestures.conf_inverted ~/.config/libinput-gestures.conf
+	    libinput-gestures-setup restart
+	  fi
+	  ;;
+	esac
+
+	if [ "$gestures_enabled" = true ]; then
+	   restartTouchpad;
+	fi
+
 MICROTOPICS
 ====
 
@@ -634,6 +738,17 @@ https://github.com/isacikgoz/gitbatch/releases
 > remote repository URL’s host and path..
 
 
+metabest  charmbracelet/glow: markdown go (also mdv python )
+----
+Render markdown on the CLI, with pizzazz! 💅🏻](https://github.com/charmbracelet/glow)
+
+
+
+metabest sdunpack (rust stardict) plato bspwm guy
+-----
+[baskerville/sdunpack: Unpack a StarDict dictionary as plain text](https://github.com/baskerville/sdunpack)
+
+
 NEWTOOLSWEB
 =====
 
@@ -871,8 +986,24 @@ numeric is for ports
 
 
 
+FUCKFUCK
+====
+
+inputrc bash
+----
+
+
+C-- undo
+C-_
+or
+C-X C-u
+
+
 METABEST
 ====
+metabest sdunpack (rust stardict) plato bspwm guy
+-----
+[baskerville/sdunpack: Unpack a StarDict dictionary as plain text](https://github.com/baskerville/sdunpack)
 
 flatten a directory tree and how to copy a list of files to a folder 
 ----
@@ -1032,6 +1163,9 @@ OpenPrinting
 > OpenPrinting hosts a Printer Compatibility Database. It contains
 > entries from both the Foomatic Package and the community.
 
+
+great book Clif Flynt,_ Sarath Lakshman,_ Shantanu Tushar - Linux Shell Scripting Cookbook (2017, Packt Publishing).epub
+----
 METABESTBEST
 =====
 a la recutils - yaml file to sqlite  - Niche Museums  simonw
@@ -1271,7 +1405,171 @@ every 50 days ago [-]
 
 I use the tree command on BSD to do just that. It has the option of creating html output with a number of additional options.
 
-An example: tree -P *.txt -FC -H http://baseHREF -T 'Your Title' -o index.html
+    An example: tree -P *.txt -FC -H http://baseHREF -T 'Your Title' -o index.html
+[Feature comparison of ack, ag, git-grep, GNU grep and ripgrep | Hacker
+News](https://news.ycombinator.com/item?id=16096824)
+
+metabestbest correct way to tail -f and grep - line buffered - stdbuff in coreutils 
+----
+> [palotasb](https://news.ycombinator.com/user?id=palotasb) [on Jan 8, 2018](https://news.ycombinator.com/item?id=16099852) [\[-\]](javascript:void(0))
+> 
+>   
+> 
+> That's an orthogonal feature, it writes output after each line as opposed to every 4096 bytes, when the output is a pipe instead of a terminal. Useful when the other end of the pipe still goes to the terminal and you want to see it immediately. If \`some-util-with-output\` echoes stdin then without the option the following would not show you the latest grepped lines until the 4096 buffer fills.
+> 
+>       tail -F output.log | grep --line-buffered TEXT | some-util-with-output
+> 
+> ![](https://news.ycombinator.com/s.gif)
+> 
+> [richardwhiuk](https://news.ycombinator.com/user?id=richardwhiuk) [on Jan 8, 2018](https://news.ycombinator.com/item?id=16098345) [\[-\]](javascript:void(0))
+> 
+>   
+> 
+> huh?
+> 
+> ![](https://news.ycombinator.com/s.gif)
+> 
+> [whacker](https://news.ycombinator.com/user?id=whacker) [on Jan 9, 2018](https://news.ycombinator.com/item?id=16102899) [\[-\]](javascript:void(0))
+> 
+>   
+> 
+> I mean you can use grep as a filter for tail -f output.
+
+### do i need it in gnu grep ?
+
+[linux - How to 'grep' a continuous stream? - Stack Overflow](https://stackoverflow.com/questions/7161821/how-to-grep-a-continuous-stream)
+
+> turn on `grep`'s line buffering mode when using BSD grep (FreeBSD, Mac
+> OS X etc.)
+> 
+>     tail -f file | grep --line-buffered my_pattern
+>     
+> 
+> You don't need to do this for GNU grep (used on pretty much any Linux)
+> as it will flush by default (YMMV for other Unix-likes such as
+> SmartOS, AIX or QNX
+
+
+
+[streaming - unix command 'tail' lost option '--line-buffered' - Stack Overflow](https://stackoverflow.com/questions/18227308/unix-command-tail-lost-option-line-buffered)
+
+> As far as can be told by simple googling, `tail` doesn't appear to
+> have a `--line-buffered` option, `grep` does. `--line-buffered` is
+> useful to force line buffering even when writing to a non-TTY, a
+> typical idiom being:
+> 
+>     tail -f FILE | grep --line-buffered REGEXP > output
+>     
+> 
+> Here the point of `--line-buffered` is to prevent `grep` from
+> buffering output in 8K chunks and forcing the matched lines to
+> immediately appear in the output file.
+> 
+> `tail -f` is unbuffered regardless of output type, so it doesn't need
+> a `--line-buffered` option equivalent to the one in `grep`. This can
+> be verified by running `tail -f somefile | cat` and appending a line
+> to the file from another shell. One observes that, despite its
+> standard output being a pipe, `tail` immediately flushes the newly
+> arrived line.
+
+
+
+### [stdio buffering](https://www.pixelbeat.org/programming/stdio_buffering/)
+
+> ## stdio output buffering problems
+> 
+> Now consider the case where the data source has intermittent output  
+> and one wants to both see the data as it appears and filter the data.  
+> For example, one wants to filter the output of tcpdump -l or tail -f etc.  
+> Note certain filters (like sort) need to buffer all data internally and so  
+> can't be used in this application.  
+> As a concrete example consider the following pipeline which shows the IP addresses  
+> accessing a web site while filtering out consecutive access from a particular IP.  
+> 
+> $ tail -f access.log | cut -d' ' -f1 | uniq
+
+[Update Aug 2009: We've made the LD_PRELOAD method above easily available in coreutils 7.5
+with the a new stdbuf command which can be used with the example presented here like:
+
+tail -f access.log | stdbuf -oL cut -d ' ' -f1 | uniq
+
+Note use stdbuf -o0 if your data is not line oriented.
+For full details please see the stdbuf man page or stdbuf info manual.]
+
+### man stdbuff
+
+
+
+EXAMPLES
+       tail -f access.log | stdbuf -oL cut -d ' ' -f1 | uniq
+              This will immediately display unique entries from
+	      access.log
+### [What does grep line buffering do? - Ask Ubuntu](https://askubuntu.com/questions/562344/what-does-grep-line-buffering-do)
+
+
+
+
+Here's my command that I'm using in a script to grep real-time data. It
+doesn't seem to pull real-time data correctly as it just misses some
+lines.
+
+tail -f <file> | fgrep "string" | sed 's/stuff//g' >> output.txt
+
+What would the following command do? What is "line buffering"?
+
+tail -f <file> | fgrep --line-buffered "string" | sed 's/stuff//g' >>
+output.txt
+
+
+
+
+> When using non-interactively, most standard commands, include `grep`,
+> buffer the output, meaning it does not write data immediately to
+> `stdout`. It collects large amount of data (depend on OS, in Linux,
+> often 4096 bytes) before writing.
+> 
+> In your command, `grep`'s output is piped to `stdin` of `sed` command,
+> so `grep` buffer its output.
+> 
+> So, `--line-buffered` option causing `grep` using line buffer, meaning
+> writing output each time it saw a newline, instead of waiting to reach
+> 4096 bytes by default. But in this case, you don't need `grep` at all,
+> just use `tail` \+ `sed`:
+> 
+>     tail -f <file> | sed '/string/s/stuff//g' >> output.txt
+>     
+> 
+> With command that does not have option to modify buffer, you can use
+> [GNU coreutils
+> stdbuf](http://www.gnu.org/software/coreutils/manual/coreutils.html#stdbuf-invocation)
+> 
+>     tail -f <file> | stdbuf -oL fgrep "string" | sed 's/stuff//g' >>
+>     output.txt
+>     
+> 
+> to turn on line buffering or using `-o0` to disable buffer.
+> 
+> **Note**
+> 
+> -   [stdio
+>     buffering](http://www.pixelbeat.org/programming/stdio_buffering/)
+
+
+2do send output to notify-send perpetually, but in chunks instead of line-by-line
+----
+
+[unix - Piping to notify-send in chunks - Stack Overflow](https://stackoverflow.com/questions/34778384/piping-to-notify-send-in-chunks)
+
+
+This puts the complete output of mocha -w in the fourth argument of notify-send
+
+If mocha -w does not terminate, the bash-specific read -t comes in handy:
+
+mocha -w | ( while true; do MSG=""; while read -t .1 LINE; do MSG="$MSG $LINE"; done; if [ "$MSG" != "" ]; then notify-send -t 5000 "$MSG"; fi; done; )
+
+This aggregates all lines which come in in the timeframe of 1/10th second in one message. You can adjust this timeout to fit your needs. Note that this is bash-specific, other shells (i.e. dash) may not support it.
+shareimprove this answer
+
 ROLLING
 =====
 
