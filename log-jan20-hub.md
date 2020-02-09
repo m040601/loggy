@@ -1,3 +1,9 @@
+MORE RSS
+====
+
+https://openwrt.org/feed.php
+https://www.youtube.com/channel/UCj4SLNED1DiNPHComZTCbzw rex krueger woodworikng for human approved
+
 HELPDESK
 =====
 
@@ -197,6 +203,20 @@ justinmk dirvish keep netrw gx
       
         
 
+SHELL
+=====
+
+
+
+tree a directroy and create and index.html
+-----
+	
+
+"I'd love to see an extreeeemely minimal tool which lets you drop some files in a folder and then create an index page that links to those."
+
+I use the tree command on BSD to do just that. It has the option of creating html output with a number of additional options.
+
+An example: tree -P *.txt -FC -H http://baseHREF -T 'Your Title' -o index.html
 THESETUP
 ====
 
@@ -650,6 +670,19 @@ the setup
 
 
 
+### tmux setup
+
+tmux list-keys
+tmux list-commands
+tmux show-environment
+DISPLAY=:0
+-SSH_AGENT_PID
+-SSH_ASKPASS
+-SSH_CONNECTION
+TERM=rxvt-unicode-256color
+WINDOWID=29360137
+XAUTHORITY=/home/mmc1/.Xauthority
+
 ### tmux and infocmp
 pkgfile infocmp
 core/ncurses
@@ -837,6 +870,7 @@ resolve is for adds
 numeric is for ports
 
 
+
 METABEST
 ====
 
@@ -984,6 +1018,19 @@ vimdot is a simple script which launches the gvim or vim editor
 along with a GUI window showing the dot output of the edited file.
 The dot output window automatically refreshes everytime the file
 is saved in the editor.
+
+[nickspaargaren/pihole-google: Completely block Google and its services](https://github.com/nickspaargaren/pihole-google)
+-----
+
+
+
+
+OpenPrinting 
+----
+[Open Printing - OpenPrinting](https://openprinting.github.io/)
+
+> OpenPrinting hosts a Printer Compatibility Database. It contains
+> entries from both the Foomatic Package and the community.
 
 METABESTBEST
 =====
@@ -1214,6 +1261,17 @@ anki vim [tbabej/knowledge: Never forget anything!](https://github.com/tbabej/kn
 
 
 
+
+tree a directroy and create and index.html
+-----
+	
+every 50 days ago [-]
+
+"I'd love to see an extreeeemely minimal tool which lets you drop some files in a folder and then create an index page that links to those."
+
+I use the tree command on BSD to do just that. It has the option of creating html output with a number of additional options.
+
+An example: tree -P *.txt -FC -H http://baseHREF -T 'Your Title' -o index.html
 ROLLING
 =====
 
@@ -1257,6 +1315,74 @@ The above command w
 
 
 
+
+metabest (imagemagick convert et al ) Images done right: Web graphics, good to the last byte — Martian Chronicles, Evil Martians
+-----
+
+TLDR 
+However, even with all the WebP’s technical prowess, JPEG and PNG are
+not leaving the ring anywhere soon as it only works in browsers
+environments: if you save a WebP image to a disk, you most likely won’t
+be able to open it with default image viewing software on your system..
+
+- convert (magick) enough for most cases
+- mozjpge
+- webp is the future
+- Using GIFs for animations on your webpage in 2019 is an incredibly bad idea.
+- You are better off publishing your animated content as video files: either MP4 or WebM.
+
+
+
+
+
+To summarize, JPEG is fine to be used in:
+
+    Backgrounds;
+    large camera photos: avatars, banners, etc.;
+    images when super-precise quality is not our goal.
+
+To summarize, PNG is ideal for:
+
+    Images that need to be transparent;
+    charts, schemes, highly detailed maps, and details matter;
+    images that contain text.
+
+
+webp
+But as you will soon see, the advantages outweigh compatibility
+problems. A lossless flavor of WebP outperforms PNG by still keeping
+images sharp and transparent while the lossy version of the format wipes
+the floor with JPEG and still supports opacity..
+
+Where WebP really shines is the compression at the lowest possible
+quality. WebP at quality 0% is still perceived much better by your eyes
+than JPEG at quality 10%..
+
+
+
+[Images done right: Web graphics, good to the last byte — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/images-done-right-web-graphics-good-to-the-last-byte-optimization-techniques)
+
+> `convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85%
+> image.jpg image_new.jpg`
+
+identify -format "%[interlace]" your_file_name.jpg
+
+
+### anim gifs
+
+But enough talk, time to crunch some numbers. We will start with a
+cheesy GIF source and convert it to WebP, APNG, AV1 as MP4, H.264 as
+MP4, and WebM to detect a winner. We will use CLI tools gif2webp and
+gif2apng, as well as ffmpeg. We will also use GIMP as an alternative way
+to convert GIF to WebP..
+
+The size of the GIF is reduced by 90% when using video codecs and by 67%
+using compressed WebP by GIMP. So if you want to make the web faster
+(and better), think about always using MP4 as an animated image instead
+of GIF. See, you don’t have to be a 10x engineer to reduce the size of
+the assets by 10x!.
+;w
+;w
 PI
 ===
 
