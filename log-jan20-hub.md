@@ -170,9 +170,103 @@ readability
 
 [zyocum/reader: Extract clean(er), readable text from web pages via Mercury Web Parser.](https://github.com/zyocum/reader)
 
-> The creators of the Mercury Web Parser initially offered it as a free service via a ReSTful API, but have since open sourced it. The API was shut down April 15, 2019. To continue using the parser, install its command-line driver using [`yarn`](https://github.com/yarnpkg/yarn) or [`npm`](https://github.com/npm/cli) package managers:
+> The creators of the Mercury Web Parser initially offered it as a free
+> service via a ReSTful API, but have since open sourced it. The API was
+> shut down April 15, 2019. To continue using the parser, install its
+> command-line driver using [`yarn`](https://github.com/yarnpkg/yarn) or
+> [`npm`](https://github.com/npm/cli) package managers:
 
 
+
+
+### pandoc epub from clean html from mercury
+
+[How can I create a TOC based on input files? - Grupos do Google](https://groups.google.com/forum/#!topic/pandoc-discuss/SKotTwiXwCE)
+
+	> I use mercury-parser to save web pages as clean HTML. I like to merge some of these pages into a single epub. I currently use this command:  
+	> pandoc --toc -s *.html -o fruit2.epub  
+	> But this creates an empty toc, as the files themselves don’t have whatever formatting hints pandoc uses to detect sections; I’d like to have a toc based on the input file themselves (each input file = a section). How do I go about achieving that?  
+	> 
+	> Mostrar conteúdo cortado
+
+
+Sections are constructed based on heading elements. (h1, h2, etc.
+in HTML.)
+
+So, assuming your documents have h2s and not h1s, you'd need to
+insert an h1 with the title of the chapter in front of each html
+file.
+
+
+
+
+MAPS
+====
+
+metabest blender gis
+----
+[domlysz/BlenderGIS: Blender addons to make the bridge between Blender and geographic data](https://github.com/domlysz/BlenderGIS)
+
+PANDOC
+=====
+
+
+barcode isbn qrcode
+-----
+
+[daamien/pandoc-latex-barcode: A pandoc filter to insert barcodes and QR codes in a latex/pdf document](https://github.com/daamien/pandoc-latex-barcode)
+
+emphasize lines in code blocks
+----
+
+[pandoc-emphasize-code](https://owickstrom.github.io/pandoc-emphasize-code/)
+
+> This filter lets you specify _ranges_ of a code block to emphasize,
+> and have the filter generate the appropriate markup for you. It
+> recognizes code blocks with the `emphasize` attribute present:.
+
+
+owickstrom/pandoc-include-code: A Pandoc filter for including code from source files
+------
+(https://github.com/owickstrom/pandoc-include-code).
+
+
+level up
+----
+[daamien/pandoc-latex-levelup: A pandoc filter to shift the level of all headers in a latex/pdf output](https://github.com/daamien/pandoc-latex-levelup)
+
+typademic (python) service
+----
+
+[maehr/typademic: Typademic turns distraction freely written markdown files into beautiful PDFs.](https://github.com/maehr/typademic)
+
+> ### Prerequisites
+> 
+> Install all this to use all functions of typademic.
+> 
+> -   [Google Fonts](https://github.com/google/fonts)
+> -   [LaTeX](https://www.latex-project.org/get/)
+> -   [Pandoc](http://pandoc.org/installing.html)
+> -   [Pandoc Citeproc](https://github.com/jgm/pandoc-citeproc)
+> -   [Python 3](https://www.python.org/downloads/)
+> -   [OpenSSL](https://www.openssl.org/source/)
+> 
+> #### Mac with [Homebrew](https://brew.sh/index_de)
+> 
+> brew install python openssl mactex pandoc pandoc-citeproc wget
+
+
+bookmanager yaml
+----
+[cyberaide/bookmanager](https://github.com/cyberaide/bookmanager)
+
+> Bookmanager is a tool to create a publication from a number of sources
+> on the internet. It is especially useful to create customized books,
+> lecture notes, or handouts. Content is best integrated in markdown
+> format as it is very fast to produce the output. At present we only
+> produce ePubs, but it will be easy to also create pdf, html, work, odt
+> and others. As we use pandoc we can support the formats supported by
+> it..
 KOBO
 ====
 
@@ -589,6 +683,9 @@ https://github.com/lervag/dotfiles
 
 [includeIf "gitdir:~/.vim/"]
   path = .gitconfig-personal
+
+
+
 NEWTOOLS
 ===
 
@@ -748,6 +845,28 @@ metabest sdunpack (rust stardict) plato bspwm guy
 -----
 [baskerville/sdunpack: Unpack a StarDict dictionary as plain text](https://github.com/baskerville/sdunpack)
 
+cargo install --path .
+
+Usage
+
+sdunpack file.dict < file.idx > file.txt
+
+Convert StarDict to dictd
+
+dictzip -d file.dict.dz
+sdunpack file.dict < file.idx > file.txt
+dictfmt --utf8 --index-keep-orig --headword-separator '|' -s "ShortName" -u "URL" -t file2 < file.txt
+dictzip file2.dict
+
+
+metatop komposition keyboard driven modal haskell vid editor - autodetec clips sentences
+----
+pandoc guy [owickstrom/komposition: The video editor built for screencasters](https://github.com/owickstrom/komposition)
+
+Komposition automatically detects scenes in screen capture video,
+automatically detects sentences in voice-over audio recordings, and
+features a high-productivity editing workflow based on keyboard
+navigation..
 
 NEWTOOLSWEB
 =====
@@ -993,10 +1112,59 @@ inputrc bash
 ----
 
 
-C-- undo
-C-_
-or
-C-X C-u
+	C-- undo
+	C-_
+	or
+	C-X C-u
+
+
+
+bash "command list" copy paste a snippet without semi colon encased in parentesis for readability
+----
+
+POSIX-compliant systems
+
+If you have curl or wget, you can install pandoc-zotxt.lua by
+copy-pasting the following commands into a bourne shell:
+
+(
+    set -Cefu
+    NAME=pandoc-zotxt.lua VERS=0.3.17
+    URL="https://github.com/odkr/${NAME:?}/archive/v${VERS:?}.tar.gz"
+    FILTERS="${HOME:?}/.pandoc/filters"
+    mkdir -p "${FILTERS:?}"
+    cd -P "$FILTERS" || exit
+    {
+        curl -L "$URL" || ERR=$?
+        [ "${ERR-0}" -eq 127 ] && wget -O - "$URL"
+    } | tar xz
+    mv "$NAME-$VERS/pandoc-zotxt.lua" .
+)
+
+
+###  command grouping
+
+[Command Grouping (Bash Reference Manual)](https://www.gnu.org/software/bash/manual/html_node/Command-Grouping.html)
+
+	> #### 3.2.4.3 Grouping Commands
+	> 
+	> Bash provides two ways to group a list of commands to be executed as a unit. When commands are grouped, redirections may be applied to the entire command list. For example, the output of all the commands in the list may be redirected to a single stream.
+	> 
+	> `()`
+	> 
+	> ( list )
+	> 
+	> Placing a list of commands between parentheses causes a subshell environment to be created (see [Command Execution Environment](https://www.gnu.org/software/bash/manual/html_node/Command-Execution-Environment.html#Command-Execution-Environment)), and each of the commands in list to be executed in that subshell. Since the list is executed in a subshell, variable assignments do not remain in effect after the subshell completes.
+	> 
+	> `{}`
+	> 
+	> { list; }
+	> 
+	> Placing a list of commands between curly braces causes the list to be executed in the current shell context. No subshell is created. The semicolon (or newline) following list is required.
+	> 
+	> In addition to the creation of a subshell, there is a subtle difference between these two constructs due to historical reasons. The braces are `reserved words`, so they must be separated from the list by `blank`s or other shell metacharacters. The parentheses are `operators`, and are recognized as separate tokens by the shell even if they are not separated from the list by whitespace.
+	> 
+	> The exit status of both of these constructs is the exit status of list.
 
 
 METABEST
@@ -1166,6 +1334,31 @@ OpenPrinting
 
 great book Clif Flynt,_ Sarath Lakshman,_ Shantanu Tushar - Linux Shell Scripting Cookbook (2017, Packt Publishing).epub
 ----
+
+
+baskerville guy curl with colours printf commandline fu
+-----
+
+https://github.com/baskerville/bin
+
+
+	#! /bin/sh
+
+	[ "$@" ] || exit 1
+
+	gray=$(printf '\033[1;30m')
+	reset=$(printf '\033[0m')
+	tmpout=$(mktemp /tmp/fu.XXXX)
+
+	curl -s "https://www.commandlinefu.com/commands/matching/$@/$(printf "%s" "$@" | openssl base64)/plaintext" | grep -v "^# commandlinefu" > "$tmpout"
+
+	if [ -t 1 ] ; then
+	    sed 's/^#.*/'$gray'&'$reset'/g' "$tmpout"
+	else
+	    cat "$tmpout"
+	fi
+
+	rm "$tmpout"
 METABESTBEST
 =====
 a la recutils - yaml file to sqlite  - Niche Museums  simonw
