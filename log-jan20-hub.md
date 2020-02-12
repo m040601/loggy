@@ -154,6 +154,21 @@ I have it doing custom things as well
 MICROTOPICS
 ====
 
+hugo jekyll
+----
+
+
+### habd.as - after dark hugo theme
+
+> Pages on [habd.as](https://habd.as) are powered by
+> [Hugo](https://gohugo.io) using the [After
+> Dark](https://habd.as/code/after-dark/) theme. Most text is written
+> and stored in a markdown-like format known as
+> [CommonMark](https://commonmark.org) with embedded
+> [shortcodes](https://after-dark.habd.as/shortcode/) to facilitate
+> reuse of common interface elements such as an
+> [alert](https://after-dark.habd.as/shortcode/alert/).
+
 readability
 -------
 
@@ -206,6 +221,40 @@ MAPS
 metabest blender gis
 ----
 [domlysz/BlenderGIS: Blender addons to make the bridge between Blender and geographic data](https://github.com/domlysz/BlenderGIS)
+
+geojson.io to geojson.net https
+----
+[mapbox/geojson.io: IMPORTANT: development of this project has been paused, see the README (fast, simple map creation)](https://github.com/mapbox/geojson.io)
+
+> Note: development of geojson.io is currently paused. You may be
+> interested in the new fork at
+> [https://geojson.net](https://geojson.net). Until development
+> restarts, please refrain from adding issues to the tracker..
+
+
+Framacarte  - umap
+----
+[Framacarte](https://framacarte.org/en/)
+
+
+cute umap hemicycle french parlament umap
+----
+
+https://umap.openstreetmap.fr/en/map/hemicycle-idf_70859#5/-34.615/20.962
+
+METABEST geojson.io cli tools  semi-abandoned npm
+----
+
+[mapbox/geojson.io: IMPORTANT: development of this project has been paused, see the README (fast, simple map creation)](https://github.com/mapbox/geojson.io)
+
+> ## Goes Great With!
+> 
+> **Tools**
+> 
+> -   [Using geojson.io with GitHub is better with the Chrome Extension](https://chrome.google.com/webstore/detail/geojsonio/oibjgofbhldcajfamjganpeacipebckp)
+> -   [geojsonio-cli](https://github.com/mapbox/geojsonio-cli) lets you shoot geojson from your terminal to geojson.io! (with nodejs)
+> -   [geojsonio.py](https://github.com/jwass/geojsonio.py) lets you shoot geojson from your terminal to geojson.io! (with python)
+> -   [reproject](https://github.com/perliedman/reproject) reprojects geojson on the fly, and then you can pipe to geojson.io!
 
 PANDOC
 =====
@@ -381,6 +430,49 @@ buku To avoid title fetch from the web, add the `--title` option to the script.
 > To avoid title fetch from the web, add the `--title` option to the script.
 > 
 > To verify that the bookmark has indeed been added, run:
+
+
+duckduckgo params 
+----
+
+[DuckDuckGo URL Parameters](https://start.duckduckgo.com/params)
+
+[DuckDuckGo URL Parameters](https://start.duckduckgo.com/params)
+
+> You can change [DuckDuckGo settings](https://start.duckduckgo.com/settings) via URL parameters by adding them after the search query, for example:
+> 
+>     https://duckduckgo.com/?q=search&kp=-1&kl=us-en
+
+
+[DarkDuckGo | habd.as](https://habd.as/post/darkduckgo/)
+
+> Combining all parameters results in the following otherwise unintelligible URL I use to search the Web more privately:
+> 
+> [3g2upl4pq6kufc4m.onion/?kp=-2&kn=1&kaf=1&kd=-1&kh=1&kg=p&k5=2&ko-1&kam=osm&kae=t&k1=-1&k7=2e3440](https://3g2upl4pq6kufc4m.onion/?kp=-2&kn=1&kaf=1&kd=-1&kh=1&kg=p&k5=2&ko-1&kam=osm&kae=t&k1=-1&k7=2e3440)
+> 
+> If you're not running Tor, you can still use the params using clearnet
+> search by replacing the Onion domain name with
+> [start.duckduckgo.com](https://start.duckduckgo.com). And that's how
+> you DarkDuckGo..
+
+
+firefox usercontent.css not userchrome.css black new page tab
+---
+
+This hack may not work if you've secured Firefox to bypass telemetry and
+start directly from about:blank or about:newtab. In Linux Manjaro, for
+instance, Firefox disregards the user styles unless opening a second
+tab. To work around the WTOD showing when the browser starts see Hack
+2..
+
+[Burying Firefox's White Tab of Death | habd.as](https://habd.as/post/burying-firefox-white-tab-death/)
+
+
+body:empty {
+  background: black;
+}
+
+
 NEOVIM
 =====
 
@@ -868,6 +960,9 @@ automatically detects sentences in voice-over audio recordings, and
 features a high-productivity editing workflow based on keyboard
 navigation..
 
+
+socli - stackexchange cli pip install socli
+---
 NEWTOOLSWEB
 =====
 
@@ -1359,6 +1454,20 @@ https://github.com/baskerville/bin
 	fi
 
 	rm "$tmpout"
+
+
+habd.as - after dark hugo theme
+----
+
+> Pages on [habd.as](https://habd.as) are powered by
+> [Hugo](https://gohugo.io) using the [After
+> Dark](https://habd.as/code/after-dark/) theme. Most text is written
+> and stored in a markdown-like format known as
+> [CommonMark](https://commonmark.org) with embedded
+> [shortcodes](https://after-dark.habd.as/shortcode/) to facilitate
+> reuse of common interface elements such as an
+> [alert](https://after-dark.habd.as/shortcode/alert/).
+
 METABESTBEST
 =====
 a la recutils - yaml file to sqlite  - Niche Museums  simonw
