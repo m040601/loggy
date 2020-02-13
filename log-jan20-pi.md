@@ -16,7 +16,12 @@ rolling
 
 
 [3DPCBoy – build your own handheld gaming platform – Johan von Konow](https://vonkonow.com/wordpress/2020/01/3dpcboy-build-your-own-handheld-gaming-platform/)
-
+3DPCBoy is using a rather unique approach – is not built around a glass
+fiber PCB like most electronics. Instead it uses a 3D Printed Circuit
+Board (3DPCB). This makes it easier to replicate, less expensive and you
+don’t need to wait for a PCB delivery. If you want to know more about
+3DPCB, or use it in your own project, you can read about the development
+here . 
 
 
 Foldable 3D printed Arduino case – Johan von Konow
