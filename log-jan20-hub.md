@@ -473,6 +473,9 @@ body:empty {
 }
 
 
+metabest Swift Selection Search (SSS) is a simple Firefox add-on 
+----
+[CanisLupus/swift-selection-search: Swift Selection Search (SSS) is a simple Firefox add-on that lets you quickly search for some text in a page using your favorite search engines.](https://github.com/CanisLupus/swift-selection-search)
 NEOVIM
 =====
 
@@ -492,6 +495,18 @@ justinmk dirvish keep netrw gx
 > " Disable netrw, but autoload it for \`gx\`. let g:loaded_netrwPlugin = 0 nmap gx <Plug>NetrwBrowseX nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(expand((exists("g:netrw_gx")? g:netrw_gx : '<cfile>')),netrw#CheckIfRemote())<CR>
       
         
+
+metatop new plugin - fzf preview (float bling) - more blingy than fzf.vim
+-----
+https://old.reddit.com/r/neovim/comments/ezs67g/neovim_plugin_that_provides_fzf_preset_with/
+[yuki-ycino/fzf-preview.vim: Plugin to handle fzf powerfully with neovim](https://github.com/yuki-ycino/fzf-preview.vim)
+
+> fzf-preview is a Neovim plugin that provides a preset of commands using fzf.  
+> Provides multiple resources and a preview command for it.
+> 
+> fzf-preview mainly uses neovim floating window. vim may work depending on the setting, but it is not recommended.
+> 
+> This plugin does not use [fzf.vim](https://github.com/junegunn/fzf.vim) but uses the library attached to fzf. Though it is different from this plugin and has a lot of functions, [fzf.vim](https://github.com/junegunn/fzf.vim) has no preview of the project's file list and grep on the interactive project.
 
 SHELL
 =====
@@ -970,6 +985,50 @@ NEWTOOLSWEB
 ----
 (https://github.com/mayswind/AriaNg)
 AriaNg is a modern web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment. You can just put AriaNg in your web server and open it in your browser. AriaNg uses responsive layout, and supports any desktop or mobile devices.
+
+
+foodsharing (repo android app)
+----
+[foodsharing-dev / foodsharing · GitLab](https://gitlab.com/foodsharing-dev/foodsharing)
+> This is the code that powers [foodsharing.de](https://foodsharing.de), [foodsharing.at](https://foodsharing.at), and [foodsharingschweiz.ch](https://foodsharingschweiz.ch).
+
+https://gitlab.com/foodsharing-dev/foodsharing-android
+
+[Intermediate status of the Android App](https://devblog.foodsharing.de/2019/09/01/Android-App-en.html)
+
+> We had considered that we needed an app to improve the manageability
+> of food baskets for all users of www.foodsharing.de In the long run,
+> all foodsaver functions will be built on this basis without replacing
+> the website. Advantages of a smartphone app are the “sensors” that
+> come with it, such as camera, GPS and positioning. We have yet to
+> focus on the development of the Apple (iOS) App..
+
+
+https://devdocs.foodsharing.network/getting-the-code.html
+
+[foodsharing is finally Open Source!](https://devblog.foodsharing.de/2019/08/26/open-source.html)
+
+NEWTOOLSCLI
+====
+
+yay -S github-cli (official)
+----
+For many years, hub was the unofficial GitHub CLI tool. gh is a new
+project for us to explore what an official GitHub CLI tool can look like
+with a fundamentally different design. While both tools bring GitHub to
+the terminal, hub behaves as a proxy to git and gh is a standalone
+tool..
+
+again alwaysontop bash tput prompt jugglery (2016)
+----
+[swirepe/alwaysontop: Keep the input line at the top of the terminal](https://github.com/swirepe/alwaysontop)
+
+> It keeps your bash prompt at the top of the screen. It also:
+> 
+> -   clears the screen automatically
+> -   lists the contents of directories upon entering them
+> -   abbreviates those contents of there would be too many.
+> -   shows the git or svn status in directories that have them
 
 FUCK
 ====

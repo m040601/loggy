@@ -350,3 +350,16 @@ Hervieu as a Europe-wide successor to the French Groupe de Seillac
 reform of the European Union's Common Agricultural Policy in the early
 1990s. Through its life, the Groupe has enjoyed funding from the Swiss
 Charles-Leopold Mayer foundation. .
+
+Foodsharing.de (open source cms)
+----
+https://devblog.foodsharing.de/index.en.html
+[Foodsharing.de - Wikipedia](https://en.wikipedia.org/wiki/Foodsharing.de)
+
+> In 2018 and 2019, the team behind www.foodsharing.de published the
+> source
+> code[\[9\]](https://en.wikipedia.org/wiki/Foodsharing.de#cite_note-9)
+> and worked on the development of a mobile
+> app.[\[10\]](https://en.wikipedia.org/wiki/Foodsharing.de#cite_note-10).
+
+[foodsharing is finally Open Source!](https://devblog.foodsharing.de/2019/08/26/open-source.html)
