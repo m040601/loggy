@@ -978,6 +978,16 @@ navigation..
 
 socli - stackexchange cli pip install socli
 ---
+
+metabest (aur clean simple fzf ) fontpreview (qr transfer arch guy)
+----
+
+[sdushantha/fontpreview: 🔡 Very customizable and minimal font previewer written in bash](https://github.com/sdushantha/fontpreview)
+
+drill-srs (pip)
+----
+[rr-/drill: A CLI program for learning things through spaced repetition.](https://github.com/rr-/drill)
+
 NEWTOOLSWEB
 =====
 
