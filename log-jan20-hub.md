@@ -1,3 +1,5 @@
+vim: ft=markdown
+
 MORE RSS
 ====
 
@@ -377,6 +379,10 @@ Hit Esc to exit selection mode.
 
 
 
+
+Monitoring OpenWrt with collectd, InfluxDB and Grafana 
+----
+[Monitoring OpenWrt with collectd, InfluxDB and Grafana | Just another Linux geek](https://blog.christophersmart.com/2019/09/09/monitoring-openwrt-with-collectd-influxdb-and-grafana/)
 
 BROWSER
 ====
@@ -988,6 +994,10 @@ drill-srs (pip)
 ----
 [rr-/drill: A CLI program for learning things through spaced repetition.](https://github.com/rr-/drill)
 
+md2html - md4c commonmarkdown compliant c parser
+----
+[mity/md4c: C Markdown parser. Fast. SAX-like interface. Compliant to CommonMark specification.](https://github.com/mity/md4c)
+
 NEWTOOLSWEB
 =====
 
@@ -1269,6 +1279,22 @@ numeric is for ports
 
 
 
+
+vim dont
+----
+
+dont
+n thisfile
+...stuff
+ZZ
+n thatfile
+...stuf
+ZZZ
+
+
+do
+n this that
+unimpairad ]a [a
 FUCKFUCK
 ====
 
@@ -1331,6 +1357,9 @@ copy-pasting the following commands into a bourne shell:
 	> The exit status of both of these constructs is the exit status of list.
 
 
+
+imv icp renameutils
+----
 METABEST
 ====
 metabest sdunpack (rust stardict) plato bspwm guy
@@ -2050,8 +2079,7 @@ using compressed WebP by GIMP. So if you want to make the web faster
 (and better), think about always using MP4 as an animated image instead
 of GIF. See, you don’t have to be a 10x engineer to reduce the size of
 the assets by 10x!.
-;w
-;w
+
 PI
 ===
 
