@@ -482,6 +482,20 @@ body:empty {
 metabest Swift Selection Search (SSS) is a simple Firefox add-on 
 ----
 [CanisLupus/swift-selection-search: Swift Selection Search (SSS) is a simple Firefox add-on that lets you quickly search for some text in a page using your favorite search engines.](https://github.com/CanisLupus/swift-selection-search)
+
+
+qutebrowsre config cycle this or that
+----
+
+
+        <Alt+m>: message-info 'Toggling desktop/mobile';; config-cycle content.headers.user_agent
+          'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36' 'Mozilla/5.0
+          ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko) {qt_key}/{qt_version}
+          {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}'
+
+
+
 NEOVIM
 =====
 
