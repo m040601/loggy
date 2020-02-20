@@ -79,6 +79,97 @@ install. Finally an SDR was used to debug the operation of the radio.\\
 3d
 ====
 
+solar
+====
+
+das-energy.com
+----
+
+DAS Energy combines fibreglass materials from aircraft construction with
+crystalline silicon solar cells. With this unique development, the
+company has sought specialization in the manufacturing of flexible,
+ultra-lightweight photovoltaic modules..
+
+https://www.das-energy.com/
+
+
+victron start canoes end 1000 km trip romania - das-energy flexible
+----
+[Start with a Solar Canoe, end up with a Solar Cat or two… | Victron Energy](https://www.victronenergy.com/blog/2019/11/21/start-with-a-solar-canoe-end-up-with-a-solar-cat-or-two/)
+
+“My next goal is to upgrade to a 48v electric system with more solar
+panels and of course a bigger outboard engine to achieve an epic trip of
+more than 1,000 km on the Danube river in Romania using only solar power
+and to prove that this technology is sustainable and will have a bigger
+impact in the future for all of us.”.
+
+https://www.youtube.com/channel/UCkZOf4if3ny19DhAA92SNsg
+https://bogdanminitehnicus.ro/
+https://www.darcomenergy.ro/
+https://www.das-energy.com/
+
+victron and the pi arduino esp8266
+----
+https://github.com/victronenergy
+
+[Open source [Victron Energy]](https://www.victronenergy.com/live/open_source:start)
+
+> Victron Energy has committed itself to make certain of its projects
+> open source. On this page you'll find more information about available
+> sources and projects..
+
+
+Venus uses OpenEmbedded as build system.
+
+https://www.victronenergy.com/blog/2017/09/06/raspberry-pi-running-victrons-venus-firmware/
+
+### caravans forum
+https://www.caravanersforum.com/viewtopic.php?t=63614
+### Venus OS is the software on our GX Product family.
+[raspberrypi install venus image · victronenergy/venus Wiki](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image)
+
+> Note that the Raspberry Pi image is a community effort: do not contact
+> our service department or sales managers with questions about it. For
+> any questions or issues, contact us on the venus-dev mailing list..
+
+
+
+victron energy alicante holland maia boats animales in alicante algarve ovibeja isoladas
+----
+https://www.victronenergy.com.es/
+https://www.victronenergy.com/blog/2020/02/04/power-in-the-wilderness/
+[Where to buy - Victron Energy](https://www.victronenergy.com/where-to-buy)
+
+### pt
+https://www.victronenergy.com.es/
+http://www.dc-pv.com/en/home-2/ algarve
+https://solar-algarve.com/
+
+http://www.lcpower.com.pt/ maia
+http://www.revez-solar.com/ beja
+### spain
+https://tecnovasolenergia.com/blog/category/trabajos-realizados/
+
+metatop solaranzeige.de  - die mallorca finca , boots et al
+-----
+
+[Informationen über die Finca 'live Demo' - Solaranzeige / PV-Monitor](https://solaranzeige.de/phpBB3/viewtopic.php?f=4&t=71)
+
+[Solaranzeige / PV-Monitor - Solaranzeige](https://solaranzeige.de/phpBB3/solaranzeige.php)
+
+> Die Solaranzeige ist ein OPEN SOURCE Projekt. Genaue Informationen
+> darüber finden Sie auf unserem
+
+Victron BlueSolar & the Raspberry Pi – Having fun with solar
+----
+[Victron BlueSolar & the Raspberry Pi – Having fun with solar | Miles Burton - M0LHA](https://blog.milesburton.com/2015/09/05/victron-bluesolar-the-raspberry-pi-having-fun-with-solar/)
+> Posted on [September 5, 2015](https://blog.milesburton.com/2015/09/05/victron-bluesolar-the-raspberry-pi-having-fun-with-solar/ "7:43 pm") by [Miles](https://blog.milesburton.com/author/teammcs/ "View all posts by Miles") — [1 Comment](https://blog.milesburton.com/2015/09/05/victron-bluesolar-the-raspberry-pi-having-fun-with-solar/#comments)
+> 
+> It’s been a lot of fun playing with my cheapo Chinese PWM controller, but it was time to scale up.[![regulador-de-voltage-para-panel-solar-30-amp-12-24v_MLU-F-3231525082_102012](https://milesburton.files.wordpress.com/2015/09/regulador-de-voltage-para-panel-solar-30-amp-12-24v_mlu-f-3231525082_102012.jpg?w=171&h=128)](https://milesburton.files.wordpress.com/2015/09/regulador-de-voltage-para-panel-solar-30-amp-12-24v_mlu-f-3231525082_102012.jpg)
+> 
+> Victron, based in Germany, have gained a significant amount of respect within the hobbyist and professional circles over the last few years. After poking around a number of MPPT charge controllers, my heart was set on the BlueSolar 100/30.
+
+
 rolling
 ====
 
@@ -106,4 +197,22 @@ Foldable 3D printed Arduino case – Johan von Konow
 ----
 
 (https://vonkonow.com/wordpress/2019/11/foldable-3d-printed-arduino-case/),
+
+[Openembedded.org](https://www.openembedded.org/wiki/Main_Page)
+----
+
+[Buildroot - Wikipedia](https://en.wikipedia.org/wiki/Buildroot)
+----
+
+> **Buildroot** is a set of
+> [Makefiles](https://en.wikipedia.org/wiki/Makefile "Makefile") and
+> [patches](https://en.wikipedia.org/wiki/Patch_(Unix) "Patch (Unix)")
+> that simplifies and automates the process of building a complete and
+> bootable [Linux](https://en.wikipedia.org/wiki/Linux "Linux")
+> environment for an [embedded
+> system](https://en.wikipedia.org/wiki/Embedded_system "Embedded
+> system"), while using
+> [cross-compilation](https://en.wikipedia.org/wiki/Cross_compiler
+> "Cross compiler") to allow building for multiple target platforms on a
+> single Linux-based development system..
 

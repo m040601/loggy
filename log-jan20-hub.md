@@ -496,6 +496,48 @@ qutebrowsre config cycle this or that
 
 
 
+
+
+export MOZ_USE_XINPUT2=1
+----
+[Firefox - ArchWiki](https://wiki.archlinux.org/index.php/Firefox)
+
+> o enable touch gestures (like scrolling and pinch-to-zoom) and
+> one-to-one trackpad scrolling (as can be witnessed with GTK3
+> applications like Nautilus), set the `MOZ_USE_XINPUT2=1` [environment
+> variable](https://wiki.archlinux.org/index.php/Environment_variable
+> "Environment variable") before starting Firefox.
+
+[Add 'export MOZ_USE_XINPUT2=1' to ~/.xsessionrc and disable “Use smooth scroll... | Hacker News](https://news.ycombinator.com/item?id=18974228)
+
+> [dsego](https://news.ycombinator.com/user?id=dsego) [on Jan 23, 2019](https://news.ycombinator.com/item?id=18974228) | [parent](https://news.ycombinator.com/item?id=18973746) | [favorite](https://news.ycombinator.com/fave?id=18974228&auth=ed7cbf59abaac098017e46f96fb37fbbf5ca701f) | on: [Google proposes changes to Chromium which would di...](https://news.ycombinator.com/item?id=18973477)
+> 
+>   
+> 
+> Add 'export MOZ\_USE\_XINPUT2=1' to ~/.xsessionrc and disable “Use smooth scrolling” to get the real smooth scrolling.
+> 
+>   
+>   
+> 
+> ![](https://news.ycombinator.com/s.gif)
+> 
+> [abrowne](https://news.ycombinator.com/user?id=abrowne) [on Jan 23, 2019](https://news.ycombinator.com/item?id=18974382)[](javascript:void(0))
+> 
+>   
+> 
+> +100 This is the first setting I change on a new Linux laptop install.
+> 
+> You can also disable smooth scrolling only for the touchpad in
+> about:config to keep the animation for scrolling with the keyboard.
+> Search for "smooth"; I think it's the mouseWheel one, but I'm not at
+> home to verify.
+
+firefox tmp log
+----
+
+[HTTP logging - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Debugging/HTTP_logging)
+
+
 NEOVIM
 =====
 
@@ -542,6 +584,14 @@ tree a directroy and create and index.html
 I use the tree command on BSD to do just that. It has the option of creating html output with a number of additional options.
 
 An example: tree -P *.txt -FC -H http://baseHREF -T 'Your Title' -o index.html
+
+
+more  tricks - command fu
+------
+
+
+grep -Ev '^#|^$' <file> will display file content without comments or empty lines."
+
 THESETUP
 ====
 
@@ -1012,6 +1062,13 @@ md2html - md4c commonmarkdown compliant c parser
 ----
 [mity/md4c: C Markdown parser. Fast. SAX-like interface. Compliant to CommonMark specification.](https://github.com/mity/md4c)
 
+glutanimate/PDFMtEd: View and modify PDF metadata on Linux graphically
+-----
+[glutanimate/PDFMtEd: View and modify PDF metadata on Linux graphically](https://github.com/glutanimate/PDFMtEd)
+
+> PDFMtEd Editor is an easy-to-use graphical metadata editor that
+> supports viewing and modifying all major metadata fields found in PDF
+> documents..
 NEWTOOLSWEB
 =====
 
@@ -1374,6 +1431,44 @@ copy-pasting the following commands into a bourne shell:
 
 imv icp renameutils
 ----
+
+
+export MOZ_USE_XINPUT2=1
+----
+[Firefox - ArchWiki](https://wiki.archlinux.org/index.php/Firefox)
+
+> o enable touch gestures (like scrolling and pinch-to-zoom) and
+> one-to-one trackpad scrolling (as can be witnessed with GTK3
+> applications like Nautilus), set the `MOZ_USE_XINPUT2=1` [environment
+> variable](https://wiki.archlinux.org/index.php/Environment_variable
+> "Environment variable") before starting Firefox.
+
+[Add 'export MOZ_USE_XINPUT2=1' to ~/.xsessionrc and disable “Use smooth scroll... | Hacker News](https://news.ycombinator.com/item?id=18974228)
+
+> [dsego](https://news.ycombinator.com/user?id=dsego) [on Jan 23, 2019](https://news.ycombinator.com/item?id=18974228) | [parent](https://news.ycombinator.com/item?id=18973746) | [favorite](https://news.ycombinator.com/fave?id=18974228&auth=ed7cbf59abaac098017e46f96fb37fbbf5ca701f) | on: [Google proposes changes to Chromium which would di...](https://news.ycombinator.com/item?id=18973477)
+> 
+>   
+> 
+> Add 'export MOZ\_USE\_XINPUT2=1' to ~/.xsessionrc and disable “Use smooth scrolling” to get the real smooth scrolling.
+> 
+>   
+>   
+> 
+> ![](https://news.ycombinator.com/s.gif)
+> 
+> [abrowne](https://news.ycombinator.com/user?id=abrowne) [on Jan 23, 2019](https://news.ycombinator.com/item?id=18974382)[](javascript:void(0))
+> 
+>   
+> 
+> +100 This is the first setting I change on a new Linux laptop install.
+> 
+> You can also disable smooth scrolling only for the touchpad in
+> about:config to keep the animation for scrolling with the keyboard.
+> Search for "smooth"; I think it's the mouseWheel one, but I'm not at
+> home to verify.
+
+
+
 METABEST
 ====
 metabest sdunpack (rust stardict) plato bspwm guy
