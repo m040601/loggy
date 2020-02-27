@@ -217,6 +217,62 @@ file.
 
 
 
+MORE TTY settert et al hackery
+-------
+
+
+### METABESTBEST - setsid - execute script on differente tty
+
+[bash - Start a process on a different tty - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/170063/start-a-process-on-a-different-tty)
+
+> fter about an hour of Googling this, I can't _believe_ nobody has actually asked this question before...
+> 
+> So I've got a script running on TTY1. How do I make that script launch some arbitrary program on TTY2?
+> 
+> -   I found `tty`, which tells you which TTY you're currently on.
+> -   I found `writevt`, which writes a single line of text onto a different TTY.
+> -   I found `chvt`, which changes which TTY is currently displayed.
+> 
+> I don't want to _display_ TTY2. I just want the main script to continue executing normally, but if I manually switch to TTY2 I can interact with the second program.
+> 
+> [bash](https://unix.stackexchange.com/questions/tagged/bash "show questions tagged 'bash'") [tty](https://unix.stackexchange.com/questions/tagged/tty "show questions tagged 'tty'")
+
+                                                                                                            
+                                                                                                            
+
+
+setsid sh -c 'exec command <> /dev/tty2 >&0 2>&1'
+
+As long as nothing else is using the other TTY (/dev/tty2 in this example), this should work. This includes a getty process that may be waiting for someone to login; having more than one process reading its input from a TTY will lead to unexpected results.
+
+setsid takes care of starting the command in a new session.
+
+Note that command will have to take care of setting the stty settings correctly, e.g. turn on "cooked mode" and onlcr so that outputting a newline will add a carriage return, etc.
+
+
+
+
+### tty vs console vs dev
+
+[Linux: Difference between /dev/console , /dev/tty and /dev/tty0 - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0)
+
+> 96
+> 
+> From the [documentation](https://www.kernel.org/doc/Documentation/admin-guide/devices.txt):
+> 
+>     /dev/tty        Current TTY device
+>     /dev/console    System console
+>     /dev/tty0       Current virtual console
+>     
+> 
+> In the good old days `/dev/console` was System Administrator console. And TTYs were users' serial devices attached to a server. Now `/dev/console` and `/dev/tty0` represent current display and usually are the same. You can override it for example by adding `console=ttyS0` to `grub.conf`. After that your `/dev/tty0` is a monitor and `/dev/console` is `/dev/ttyS0`.
+> 
+> An exercise to show the difference between `/dev/tty` and `/dev/tty0`:
+> 
+> Switch to the 2nd console by pressing Ctrl+Alt+F2. Login as `root`. Type `sleep 5; echo tty0 > /dev/tty0`. Press Enter and switch to the 3rd console by pressing Alt+F3. Now switch back to the 2nd console by pressing Alt+F2. Type `sleep 5; echo tty > /dev/tty`, press Enter and switch to the 3rd console.
+> 
+> You can see that `tty` is the console where process starts, and `tty0` is a always current console.
+
 MAPS
 ====
 
@@ -353,6 +409,11 @@ https://medium.com/@angeldan1989/how-to-export-notes-highlights-annotations-from
 
 OPENWRT
 ====
+
+metabest [OpenWrt Project: package: watchcat](https://openwrt.org/packages/pkgdata/watchcat)
+---
+
+> Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.\\\ \\\
 
 netperf and openwrt scripts (a la speedtest)
 ---
@@ -570,6 +631,109 @@ https://old.reddit.com/r/neovim/comments/ezs67g/neovim_plugin_that_provides_fzf_
 > 
 > This plugin does not use [fzf.vim](https://github.com/junegunn/fzf.vim) but uses the library attached to fzf. Though it is different from this plugin and has a lot of functions, [fzf.vim](https://github.com/junegunn/fzf.vim) has no preview of the project's file list and grep on the interactive project.
 
+
+
+
+metatop rnvimr float with ranger (different from ranger.vim)
+----
+
+https://old.reddit.com/r/neovim/comments/f3b62j/i_wrote_a_plugin_to_make_ranger_to_be_a_file/
+
+[kevinhwang91/rnvimr: Make Ranger running in a floating window to communicate with Neovim via RPC](https://github.com/kevinhwang91/rnvimr)
+
+> Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window.
+> 
+> Compared with other Ranger just running Ranger as a file picker, this plugin uses hacking tech to do whatever you want to Ranger, such as running rpc inside Ranger to communicate with neovim.
+> 
+> Different than other Ranger vim-plugins, rnvimr gives you full control over Ranger. It uses [RPC](https://neovim.io/doc/user/api.html#RPC) to communicate with Ranger.
+> 
+> **Since rnvimr requires RPC, this plugin does not support vim for now**
+
+Requir
+ements
+
+    Ranger
+    pynvim
+    neovim
+    ueberzug (optional, requires at least b58954)
+
+Features
+
+    Replaces the built-in Netrw as a default file explorer
+    Calibrated preview images for ueberzug
+    Attach file automatically when toggling Ranger
+    Runs RPC inside Ranger to communicate with NeoVim
+    Automatically adjusts floating window after resizing NeoVim
+    Fully customizable layouts for floating window
+
+:RnvimrSync will synchronize your personal Ranger configuration and plugins with rnvimr this time.
+
+Note: if your Ranger config changes, you will have to run :RnvimrSync in order to use your updated Ranger configuration with rnvimr
+
+Enter to open a file in Ranger. Rnvimr also supports CTRL-T/CTRL-X/CTRL-V key bindings that allow you to open up file in a new tab, a new horizontal split, or in a new vertical split.
+
+
+" Make Ranger replace netrw and be the file explorer
+let g:rnvimr_ex_enable = 1
+
+
+metabest vim-floaterm - another float terminal
+----
+
+[voldikss/vim-floaterm: Piilay with the nvim/vim's built-in terminal](https://github.com/voldikss/vim-floaterm#more-use-cases-and-demos)
+integrates with ranger fzf
+nvr
+another mygreppy
+----
+
+
+command! -nargs=+ Grep execute "silent lgrep! ".<q-args>." **"
+autocmd QuickFixCmdPost l* nested cwindow
+
+    permalinkembedsavereportreply
+
+[–]-romainl-The Patient Vimmer 4 points 3 days ago 
+
+augroup SomeName
+    autocmd!
+    autocmd QuickFixCmdPost l* nested cwindow
+augroup END
+
+    permalinkembedsaveparentreportreply
+
+[–]JorengarenarVIMinimalist 1 point 3 days ago 
+
+Yes, yes. I know.
+
+RANGER
+====
+
+metabest metadata in ranger
+-----
+
+:meta stores the metadata in the ".metadata.json" file for each directory in which it is used.
+
+
+[Official User Guide · ranger/ranger Wiki](https://github.com/ranger/ranger/wiki/Official-user-guide)
+
+> ## Metadata
+> 
+> Storing the file metadata is a brand new feature of `ranger`. It may be used to add arbitrary key-value data to any file. Calling `:meta title a very interesting title` will set the tag "title" of the current file to "a very interesting title".
+> 
+> `:meta` is most commonly used in conjunction with `:linemode`. The built-in linemodes are bound to "M" followed by some letter. At the moment of writing this guide, there are 6 built-in linemodes:
+> 
+> -   `filename`: no metadata, the default mode of ranger,
+> -   `permissions`: file permissions are displayed next to the files,
+> -   `fileinfo`: show file type information based on shell `file` commmand
+> -   `mtime`: show the modified time of files
+> -   `sizemtime`: show the size and the modified time
+> -   `metatitle`: see below.
+> 
+> The last line mode, `metatitle`, is extremely handy for organizing all sorts of documents: books, movies, pictures and more. It displays the files based on their metadata. The current format is: `[[year - ]title] alignment [authors]`. Bracketed content is ignored if empty. The `title` field is mandatory for this to work. To define a custom linemode, please refer to this page: [Custom linemodes](https://github.com/ranger/ranger/wiki/Custom-linemodes).
+> 
+> `:meta` stores the metadata in the ".metadata.json" file for each directory in which it is used.
+
+
 SHELL
 =====
 
@@ -592,6 +756,307 @@ more  tricks - command fu
 
 grep -Ev '^#|^$' <file> will display file content without comments or empty lines."
 
+
+execute command until success
+----
+https://old.reddit.com/r/bash/comments/ezhn7i/what_is_a_command_builtin_script_oneliners_that/
+    while ! ./run.sh; do sleep 1; done
+    or
+
+    until ./run.sh; do sleep 1; done
+
+
+ncat or curl a raw http request
+----
+
+GET /document.html HTTP/1.1
+Host: www.example.com
+
+
+
+cat raw_request | ncat --ssl host 443
+
+sudo apt-get install nmap
+printf 'GET / HTTP/1.1\r\nHost: www.reddit.com\r\n\r\n' | ncat --ssl reddit.com 443
+
+;w
+metabest rsync separate by video resolution but mantain tree struct
+----
+
+https://old.reddit.com/r/commandline/comments/f2c7hk/how_to_move_files_while_preserving_subdirectory/
+
+
+   I have a large amount of videos in subdirectories. I wish to separate 720p
+   and 1080p videos to a new directory preserving the subdirectories
+   structure.
+
+   videos1/AAA/abc1080p.mp4
+
+   videos1/BBB/fgh720p.mp4
+
+   videos1/CCC/xyz1080p.mp4
+
+   .....
+
+   videos2/720p/BBB/fgh720p.mp4
+
+   videos2/1080p/AAA/abc1080p.mp4
+
+   videos2/1080p/CCC/xyz1080p.mp4
+
+
+### A1   Something like this with rsync:
+
+ $ mkdir -p a/b
+ $ touch a/b/move a/b/dontmove
+ $ rsync -rv --include='*/' --include='b/move' --exclude='*' --prune-empty-dirs a/ new_a/
+
+   So now new_a contains b/move, but not b/dontmove, and it kept the relative
+   paths within the two.
+
+   The first include tells rsync to copy all directories, the second gives
+   the name of a file to copy (can also be glob pattern) and the exclude
+   tells it not to move anything else. You could add --remove-source-files to
+   make it a move instead of a copy, but be careful with that.
+
+### A2 for hard links
+ $ cd /path/to/videos1/..
+ $ mkdir videos2
+ $ cd videos1
+ $ for res in 720 1080 ; do mkdir ../videos2/${res}p ; rsync -av -f'+ */' -f'- *' ./ ../videos2/${res}p/ ; find . -type f -name "*${res}p*.mp4" | xargs -L1 -I@ ln @ ../videos2/${res}p/@ ; done
+
+   This creates hard-links so they don't take any more space than the
+   originals (well, beyond another inode). If you really do want to move
+   them, you can change the ln to mv
+
+   Not even another inode, just a few bytes in the target directory file.
+
+   To break that down, the rsync command mirrors the directory hierarchy
+   while the find locates all the files in videos1/ of the given resolution
+   and links (ln) or moves (mv) them into the corresponding location in
+   videos2/
+
+### A3   I'm thinking about using cp with --parent option to preserve directory:
+
+   ls videos1/*/*1080p* | xargs cp --parent -t videos2/1080p/
+
+   Assuming you're in a parent directory containing videos{1,2}, by issuing
+   ls videos1/*/*1080p* you'll find all files in videos1 dir with 1080p in
+   its name. You'll pipe the output into xargs, which feed it into cp
+   command. In cp, you'll need to specify the target folder using -t option
+   and you can preserve directory structure using --parent.
+
+   Source:
+   [175]https://unix.stackexchange.com/questions/83593/copy-specific-file-type-keeping-the-folder-structure/314823#314823
+
+   Another trick using find -exec:
+   [176]https://unix.stackexchange.com/questions/83593/copy-specific-file-type-keeping-the-folder-structure
+
+   And another solution if you prefer using mv instead of cp --parent:
+   [177]https://unix.stackexchange.com/questions/59112/preserve-directory-structure-when-moving-files-using-find
+
+   [–][184]JustAnotherITUser 2 points3 points4 points 12 days ago [185](4
+   children)
+
+### A4   Lots of good answers here, but I figure I'll throw something else here
+   based on how I would do that.
+
+ #!/usr/bin/env bash
+ find "${_path_to_videos}" -mindepth 1 -type f -name "*.mp4" | while read -r _file; do
+     _qual="720p"
+     if [[ "${_file,,}" =~ 1080p\.mp4 ]]; then _qual="1080p"; fi
+     _dir="${_file#*\/}"
+     _dir="${_dir%\/*}"
+     mkdir --parents "${_path_to_videos}/${_qual}/${_file*\/}"
+     mv "${_file}" "${_path_to_videos}/1080p/${_file#*\/}"
+ done
+
+   This assumes the paths are relative, not absolute. Also, this doesn't have
+   to be in a script -- but its certainly easier to write it out/modify than
+   writing it on the terminal.
+
+   Somewhat unrelated, but what do those underscores achieve here apart from
+   decreasing readability?
+
+
+   I guess it's there so you won't override the default value. For example
+   using _dir as to not override dir command. Personally I'd use capital
+   letters, but hitting caps-lock or holding shift can be a bother sometimes.
+
+   I kinda get this, but isn't this a bit too far? I mean, ok, you prevent
+   overriding some excutable names, but they generally don't collide since
+   the shell doesn't susbstitute vars outside of variable expansion context.
+
+ file="foobar"
+ file /bin/ls
+ echo $file
+ baz=$(file /bin/ls)
+ echo $baz
+
+   All work as expected. And you also can call it input_file and out_dir or
+   something. All those underscores make me dizzy :) Just sharing the view.
+
+     • [212]permalink
+     • [213]embed
+     • [214]save
+     • [215]parent
+     • [216]report
+     • [217]give award
+     • [218]reply
+
+   [–][219]JustAnotherITUser 0 points1 point2 points 9 days ago [220](0
+   children)
+
+   Well, I didn't know that--so, that's nice to know.
+
+   As for why the underscores -- while I generally use Camel-Case, I tend to
+   use underscores for separation in both shell & batch scripts. Especially
+   in batch since the entire interpreter is case-insensitive; so the standard
+   straight up doesn't work if I needed to have similarly named variables
+   (for some reason).
+
+   I find it easier to read with what I'm working on with syntax
+   highlighting...that and the underscores keep things visually seperated in
+   a logical way--at least to me. Looking at it now, without any coloration
+   change or otherwise...it is a little bit much.
+
+
+
+
+fuck grep and copy those  that match the grep
+---
+
+[text processing - Grep word within a file then copy the file - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/297006/grep-word-within-a-file-then-copy-the-file)
+
+
+fuck flatten
+----
+
+[files - Flattening a nested directory - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/52814/flattening-a-nested-directory)
+
+
+fuck rename with parameter substituiton (cardinal or percent) or rename
+----
+
+[shell - Batch renaming files - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/1136/batch-renaming-files)
+
+[bash - What does the curly-brace syntax ${var%.*} mean? - Stack Overflow](https://stackoverflow.com/questions/9558986/what-does-the-curly-brace-syntax-var-mean/9559024#9559024)
+
+> The `${variable%.*}` notation means take the value of `$variable`, strip off the pattern `.*` from the tail of the value — mnemonic: percenT has a 't' at the Tail — and give the result. (By contrast, `${variable#xyz}` means remove `xyz` from the head of the variable's value — mnemonic: a Hash has an 'h' at the Head.)
+> 
+> Given:
+> 
+>     downloadFileName=abc.tar.gz
+>     
+> 
+> evaluating `extractDir="${downloadFileName%.*}-tmp"` yields the equivalent of:
+> 
+>     extractDir="abc.tar-tmp"
+>     
+> 
+> The alternative notation with the double `%`:
+> 
+>     extractDir="${downloadFileName%%.*}-tmp"
+>     
+> 
+> would yield the equivalent of:
+> 
+>     extractDir="abc-tmp"
+>     
+> 
+> The `%%` means remove the longest possible tail; correspondingly, `##` means remove the longest matching head.
+
+
+
+the $_
+-----
+[combining commands : commandline](https://old.reddit.com/r/commandline/comments/f7o92v/combining_commands/)
+
+> you can use `$_` in place of the second repetition (assuming `bash` shell here, not sure about others)
+> 
+> for example: `mkdir 'foo 123' && cd "$_"` will create a folder named `foo 123` and then `cd` into the newly created folder
+> 
+> -   [permalink](https://old.reddit.com/r/commandline/comments/f7o92v/combining_commands/fictneu/)
+> -   [embed](javascript:void(0))
+> -   [save](javascript:void(0))
+> -   [report](javascript:void(0))
+> -   [give award](https://old.reddit.com/gold?goldtype=gift&months=1&thing=t1_fictneu "give an award in appreciation of this post.")
+> -   [reply](javascript:void(0))
+> 
+> [\[–\]](javascript:void(0))[zerothindex](https://old.reddit.com/user/zerothindex) 1 point2 points3 points 2 days ago [(1 child)](javascript:void(0))
+> 
+> Cool, I've never seen this trick! So in other words, `$_` expands to the last argument of the previous command
+> 
+> -   [permalink](https://old.reddit.com/r/commandline/comments/f7o92v/combining_commands/ficxb6v/)
+> -   [embed](javascript:void(0))
+> -   [save](javascript:void(0))
+> -   [parent](https://old.reddit.com/r/commandline/comments/f7o92v/combining_commands/#fictneu)
+> -   [report](javascript:void(0))
+> -   [give award](https://old.reddit.com/gold?goldtype=gift&months=1&thing=t1_ficxb6v "give an award in appreciation of this post.")
+> -   [reply](javascript:void(0))
+> 
+> [\[–\]](javascript:void(0))[Schreq](https://old.reddit.com/user/Schreq) 1 point2 points3 points 2 days ago [(0 children)](javascript:void(0))
+> 
+> > So in other words, $_ expands to the last argument of the previous command
+> 
+> Yes, but it's an interactive feature which doesn't work in scripts.
+
+
+
+
+fuck cp --parents - fish for csv's and mantain structure
+----
+
+
+
+I have a folder structure with a bunch of *.csv files scattered across the folders. Now I want to copy all *.csv files to another destination keeping the folder structure.
+
+It works by doing:
+
+	cp --parents *.csv /target
+	cp --parents */*.csv" /target
+	cp --parents */*/*.csv /target
+	cp --parents */*/*/*.csv /target
+	...
+
+and so on, but I would like to do it using one command.
+
+
+[cp - Copy specific file type keeping the folder structure - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/83593/copy-specific-file-type-keeping-the-folder-structure#)
+
+	> `find . -name '*.csv' -exec cp --parents \{\} /target \;`
+
+
+### discuss
+
+
+Probably because of this \{\} \; – igo Mar 4 '15 at 13:56
+13
+'{}' works just as well – OrangeDog Dec 7 '15 at 17:44
+Reading the find manual I just found out it's recommended to use -execdir instead of -exec. The manual says: There are unavoidable security problems surrounding use of the -exec action; you should use the -execdir option instead. – ArianJM Apr 15 '16 at 9:42
+3
+Even though -execdir is safer than -exec, simply replacing one with the other does not preserve the folder structure as intended. – Simon Shine Aug 23 '16 at 11:33
+3
+Why I get message 'Omitting directory' when I try to copy them with your command ? – Vicky Dev Sep 6 '16 at 7:32
+5
+Can you explain why the braces have to be escaped here? – Noumenon Oct 23 '16 at 3:26
+@VickyDev your directory hidden, i.e., it's name began with .? – KernelPanic Jan 5 '17 at 13:59
+This is much slower than the xargs method, at least on Windows: 4 seconds vs 4 minutes. – piedar May 5 '17 at 15:51
+"Why I get message 'Omitting directory' ?" It's because at each level that it's copying, there are subdirs; and cp is telling you that these subdirs are not being copied. You adapted the command to your needs, and whatever you have in -name includes subdirs, which in the "csv" example, it didn't. You would need -r to recursively copy the subdirs; but you don't want that, because copying the subdirs is being covered by the find itself. Depending on what you're doing, obviously. Maybe you want. But most probably not. :$ – msb Mar 5 '18 at 18:52
+1
+@Noumenon the help page for find says: "-exec command ; Execute command; true if 0 status is returned. All following arguments to find are taken to be arguments to the command until an argument consisting of ; is encountered. The string {} is replaced by the current file name being processed everywhere it occurs in the arguments to the command, not just in arguments where it is alone, as in some versions of find. Both of these constructions might need to be escaped (with a '\') or quoted to protect them from expansion by the shell." – Paul Rougieux Sep 14 '18 at 11:37
+When using find in a terminal on a mac, the --parents option is not recognized. I'm using cpio as per the answer from @iain there. – parvus Jun 11 '19 at 7:10
+This answer saved my day! – Jinhua Wang Oct 3 '19 at 13:54
+
+
+
+
+TMUX
+=====
+
+greymd/tmux-xpanes: Awesome tmux-based terminal divider
+----
+Ping multiple hosts etc
 THESETUP
 ====
 
@@ -863,6 +1328,38 @@ https://github.com/lervag/dotfiles
 
 
 
+eli-schwartz/dotfiles.sh: Dotfiles a la bare
+---
+[eli-schwartz/dotfiles.sh: Dotfiles made easy](https://github.com/eli-schwartz/dotfiles.sh)
+
+
+moserial (minicom picocom gtk alt)
+-----
+
+[Apps/Moserial - GNOME Wiki!](https://wiki.gnome.org/action/show/Apps/Moserial?action=show&redirect=moserial)
+
+> moserial is primarily intended for technical users and hardware hackers who need to communicate with embedded systems, test equipment, and serial consoles.
+
+
+
+metatop picocom a very simple, _very low-tech_, terminal server.
+----
+[npat-efault/picocom: Minimal dumb-terminal emulation program](https://github.com/npat-efault/picocom)
+
+> You can use _picocom_ to patch-together a very simple, _very low-tech_, terminal server.
+> 
+> The situation is like this: You have, in your lab, a box with several
+> serial ports on it, where you connect the console ports of embedded
+> devices, development boards, etc. Let's call it "termbox". You want to
+> access these console ports remotely.
+
+
+THESETUP ARCH CONTRIB
+====
+
+
+community/aurpublish r35.g0f8d149-1 [installed]
+    PKGBUILD management/upload framework for the Arch User Repository
 NEWTOOLS
 ===
 
@@ -1069,6 +1566,14 @@ glutanimate/PDFMtEd: View and modify PDF metadata on Linux graphically
 > PDFMtEd Editor is an easy-to-use graphical metadata editor that
 > supports viewing and modifying all major metadata fields found in PDF
 > documents..
+
+
+metabest [discogs/discogs_client: Official Python Client for the Discogs API]
+----
+[discogs/discogs_client: Official Python Client for the Discogs API](https://github.com/discogs/discogs_client)
+
+> This is the official Discogs API client for Python. It enables you to query the Discogs database for information on artists, releases, labels, users, Marketplace listings, and more. It also supports OAuth 1.0a authorization, which allows you to change user data such as profile information, collections and wantlists, inventory, and orders.
+
 NEWTOOLSWEB
 =====
 
@@ -1102,6 +1607,16 @@ https://devdocs.foodsharing.network/getting-the-code.html
 NEWTOOLSCLI
 ====
 
+whiptail is designed to be drop-in compatible with dialog(1), but has fewer features
+-----
+
+From its README: whiptail is designed to be drop-in compatible with dialog(1), but has fewer features: some dialog boxes are not implemented, such as tailbox, timebox, calendarbox, etc.
+whiptail may be found in the following packages:
+  community/libnewt 0.52.21-3   /usr/bin/whiptail
+
+
+
+
 yay -S github-cli (official)
 ----
 For many years, hub was the unofficial GitHub CLI tool. gh is a new
@@ -1120,6 +1635,14 @@ again alwaysontop bash tput prompt jugglery (2016)
 > -   lists the contents of directories upon entering them
 > -   abbreviates those contents of there would be too many.
 > -   shows the git or svn status in directories that have them
+
+metabest ansifilter handles text files containing ANSI terminal escape codes.  (gen html troff ?)
+----
+[André Simon / ansifilter · GitLab](https://gitlab.com/saalen/ansifilter)
+
+> Ansifilter handles text files containing ANSI terminal escape codes.
+> The command sequences may be stripped or be interpreted to generate
+> formatted output (HTML, RTF, TeX, LaTeX, BBCode, Pango)..
 
 FUCK
 ====
@@ -1366,6 +1889,13 @@ ZZZ
 do
 n this that
 unimpairad ]a [a
+
+cp --parents
+----
+
+
+man nohup disown
+----
 FUCKFUCK
 ====
 
@@ -1674,6 +2204,108 @@ habd.as - after dark hugo theme
 > [shortcodes](https://after-dark.habd.as/shortcode/) to facilitate
 > reuse of common interface elements such as an
 > [alert](https://after-dark.habd.as/shortcode/alert/).
+
+discogs and curl
+----
+
+[Discogs API Documentation](https://www.discogs.com/developers)
+
+> #### Quickstart [](https://www.discogs.com/developers#page:home,header:home-quickstart)
+> 
+> If you just want to see some results right now, issue this curl command:
+> 
+>     curl https://api.discogs.com/releases/249504 --user-agent "FooBarApp/3.0"
+> 
+> For more in-depth examples and client libraries, see the links below:
+> 
+> Language
+> 
+> Type
+> 
+> Maintainer
+> 
+> URL
+> 
+> Python
+> 
+> Client
+> 
+> Discogs
+> 
+> [https://github.com/discogs/discogs_client](https://github.com/discogs/discogs_client)
+> 
+> Python
+> 
+> Example
+> 
+> jesseward
+> 
+> [https://github.com/jesseward/discogs-oauth-example](https://github.com/jesseward/discogs-oauth-example)
+> 
+> Ruby
+> 
+> Client
+> 
+> buntine
+> 
+> [https://github.com/buntine/discogs](https://github.com/buntine/discogs)
+> 
+> PHP
+> 
+> Client
+> 
+> ricbra
+> 
+> [https://github.com/ricbra/php-discogs-api](https://github.com/ricbra/php-discogs-api)
+> 
+> PHP
+> 
+> Example
+> 
+> tonefolder
+> 
+> [https://gist.github.com/tonefolder/44191a29454f9059c7e6](https://gist.github.com/tonefolder/44191a29454f9059c7e6)
+> 
+> Node.js
+> 
+> Client
+> 
+> bartve
+> 
+> [https://github.com/bartve/disconnect](https://github.com/bartve/disconnect)
+> 
+> * * *
+
+
+eli-schwartz/dotfiles.sh: Dotfiles a la bare
+---
+[eli-schwartz/dotfiles.sh: Dotfiles made easy](https://github.com/eli-schwartz/dotfiles.sh)
+
+
+
+color tail output with awk or sed
+-----
+[command line - How to have tail -f show colored output - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/8414/how-to-have-tail-f-show-colored-output)
+
+> Another solution, if you're on a server where it's inconvenient to install non-**standard** tools, is to combine `tail -f` with sed or awk to add color selection control sequences. This requires `tail -f` to flush its standard output without delay even when its standard output is a pipe, I don't know if all implementations do this.
+> 
+>     tail -f /path/to/log | awk '
+>       /INFO/ {print "\033[32m" $0 "\033[39m"}
+>       /SEVERE/ {print "\033[31m" $0 "\033[39m"}
+>     '
+>     
+> 
+> or with [sed](https://www.gnu.org/software/sed/manual/sed.html)
+> 
+>     tail -f /path/to/log | sed --unbuffered \
+>         -e 's/\(.*INFO.*\)/\o033[32m\1\o033[39m/' \
+>         -e 's/\(.*SEVERE.*\)/\o033[31m\1\o033[39m/'
+>     
+> 
+> If your sed isn't GNU sed, replace `\o033` by a literal escape character and remove `--unbuffered`.
+> 
+> Yet another possibility is to run `tail -f` in an **Emacs** shell buffer and use Emacs's syntax coloring abilities.
+
 
 METABESTBEST
 =====
@@ -2079,6 +2711,12 @@ mocha -w | ( while true; do MSG=""; while read -t .1 LINE; do MSG="$MSG $LINE"; 
 This aggregates all lines which come in in the timeframe of 1/10th second in one message. You can adjust this timeout to fit your needs. Note that this is bash-specific, other shells (i.e. dash) may not support it.
 shareimprove this answer
 
+metabest vim-floaterm - another float terminal
+----
+
+[voldikss/vim-floaterm: Piilay with the nvim/vim's built-in terminal](https://github.com/voldikss/vim-floaterm#more-use-cases-and-demos)
+integrates with ranger fzf
+nvr
 ROLLING
 =====
 

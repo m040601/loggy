@@ -9,10 +9,229 @@ NEWS
 ====
 TOPNEWS
 ====
+
+
+creceer - more talleres digital y cloud
+-----
+
+[La Diputación invierte 236.000 euros para mejorar la competitividad de pymes y autónomos](https://salamancartvaldia.es/not/232020/diputacion-invierte-236-000-euros-para-mejorar-competitividad/)
+
+Impulsado por la Diputación y el Instituto de la Competitividad
+Empresarial (ICE) de la Junta de Castilla y León, con la cofinanciación
+de fondos Feder, está especialmente dirigido a pymes, micropymes y
+autónomos de los sectores agroalimentario y turístico..
+
+En concreto, los interesados pueden apuntarse, a través de la sede
+electrónica de la Diputación y hasta el 14 de marzo, a talleres de
+marketing digital, diagnósticos personalizados de calidad y 'cloud' para
+la optimización de los trabajos, implementación de la calidad, y a horas
+de consultoría específica sobre estos asuntos..
+
+'Creceer' tiene un presupuesto de 236.047 euros para su aplicación en la
+provincia de Salamanca, pues hay otras partidas y otras entidades para
+su desarrollo en otras provincias. El 75 por ciento se sufragará desde
+fondos europeos y el 25 por ciento restante lo aportará la Diputación..
+
+
+biofrontera I (camara fregeneda ? ) y II (camaras y fundacion nat y hombre chulos) camaras vilvestre vilar ciervo
+----
+
+[La provincia de Salamanca tendrá seis nuevas cámaras de videovigilancia para combatir incendios](https://salamancartvaldia.es/not/231613/provincia-salamanca-tendra-seis-nuevas-camaras-videovigilancia/)
+
+El total de la inversión en la iniciativa es de 1.410.161 euros, financiado al 75 por ciento por Europa y el 25 por ciento restante a cargo de los socios participantes. Así, la Diputación de Salamanca -la más beneficiada- recibirá 622.346 euros, de los 829.795 euros del proyecto.
+
+Por la otra parte, la Asociación de Municipios Cova da Beira contará con 99.999 euros de fondos europeos del coste total de su parte de 133.333 euros; y la Fundación Naturaleza y Hombre tiene asignados 335.274 euros de los 447.033 del total.
+
+'Biofrontera II' es la segunda fase de un proyecto que ya se llevó a cabo en la misma zona y que permitió, por ejemplo, que la provincia de Salamanca cuente con sistemas de videovigilancia en su masa forestal en los términos de Villarino, La Fregeneda y El Payo.
+
+
+
+
+METABESTBEST obras parcelario sobradillo y vilvestre- empresa tragsa
+-----
+
+2018
+[La Junta autoriza la ejecución de las concentraciones parcelarias de Vilvestre y Sobradillo por 5,4 millones de euros](https://salamancartvaldia.es/not/188225/junta-autoriza-ejecucion-concentraciones-parcelarias-vilvestre-5/)
+
+
+[La Junta acomete las obras de concentración parcelaria en Sobradillo
+con una inversión de 2,3
+millones](https://salamancartvaldia.es/not/232115/junta-acomete-obras-concentracion-parcelaria-sobradillo-2-3/).
+
+
+El delegado territorial de la Junta de Castilla y León en Salamanca,
+Eloy Ruiz, ha visitado la mañana de este jueves, 20 de febrero, las
+obras de infraestructura rural de la zona de concentración parcelaria
+del término municipal de Sobradillo, proyecto que supondrá una inversión
+pública de 2.311.456 euros, que se destina a una nueva red de caminos de
+105 kilómetros de extensión. El 88,3% de dichas vías serán caminos
+estabilizados. Las obras comenzaron en octubre de 2018 y se espera que
+finalicen este año 2020..
+
+Eloy Ruiz destacaba el número de parcelas de reemplazo en las 5.125
+hectáreas de terreno concentrado, pasando de las 7.026 parcelas
+pertenecientes a 498 propietarios, y con un tamaño medio de 0,73
+hectáreas antes de la concentración parcelaria, a 931 fincas de
+reemplazo con un tamaño medio de 5,48 hectáreas, lo que en su opinión
+“supone una ventaja de reordenación de las parcelas, un beneficio muy
+grande al tener todo agrupado, la accesibilidad y la rentabilidad
+también. Todo ha sido muy beneficioso para Sobradillo porque ha aunado
+el aspecto medioambiental, al ser una zona importante del Parque Natural
+Arribes, el turismo, y el beneficio para los agricultores y ganaderos
+para que haya una producción y una rentabilidad”.
+
+Las 7.026 parcelas de 498 propietarios, con un tamaño medio de 0,73
+hectáreas antes de la concentración parcelaria, pasarán a sumar 931
+fincas con un tamaño medio de 5,48 hectáreas.
+
+### contrataciones
+
+[Pliegos](https://contrataciondelestado.es/wps/wcm/connect/1d39b812-7a87-459c-8573-4bbfb6a6212c/DOC_CD2018-600221.html?MOD=AJPERES)
+
+
+### tragsa
+
+
+la empresa matriz del Grupo, fue creada por el Real Decreto 379/1977, de
+21 de enero, por el que se autorizó la constitución de la Empresa de
+Transformación Agraria. Su actividad está enfocada a la realización de
+obras, trabajos y prestación de servicios relacionados con el desarrollo
+del medio rural y la conservación de la naturaleza, así como en todo
+tipo de emergencia social, catástrofe natural o accidente climático,
+ofreciendo una respuesta inmediata.
+
+como filial de Tragsa, es una empresa especializada en la realización de
+actividades de ingeniería, consultoría y asistencia técnica en materias
+como el desarrollo rural, el medio marino o la sanidad y la salud
+pública, entre otros, realizando tanto estudios y proyectos como
+servicios técnicos. La creación de Tragsatec fue autorizada por Acuerdo
+de Consejo de Ministros el 2 de junio de 1989, siendo constituida
+definitivamente el 13 de febrero de 1990.
+
+
+[Quiénes Somos | Tragsa](https://www.tragsa.es/es/grupo-tragsa/quienes-somos/Paginas/default.aspx)
+
+> El **Grupo Tragsa,** de capital social íntegramente público, está
+> integrado por las sociedades mercantiles **Tragsa** y **Tragsatec**.
+> Forma parte de la **Sociedad Estatal de Participaciones Industriales
+> (SEPI)** y del Sector Público Institucional,teniendo la condición de
+> poder adjudicador y medio propio personificado de las Administraciones
+> Públicas que participan en su accionariado..
+
+
+[Tragsa - Wikipedia, la enciclopedia libre](https://es.wikipedia.org/wiki/Tragsa)
+
+> El **Grupo Tragsa** (Empresa de Transformación Agraria, S.A.), es un grupo empresarial público integrado en el [holding](https://es.wikipedia.org/wiki/Holding "Holding") público [Sociedad Estatal de Participaciones Industriales](https://es.wikipedia.org/wiki/Sociedad_Estatal_de_Participaciones_Industriales "Sociedad Estatal de Participaciones Industriales") (SEPI) que nació bajo la naturaleza de medio propio instrumental del Estado orientado hacia el desarrollo rural y la conservación de la naturaleza[\[3\]](https://es.wikipedia.org/wiki/Tragsa#cite_note-:1-3)​.
+
+Cuenta con una plantilla de más de 11 000 trabajadores que durante los
+40 años de historia de la compañía han ejecutado cerca de 200 000
+actuaciones.4​5​ .
+
+La empresa se estructura a partir de la matriz Tragsa, responsable de la
+ejecución de obras y servicios, y la filial Tragsatec, que se encarga de
+la ingeniería, la consultoría y la asistencia técnica7​. Esta
+última sociedad constituye el soporte tecnológico del Grupo, incluyendo
+sistemas de información geográfica, desarrollo de entornos web y la
+producción y gestión de bases de datos.7​ .
+
+
+#### qualquier licitacion en salamanca
+[Perfil del Contratante | Tragsa](https://www.tragsa.es/_layouts/GrupoTragsa/licitaciones.aspx?id=0000018528&pi=1&st=2)
+
+#### tragsa as sepi
+
+[Grupo TRAGSA | SEPI](http://www.sepi.es/es/sectores/grupo-tragsa)
+
+> El [Grupo TRAGSA](http://www.tragsa.es/es/Paginas/default.aspx "Grupo
+> TRAGSA: se abre en venta nueva") está constituido por dos sociedades
+> de capital íntegramente público: la Empresa de Transformación Agraria
+> (TRAGSA), matriz fundada en 1977 para la ejecución de obras y
+> servicios de desarrollo rural, conservación medioambiental y
+> actuaciones de emergencia, y por su empresa filial [Tecnologías y
+> Servicios Agrarios
+> (TRAGSATEC)](http://www.tragsa.es/es/grupo-tragsa/empresas/Paginas/tragsatec.aspx
+> "TRAGSATEC: se abre en ventana nueva"), creada en 1990 para la
+> realización de proyectos de consultoría e ingeniería..
+
+
+
+### maquineria alquiler
+[Alquiler de maquinaria autopropulsada con conductor en el ámbito de la obra de infraestructura rural en la zona de concentración parcelaria de Sobradillo (Salamanca) durante el año 2019. Procedimiento abierto simplificado. | InfoPublic](https://www.infopublic.net/concursos/alquiler-maquinaria-autopropulsada-conductor-ambito-obra-infraestructura-rural-zona-concentracion-parcelaria-sobradillo-salamanca-durante-ano-2019-procedimiento-abierto-simplificado-2243829?concurso=Adjudicaciones&organismo[0]=Empresa+de+Transformaci%C3%B3n+Agraria+S.A.,S.M.E.,+M.P.,+(TRAGSA)&page_number=5&noIndex)
+
+> Alquiler de maquinaria autopropulsada con conductor en el ámbito de la
+> obra de infraestructura rural en la zona de concentración parcelaria
+> de Sobradillo (Salamanca) durante el año 2019. Procedimiento abierto
+> simplificado..
+
+
+### hormigon
+
+[Suministro de Hormigón preparado en planta para la Obra de (976.918)](https://www.infoconcurso.com/2018/salamanca/976918-suministro-de-hormigon-preparado-en-planta-para-la-obra-de-infraestructura-rural-en-la-concentracion-parcelaria-de-sobradillo-salamanca)
+
+> En los últimos 5 años Empresa de Transformación Agraria (TRAGSA) ha
+> adjudicado 504 licitaciones de "Maquinaria y material para la
+> construcción" a 254 adjudicatarios diferentes por un valor de
+> 106.257.857 euros. Los principales por número de licitaciones son:
+> Prefabricados Delta, S.A. (13), Saint-Gobain Pam España, SA (6),
+> Amiblu Pipes Spain, S.A. (5), GRAVERAS VALENCIA, S..A (5), NOKSEL
+> ESPAÑA, S.A. (5).
+
+
+
+### vilvestre 2018
+
+https://salamancartvaldia.es/not/192294/tragsa-inicia-obras-concentracion-parcelaria-vilvestre
+
+El alcalde, Manuel Domínguez, estima que los caminos estarán abiertos en
+cuatro meses, mientras que la finalización se prevé en 12 meses
+
+
 METABEST
 ====
 METABESTBEST
 ====
+
+
+	
+contrataciondelestado.es
+----
+
+https://contrataciondelestado.es/wps/portal/plataforma
+infopublic.net
+----
+
+https://www.infopublic.net/concursos
+
+
+Expediente: TSA0066756
+
+OTRAS ENTIDADES DEL SECTOR PÚBLICO>SOCIEDADES, FUNDACIONES y CONSORCIOS ESTATALES>Ministerio de Hacienda>SEPI>TRAGSA
+
+
+Expediente: TSA0066756
+
+OTRAS ENTIDADES DEL SECTOR PÚBLICO>SOCIEDADES, FUNDACIONES y CONSORCIOS ESTATALES>Ministerio de Hacienda>SEPI>TRAGSA
+Publicación en plataforma de contratación: 19/12/2018
+
+
+494,800.00€
+
+Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)
+
+infoconcurso.com
+----
+
+[Suministro de Hormigón preparado en planta para la Obra de (976.918)](https://www.infoconcurso.com/2018/salamanca/976918-suministro-de-hormigon-preparado-en-planta-para-la-obra-de-infraestructura-rural-en-la-concentracion-parcelaria-de-sobradillo-salamanca)
+
+> En los últimos 5 años Empresa de Transformación Agraria (TRAGSA) ha
+> adjudicado 504 licitaciones de "Maquinaria y material para la
+> construcción" a 254 adjudicatarios diferentes por un valor de
+> 106.257.857 euros. Los principales por número de licitaciones son:
+> Prefabricados Delta, S.A. (13), Saint-Gobain Pam España, SA (6),
+> Amiblu Pipes Spain, S.A. (5), GRAVERAS VALENCIA, S..A (5), NOKSEL
+> ESPAÑA, S.A. (5).
+
+
 ROLLING
 ====
 openolitor (scala angular) (all commits by tegonal ) complicated undocumented setup cloudfoundry

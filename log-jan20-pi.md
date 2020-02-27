@@ -170,6 +170,214 @@ Victron BlueSolar & the Raspberry Pi – Having fun with solar
 > Victron, based in Germany, have gained a significant amount of respect within the hobbyist and professional circles over the last few years. After poking around a number of MPPT charge controllers, my heart was set on the BlueSolar 100/30.
 
 
+Solar Power for Artists
+-----
+[SPfA](https://www.solarpowerforartists.com/)
+
+> **Solar Power for Artists** is an ongoing project encompassing a range of educational resources for learning about creative applications of photovoltaic solar power, including [an archive of over 150 projects,](https://www.solarpowerforartists.com/archive) [workshops,](https://www.solarpowerforartists.com/events.html) [tutorials](https://www.solarpowerforartists.com/learn), and [consulting](https://www.solarpowerforartists.com/services.html).
+
+
+INDUSTRIAL
+=====
+modbus
+----
+
+rs-422 rs-485 industrial theater etc
+----
+https://en.wikipedia.org/wiki/RS-485
+RS-485, also known as TIA-485(-A) or EIA-485, is a standard defining the
+electrical characteristics of drivers and receivers for use in serial
+communications systems. Electrical signaling is balanced, and multipoint
+systems are supported. The standard is jointly published by the
+Telecommunications Industry Association and Electronic Industries
+Alliance (TIA/EIA). Digital communications networks implementing the
+standard can be used effectively over long distances and in electrically
+noisy environments. Multiple receivers may be connected to such a
+network in a linear, multidrop bus. These characteristics make RS-485
+useful in industrial control systems and similar applications. .
+
+https://en.wikipedia.org/wiki/RS-485
+
+nmea 2000 (and can bus)
+----
+
+https://en.wikipedia.org/wiki/CAN_bus
+
+[CAN bus - Wikipedia](https://en.wikipedia.org/wiki/CAN_bus)
+
+> Standardized approaches
+> 
+> -   [ARINC 812](https://en.wikipedia.org/w/index.php?title=ARINC_812&action=edit&redlink=1 "ARINC 812 (page does not exist)") or [ARINC 825](https://en.wikipedia.org/w/index.php?title=ARINC_825&action=edit&redlink=1 "ARINC 825 (page does not exist)") (aviation industry)
+> -   [CANopen](https://en.wikipedia.org/wiki/CANopen "CANopen") \- EN 50325-4 (industrial [automation](https://en.wikipedia.org/wiki/Automation "Automation"))
+> -   [DeviceNet](https://en.wikipedia.org/wiki/DeviceNet "DeviceNet") (industrial [automation](https://en.wikipedia.org/wiki/Automation "Automation"))
+> -   [EnergyBus](https://en.wikipedia.org/wiki/EnergyBus "EnergyBus") \- CiA 454 (light electrical vehicles)
+> -   ISOBUS - [ISO 11783](https://en.wikipedia.org/wiki/ISO_11783 "ISO 11783") (agriculture)
+> -   [ISO-TP](https://en.wikipedia.org/wiki/ISO-TP "ISO-TP") \- ISO 15765-2 (transport protocol for automotive diagnostics)
+> -   [MilCAN](https://en.wikipedia.org/wiki/MilCAN "MilCAN") (military vehicles)
+> -   [NMEA 2000](https://en.wikipedia.org/wiki/NMEA_2000 "NMEA 2000") \- IEC 61162-3 (marine industry)
+> -   [SAE J1939](https://en.wikipedia.org/wiki/SAE_J1939 "SAE J1939") (in-vehicle network for buses and trucks)
+> -   [SAE J2284](https://en.wikipedia.org/w/index.php?title=SAE_J2284&action=edit&redlink=1 "SAE J2284 (page does not exist)") (in-vehicle networks for passenger cars)
+> -   [Unified Diagnostic Services](https://en.wikipedia.org/wiki/Unified_Diagnostic_Services "Unified Diagnostic Services") (UDS) - ISO 14229 (automotive diagnostics)
+
+
+[NMEA 2000 - Wikipedia](https://en.wikipedia.org/wiki/NMEA_2000)
+
+> **NMEA 2000**, abbreviated to **NMEA2k** or **N2K** and standardised as **IEC 61162-3**, is a plug-and-play communications standard used for connecting marine sensors and display units within ships and boats
+
+NMEA 2000 is compatible with the Controller Area Network ("CAN Bus") used on road vehicles and fuel engines.NMEA 2000 is compatible with the Controller Area Network ("CAN Bus") used on road vehicles and fuel engines. 
+
+[Boat Projects: Beginners guide to Nmea 2000, Nmea 0183, and bridging](https://boatprojects.blogspot.com/2012/12/beginners-guide-to-nmea-2000-nmea-0183.html)
+
+### nmea 0183
+
+[How to Use NMEA-0183 with Raspberry Pi - Hackster.io](https://www.hackster.io/hartmut-wendt/how-to-use-nmea-0183-with-raspberry-pi-487450)
+
+> [NMEA-0183
+> I](http://boatprojects.blogspot.com/2012/12/beginners-guide-to-nmea-2000-nmea-0183.html)s
+> an electrical standard to connect GPS, SONAR, sensors, auto pilot
+> units, etc. in ships and boats. In difference to the newer NMEA 2000
+> standard (based on CAN) the NMEA 0183 is based on EIA RS422 (some
+> older and/or simple systems use RS-232, or a single wire)..
+
+
+
+M12 waterproof connectors
+------
+...The M12 connector, specified in IEC 61076-2-101, is a circular
+electrical plug/receptacle pair with 12mm OD mating threads, used in
+NMEA 2000, DeviceNet, IO-Link, some kinds of Industrial Ethernet,
+etc.[16][17]
+
+A disadvantage of the circular design is its inefficient use of panel
+space when used in arrays, when compared to rectangular connectors.
+
+Circular connectors commonly use backshells, which provide physical and
+electromagnetic protection, whilst sometimes also providing a method for
+locking the connector into a receptacle.[18] In some cases, this
+backshell provides a hermetic seal, or some degree of ingress
+protection, through the use of grommets, O-rings, or potting.[15]
+
+
+
+https://en.wikipedia.org/wiki/U.S._Military_connector_specifications
+https://en.wikipedia.org/wiki/List_of_RF_connector_types
+
+[Electrical connector - Wikipedia](https://en.wikipedia.org/wiki/Electrical_connector#Circular_connectors)
+
+> Many connectors used for industrial and high-reliability applications
+> are circular in cross section, with a cylindrical housing and circular
+> contact interface geometries. This is in contrast to the rectangular
+> design of some connectors, e.g.
+> [USB](https://en.wikipedia.org/wiki/USB_hardware#Connectors "USB
+> hardware") or [blade
+> connectors](https://en.wikipedia.org/wiki/Electrical_connector#Blade_connector).
+> They are commonly used for easier engagement and disengagement, tight
+> environmental sealing, and rugged mechanical
+> performance.[\[15\]](https://en.wikipedia.org/wiki/Electrical_connector#cite_note-glenair-15)
+> They are widely used in military, aerospace, industrial machinery, and
+> rail, where [MIL-DTL-5015](https://en.wikipedia.org/wiki/MIL-DTL-5015
+> "MIL-DTL-5015") and
+> [MIL-DTL-38999](https://en.wikipedia.org/w/index.php?title=MIL-DTL-38999&action=edit&redlink=1
+> "MIL-DTL-38999 (page does not exist)") are commonly specified. Fields
+> such as [sound
+> engineering](https://en.wikipedia.org/wiki/Sound_engineering "Sound
+> engineering") and [radio
+> communication](https://en.wikipedia.org/wiki/Radio_communication
+> "Radio communication") also use circular connectors, such as
+> [XLR](https://en.wikipedia.org/wiki/XLR_connector "XLR connector") and
+> [BNC](https://en.wikipedia.org/wiki/BNC_connector "BNC connector").
+> [AC power
+> plugs](https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets "AC
+> power plugs and sockets") are also commonly circular, for example,
+> [Schuko](https://en.wikipedia.org/wiki/Schuko "Schuko") plugs and [IEC
+> 60309](https://en.wikipedia.org/wiki/IEC_60309 "IEC 60309").
+
+
+
+
+
+
+backshell
+----
+
+ What is a Back Shell. A Backshell is the rear portion of a connector,
+ which is normally a separate section from the connector head, used to
+ secure the cable via a clamp to the end of the connector. Also called a
+ Hood. .
+lilliput winmate litemax asrock industrial train displays kontron
+----
+
+### dealers
+
+spain https://www.mmc-sl.com/r17l100-rka1ml-p-512-pt
+https://www.youtube.com/watch?v=0iRziyQ5m3M
+
+### feiras ise integrated systems europe
+https://www.iseurope.org/
+
+embedded world
+
+### players
+
+https://en.wikipedia.org/wiki/Kontron
+https://www.kontron.com/
+https://www.asrockind.com
+https://www.litemax.com/
+https://www.winmate.com
+
+
+
+### industrial displays
+
+train displays
+https://en.wikipedia.org/wiki/EN_50155
+
+litemax
+
+### rugged
+
+https://en.wikipedia.org/wiki/Embedded_system
+https://en.wikipedia.org/wiki/Panel_PC
+https://en.wikipedia.org/wiki/Rugged_computer
+https://en.wikipedia.org/wiki/Industrial_PC
+
+
+
+
+ELECTRIC
+=====
+
+energybus
+---
+https://energybus.org/
+[EnergyBus - Wikipedia](https://en.wikipedia.org/wiki/EnergyBus)
+
+> **EnergyBus** [connectors](https://en.wikipedia.org/wiki/Electrical_connector "Electrical connector") are used for charging [electric bicycles](https://en.wikipedia.org/wiki/Electric_bicycle "Electric bicycle") and [pedelecs](https://en.wikipedia.org/wiki/Pedelec "Pedelec") within Europe. The connector is circular in shape and specified for charging [light electric vehicles](https://en.wikipedia.org/wiki/Light_electric_vehicle "Light electric vehicle") at up to 1.5 kilowatts. [Electric power](https://en.wikipedia.org/wiki/Electric_power "Electric power") is provided at 12–48 volts [direct current](https://en.wikipedia.org/wiki/Direct_current "Direct current") (DC) so that any [battery charger](https://en.wikipedia.org/wiki/Battery_charger "Battery charger") can charge any [rechargeable battery](https://en.wikipedia.org/wiki/Rechargeable_battery "Rechargeable battery").
+> 
+> Data transmission between the battery and charger uses a [CAN bus](https://en.wikipedia.org/wiki/CAN_bus "CAN bus"), exchanging [CANopen](https://en.wikipedia.org/wiki/CANopen "CANopen") messages defined by the [CAN in Automation](https://en.wikipedia.org/wiki/CAN_in_Automation "CAN in Automation") **CiA-454** standard.[\[1\]](https://en.wikipedia.org/wiki/EnergyBus#cite_note-1)
+
+METABEST
+====
+METABESTBEST
+=====
+
+SERIAL everything
+-----
+
+### there's no port , but there's a connector
+[udev - Why do some Linux distributions still have /dev/ttyS0, ttyS1, etc., even though newer computers don't have such a serial port? - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/123518/why-do-some-linux-distributions-still-have-dev-ttys0-ttys1-etc-even-though)
+
+> On some motherboards, there is a [header connector](https://en.wikipedia.org/wiki/Pin_header) for each serial port, and you have to buy an adapter cable if you want to route that connector to the back of the PC:
+
+Other motherboards using the same chipset might not even expose the header connector, even though the feature is available in silicon, purely to save a bit of PCB space and a few cents for the header connector.
+
+A few serial UARTs add negligible cost to a mass-produced PC chipset IC,
+whereas it adds a few dollars to the final retail cost of a motherboard
+to run a DB-9 connector out to the board edge. There is also a cost in
+PCB space; space at the board edge is especially precious..
+
+
+
 rolling
 ====
 
@@ -215,4 +423,45 @@ Foldable 3D printed Arduino case – Johan von Konow
 > [cross-compilation](https://en.wikipedia.org/wiki/Cross_compiler
 > "Cross compiler") to allow building for multiple target platforms on a
 > single Linux-based development system..
+
+
+hartmut wendt - arduitouch touch screen esp32 wemos node raspibox hartmut can bus etc
+---
+https://github.com/HWHardsoft?tab=repositories
+https://www.instructables.com/member/harty123/
+
+[Hartmut Wendt - Hackster.io](https://www.hackster.io/hartmut-wendt)
+
+https://www.hwhardsoft.de/deutsch/informationen/%C3%BCber-uns/
+
+[Touchscreen for Arduino MKR & ESP32 - YouTube](https://www.youtube.com/watch?v=goIwbPlvQDY)
+
+[ESP32 Codelock with Touch - Hackster.io](https://www.hackster.io/hartmut-wendt/esp32-codelock-with-touch-7eb002)
+
+> Very simple codelock example for our Arduitouch ESP kit and ESP32 or ESP8266.
+
+### arduitouch 
+
+[Touchscreen enclosure set for ESP8266 & ESP32 - Zihatec GmbH](https://www.hwhardsoft.de/english/projects/arduitouch-esp/)
+
+> The popular ESP8266 and ESP32 based modules are used in many IoT
+> applications like home automation, smart lighting, smart metering,
+> remote control etc. You can find a lot of ready to use projects in the
+> Internet. ArduiTouch is a touchscreen enclosure set especially for top
+> wall mounting for the well-known NodeMCU and Wemos D1 Mini boards
+> based on  ESP8266 and ESP32 platform.
+> ArduiTouch come in a nice enclosure for wall mounting together with a 2.4 inch resistive touch screen and enables you to mount your project permanent in your living room, corridor or other exposed places.
+
+
+meanwell 5v psu for din rail
+----
+Schaltnetzteil Meanwell 5V / 15W
+
+[Webshop - Zubehör Hutschienengehäuse - Zihatec GmbH](https://www.hwhardsoft.de/deutsch/webshop/zubeh%C3%B6r/)
+
+> MeanWell Schaltznetzteile für DIN-Schiene Typ DR-15-5 zur Ergänzung
+> unserer RasPiBox **Basic** Kits und ArduiBox **Basic** Kits:
+
+
+
 
