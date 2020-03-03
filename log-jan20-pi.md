@@ -43,6 +43,11 @@ where it is necessary to know if a valve has been opened or shut. .
 > "Elektrogerät")..
 
 
+autopilot fpv etc
+-----
+
+[start [pypilot]](https://pypilot.org/wiki/doku.php)
+----
 lora
 =====
 
@@ -175,6 +180,27 @@ Solar Power for Artists
 [SPfA](https://www.solarpowerforartists.com/)
 
 > **Solar Power for Artists** is an ongoing project encompassing a range of educational resources for learning about creative applications of photovoltaic solar power, including [an archive of over 150 projects,](https://www.solarpowerforartists.com/archive) [workshops,](https://www.solarpowerforartists.com/events.html) [tutorials](https://www.solarpowerforartists.com/learn), and [consulting](https://www.solarpowerforartists.com/services.html).
+
+
+433
+====
+
+[AK-Homberger/Seatalk-Autopilot-Remote-Control: This repository shows how to build a Seatalk Autopilot Remote Control device based on an Arduino ProMicro and a simple 433 MHz KeyFob.](https://github.com/AK-Homberger/Seatalk-Autopilot-Remote-Control)
+----
+
+more 433 keyfobs
+----
+[sui77/rc-switch: Arduino lib to operate 433/315Mhz devices like power outlet sockets.](https://github.com/sui77/rc-switch)
+
+> Arduino lib to operate 433/315Mhz devices like power outlet sockets.
+
+
+[ninjablocks/433Utils: 433Kit is a collection of code and documentation designed to assist you in the connection and usage of RF 433MHz transmit and receive modules to/with your Arduino and Rapberry Pi.](https://github.com/ninjablocks/433Utils)
+
+> 433Kit is a collection of code and documentation designed to assist you in the connection and usage of RF 433MHz transmit and receive modules to/with your Arduino and Rapberry Pi. [http://ninjablocks.com](http://ninjablocks.com)
+
+
+
 
 
 INDUSTRIAL
@@ -358,6 +384,11 @@ https://energybus.org/
 
 METABEST
 ====
+[open-boat-projects.org – open Source | open Hardware | open Data](https://open-boat-projects.org/)
+---
+
+https://github.com/open-boat-projects-org
+
 METABESTBEST
 =====
 

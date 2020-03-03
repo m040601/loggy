@@ -110,6 +110,235 @@ T...
 > English Nation_ (1589–1600)..
 
 
+[Cassava - Wikipedia](https://en.wikipedia.org/wiki/Cassava)
+-----
+
+> Cassava was introduced to Africa by Portuguese traders from Brazil in the 16th century. Around the same period, it was also introduced to Asia through [Columbian Exchange](https://en.wikipedia.org/wiki/Columbian_Exchange "Columbian Exchange") by Portuguese and Spanish traders, planted in their colonies in Goa, Malacca, Eastern Indonesia, Timor and the Philippines. [Maize](https://en.wikipedia.org/wiki/Maize "Maize") and cassava are now important staple foods, replacing native African crops in places such as Tanzania.[\[21\]](https://en.wikipedia.org/wiki/Cassava#cite_note-21) Cassava has also become an important staple in Asia, extensively cultivated in Indonesia, Thailand and Vietnam.[\[22\]](https://en.wikipedia.org/wiki/Cassava#cite_note-22) Cassava is sometimes described as the "bread of the tropics"[\[23\]](https://en.wikipedia.org/wiki/Cassava#cite_note-23) but should not be confused with the tropical and equatorial [bread tree](https://en.wikipedia.org/wiki/Bread_tree "Bread tree") _(Encephalartos)_, the [breadfruit](https://en.wikipedia.org/wiki/Breadfruit "Breadfruit") _(Artocarpus altilis)_ or the [African breadfruit](https://en.wikipedia.org/wiki/African_breadfruit "African breadfruit") _(Treculia africana)_.
+> 
+> Cassava was introduced in 1880-1885 C.E. to the South Indian state of
+> [Kerala](https://en.wikipedia.org/wiki/Kerala "Kerala") by the then
+> King of [Travancore](https://en.wikipedia.org/wiki/Travancore
+> "Travancore") Vishakham Thirunal Maharaja after a great famine hit the
+> kingdom, as a substitute for rice. Cooked cassava is called kappa or
+> maricheeni in [Malayalam](https://en.wikipedia.org/wiki/Malayalam
+> "Malayalam"). It is also referred to as
+> [Tapioca](https://en.wikipedia.org/wiki/Tapioca "Tapioca") in Indian
+> English usage.
+> [\[3\]](https://en.wikipedia.org/wiki/Cassava#cite_note-Saraswathy2019-3).
+
+
+
+[Sweet potato - Wikipedia](https://en.wikipedia.org/wiki/Sweet_potato)
+-----
+
+> Sweet potatoes were first introduced to the [Philippines](https://en.wikipedia.org/wiki/Philippines "Philippines") during the [Spanish colonial period](https://en.wikipedia.org/wiki/History_of_the_Philippines_(1521%E2%80%931898) "History of the Philippines (1521–1898)") (1521-1598) via the [Manila galleons](https://en.wikipedia.org/wiki/Manila_galleons "Manila galleons"), along with other [New World crops](https://en.wikipedia.org/wiki/New_World_crops "New World crops").[\[27\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-gad-27) It was introduced to the [Fujian](https://en.wikipedia.org/wiki/Fujian "Fujian") province of China in about 1594 from [Luzon](https://en.wikipedia.org/wiki/Luzon "Luzon"), in response to a major crop failure. The growing of sweet potatoes was encouraged by the Governor Chin Hsüeh-tseng (Jin Xuezeng).[\[28\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-28)
+> 
+> Sweet potatoes were also introduced to the [Ryukyu
+> Kingdom](https://en.wikipedia.org/wiki/Ryukyu_Kingdom "Ryukyu
+> Kingdom"), present-day [Okinawa](https://en.wikipedia.org/wiki/Okinawa
+> "Okinawa"), Japan, in the early 1600s by the
+> [Portuguese](https://en.wikipedia.org/wiki/Portuguese_Empire
+> "Portuguese
+> Empire").[\[29\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-Japan&Dutch-29)[\[30\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-FirstGlobalization-30)[\[31\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-ObrienSweetPotato-31)
+> Sweet potatoes became a staple in Japan because they were important in
+> preventing famine when rice harvests were
+> poor.[\[31\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-ObrienSweetPotato-31)[\[32\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-32)
+> Sweet potatoes were later planted in Shōgun [Tokugawa
+> Yoshimune](https://en.wikipedia.org/wiki/Tokugawa_Yoshimune "Tokugawa
+> Yoshimune")'s private
+> garden.[\[33\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-33)
+> It was also introduced to [Korea](https://en.wikipedia.org/wiki/Korea
+> "Korea") in
+> 1764.[\[34\]](https://en.wikipedia.org/wiki/Sweet_potato#cite_note-34).
+
+[1556 Shaanxi earthquake - Wikipedia](https://en.wikipedia.org/wiki/1556_Shaanxi_earthquake)
+----
+
+> The Portuguese
+> [Dominican](https://en.wikipedia.org/wiki/Dominican_Order "Dominican
+> Order") friar [Gaspar da
+> Cruz](https://en.wikipedia.org/wiki/Gaspar_da_Cruz "Gaspar da Cruz"),
+> who visited [Guangzhou](https://en.wikipedia.org/wiki/Guangzhou
+> "Guangzhou") later in 1556, heard about the earthquake, and later
+> reported about it in the last chapter of his book _A Treatise of
+> China_ (1569). He viewed the earthquake as a possible punishment for
+> people's sins, and the [Great Comet of
+> 1556](https://en.wikipedia.org/wiki/Great_Comet_of_1556 "Great Comet
+> of 1556") as, possibly, the sign of this calamity (as well as perhaps
+> the sign of the birth of the
+> [Antichrist](https://en.wikipedia.org/wiki/Antichrist
+> "Antichrist")).[\[16\]](https://en.wikipedia.org/wiki/1556_Shaanxi_earthquake#cite_note-16).
+
+
+
+2DO For nearly two hundred years, the Ryukyu Kingdom would thrive as a key player in maritime trade with [Southeast](https://en.wikipedia.org/wiki/Southeast_Asia "Southeast Asia") and East Asia.
+----
+[Ryukyu Kingdom - Wikipedia](https://en.wikipedia.org/wiki/Ryukyu_Kingdom)
+
+Ryukyuan ships, often provided by China, traded at ports throughout the
+region, which included, among others, China, Đại Việt (Vietnam), Japan,
+Java, Korea, Luzon, Malacca, Pattani, Palembang, Siam, and Sumatra.[13].
+
+Japanese products—silver, swords, fans, lacquerware, folding screens—and
+Chinese products—medicinal herbs, minted coins, glazed ceramics,
+brocades, textiles—were traded within the kingdom for Southeast Asian
+sappanwood, rhino horn, tin, sugar, iron, ambergris, Indian ivory, and
+Arabian frankincense. Altogether, 150 voyages between the kingdom and
+Southeast Asia on Ryukyuan ships were recorded in the Rekidai Hōan, an
+official record of diplomatic documents compiled by the kingdom, as
+having taken place between 1424 and the 1630s, with 61 of them bound for
+Siam, 10 for Malacca, 10 for Pattani, and 8 for Java, among others.[13]
+.
+
+### [Invasion of Ryukyu - Wikipedia](https://en.wikipedia.org/wiki/Invasion_of_Ryukyu)
+
+> The **invasion of Ryukyu** (琉球侵攻, _Ryūkyū Shinkō_) by forces of
+> the Japanese [feudal
+> domain](https://en.wikipedia.org/wiki/Han_(country_subdivision) "Han
+> (country subdivision)") of
+> [Satsuma](https://en.wikipedia.org/wiki/Satsuma_Domain "Satsuma
+> Domain") took place from March to May of 1609, and marked the
+> beginning of the [Ryukyu
+> Kingdom](https://en.wikipedia.org/wiki/Ryukyu_Kingdom "Ryukyu
+> Kingdom")'s status as a [vassal
+> state](https://en.wikipedia.org/wiki/Vassal_state "Vassal state")
+> under the Satsuma domain.
+
+### https://en.wikipedia.org/wiki/Military_of_the_Ryukyu_Kingdom
+### https://en.wikipedia.org/wiki/Rekidai_H%C5%8Dan
+
+ contains records, written entirely in Chinese, of communications
+ between Ryukyu and ten different trading partners in this period,
+ detailing as well the gifts given in tribute. The ten countries or
+ trading ports are China, Korea, Siam, Malacca, Palembang, Java,
+ Sumatra, Pattani, and Sunda Kelapa (Jakarta). There are 242 volumes in
+ total, including four lists, and an extra four sections. .
+
+
+
+
+
+
+[Bartolomeo Marchionni - Wikipedia](https://en.wikipedia.org/wiki/Bartolomeo_Marchionni)
+----
+
+....n 1500, in a joint enterprise with Dom Álvaro of Portugal and
+Girolamo Sernigi, Bartolomeo Marchionni sent a ship second fleet to
+India that discovered Brazil under the command of Pedro Álvares
+Cabral.[3] In 1501 he financed the third Portuguese armada (expedition)
+to India, under a joint private initiative with Portuguese Dom Álvaro of
+Braganza.[4....
+
+
+
+> [Jump to navigation](https://en.wikipedia.org/wiki/Bartolomeo_Marchionni#mw-head) [Jump to search](https://en.wikipedia.org/wiki/Bartolomeo_Marchionni#p-search)
+> 
+> **Bartolomeo Marchionni** (late 15th to early 16th century) was a [Florentine](https://en.wikipedia.org/wiki/Republic_of_Florence "Republic of Florence") [merchant](https://en.wikipedia.org/wiki/Merchant "Merchant") established in [Lisbon](https://en.wikipedia.org/wiki/Lisbon "Lisbon") during the [Age of Discovery](https://en.wikipedia.org/wiki/Age_of_Discovery "Age of Discovery").
+> 
+> Bartolomeo Marchionni arrived circa 1468 at Lisbon as an agent to the
+> [Cambini](https://en.wikipedia.org/wiki/Bracci-Cambini
+> "Bracci-Cambini"). In a long career he became the most successful
+> merchant[\[1\]](https://en.wikipedia.org/wiki/Bartolomeo_Marchionni#cite_note-1)
+> and one of the richest men in Lisbon at the time. He was the chief
+> merchant in [sugar](https://en.wikipedia.org/wiki/Sugar "Sugar") from
+> [Madeira](https://en.wikipedia.org/wiki/Madeira "Madeira") islands and
+> participated extensively in the voyages to Guinea.
+
+
+
+[Girolamo Sernigi - Wikipedia](https://en.wikipedia.org/wiki/Girolamo_Sernigi)
+----
+
+...Sernigi is remembered today as the author of letters in which he
+reported news of the overseas exploration to his relatives and
+associates back in Florence, and which became some of the most detailed
+accounts of the Portuguese expeditions of the period. [3] ...
+
+
+
+> **Girolamo Sernigi** (1453- after
+> 1510[\[1\]](https://en.wikipedia.org/wiki/Girolamo_Sernigi#cite_note-rav-1))
+> was an Italian merchant, originally from
+> [Florence](https://en.wikipedia.org/wiki/Republic_of_Florence
+> "Republic of Florence"), based in
+> [Lisbon](https://en.wikipedia.org/wiki/Lisbon "Lisbon"), Portugal.
+> Circa 1500, Florentine merchants were the most prominent foreign group
+> active in Lisbon's economic life and played an important role in the
+> financing of Portuguese maritime expeditions in search of new products
+> and
+> markets.[\[2\]](https://en.wikipedia.org/wiki/Girolamo_Sernigi#cite_note-FOOTNOTELach1994103-104-2)
+> Sernigi himself was a part owner of one of the ships of [Pedro Álvares
+> Cabral](https://en.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral "Pedro
+> Álvares Cabral")'s
+> [fleet](https://en.wikipedia.org/wiki/2nd_Portuguese_India_Armada_(Cabral,_1500)
+> "2nd Portuguese India Armada (Cabral,
+> 1500)"),[\[2\]](https://en.wikipedia.org/wiki/Girolamo_Sernigi#cite_note-FOOTNOTELach1994103-104-2)
+> and was in contact with members of the first Portuguese expeditions
+> sailing to India around the [Cape of Good
+> Hope](https://en.wikipedia.org/wiki/Cape_of_Good_Hope "Cape of Good
+> Hope"), such as [Gonçalo
+> Coelho](https://en.wikipedia.org/wiki/Gon%C3%A7alo_Coelho "Gonçalo
+> Coelho") and [Gaspar da
+> Gama](https://en.wikipedia.org/wiki/Gaspar_da_Gama "Gaspar da Gama")..
+
+
+[Sublimis Deus - Wikipedia](https://en.wikipedia.org/wiki/Sublimis_Deus)
+----
+
+...The bull had a strong impact on the Valladolid debate. Its principles
+became part of New Laws issued by Charles V in Spain, although such laws
+were often ignored by the colonists and conquistadores themselves....
+
+
+
+
+> _**Sublimis Deus**_ (English: _The sublime
+> God_;[\[1\]](https://en.wikipedia.org/wiki/Sublimis_Deus#cite_note-1)
+> erroneously cited as _**Sublimus Dei**_) is a [papal
+> encyclical](https://en.wikipedia.org/wiki/Papal_encyclical "Papal
+> encyclical") promulgated by [Pope](https://en.wikipedia.org/wiki/Pope
+> "Pope") [Paul III](https://en.wikipedia.org/wiki/Paul_III "Paul III")
+> on June 2, 1537, which forbids the enslavement of the [indigenous
+> peoples of the
+> Americas](https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas
+> "Indigenous peoples of the Americas") (called Indians of the W
+
+...In late spring of 1452 Byzantine Emperor Constantine XI wrote to Pope
+Nicholas for help against the impending siege of Constantinople by
+Ottoman Sultan Mehmed the Conqueror. Nicholas issued the bull Dum
+Diversas (18 June 1452) authorizing King Alfonso V of Portugal to
+"attack, conquer, and subjugate Saracens, pagans and other enemies of
+Christ wherever they may be found." Issued less than a year before the
+Fall of Constantinople in 1453, the bull may have been intended to begin
+another crusade against the Ottoman Empire.[13] Furthermore, the bull
+Romanus Pontifex (1455) gave the right of taking for reason of
+punishment for crime saracens (who, as Muslims in general were slavers
+themselves, often capturing Christians) and pagans as perpetual slaves.
+...
+
+
+
+[Sicut dudum - Wikipedia](https://en.wikipedia.org/wiki/Sicut_dudum)
+
+> _**Sicut dudum**_ (English: Just as Long Ago) is a [papal
+> bull](https://en.wikipedia.org/wiki/Papal_bull "Papal bull")
+> promulgated by [Pope Eugene
+> IV](https://en.wikipedia.org/wiki/Pope_Eugene_IV "Pope Eugene IV") in
+> Florence on January 13, 1435, which forbade the enslavement of local
+> [natives](https://en.wikipedia.org/wiki/Guanches "Guanches") in the
+> [Canary Islands](https://en.wikipedia.org/wiki/Canary_Islands "Canary
+> Islands") who had converted or were converting to Christianity. _Sicut
+> dudum_ was meant to reinforce _[Creator
+> Omnium](https://en.wikipedia.org/wiki/Creator_Omnium "Creator
+> Omnium")_, issued the previous year, condemning Portuguese slave raids
+> in the Canary Islands. Over forty years after _Creator omnium_ and
+> _Sicut dudum_, [Pope Sixtus
+> IV](https://en.wikipedia.org/wiki/Pope_Sixtus_IV "Pope Sixtus IV")
+> found it necessary to repeat the prohibition in his papal bull
+> _Regimini gregis_, which threatened the excommunication of all
+> captains or pirates who enslaved Christians..
+
+
 
 METABEST
 ====
@@ -136,6 +365,22 @@ entered the Jesuit order in Coimbra where he studied ecclesiastical law (Machado
 dia”. IIAS Newsletter Online 19. Online version, http://www.iias.nl/iiasn/19/institutes/i11.
 html (20th March, 2008).
 Zvelebil, Kamil V. 1990. Dravidian Linguistics. An introduction. Pondicherry: Pondicherry Insti-
+
+
+eyefilm.nl - Jan 1932 - Jewish Neighborhood in Amsterdam (speed corrected + soundtrack) - YouTube old footage
+----
+
+...In de collectie van Eye is de Nederlandse filmgeschiedenis terug te
+zien. De deelcollecties vormen de hoofdlijnen van deze filmgeschiedenis
+zoals die in de collectie van Eye vertegenwoordigd is....
+
+
+
+doors of mendes da costa, bueno de mesquita
+(https://www.youtube.com/watch?v=5Gnj2U_kXFk)
+[Jan 1932 - Jewish Neighborhood in Amsterdam (speed corrected + soundtrack) - YouTube](https://www.youtube.com/watch?v=5Gnj2U_kXFk)
+
+
 
 ROLLING
 ====
@@ -322,5 +567,100 @@ https://www2.latech.edu/~bmagee/louisiana_anthology/texts/de_biedma/de_biedma_re
 https://www2.latech.edu/~bmagee/louisiana_anthology/texts/de_biedma/de_biedma--narrative.html
 
 
+petrus alphonsi - Up until the _Dialogi contra Iudaeos_, the Augustinian tradition was
+---
+
+
+[Petrus Alphonsi - Wikipedia](https://en.wikipedia.org/wiki/Petrus_Alphonsi)
+
+> Up until the _Dialogi contra Iudaeos_, the Augustinian tradition was
+> followed in Christendom which allowed relative tolerance to the Jewish
+> people, and for the most part up until this point the attacks on the
+> Jewish people were localized and more importantly, not organized.
+> There was no literature before Petrus Alfonsi’s _Dialogi_ condemning
+> Judaism as a whole. There was no document for people to latch on to
+> and group up against the Jewish people..
+
+This work presented a point of view contrary to previous Christian
+philosophy because Christians claimed that the Jews were blindly
+practicing the Old Law. Petrus Alfonsi initiated a differing idea that
+“the Jews no longer followed the Old Law; they follow a new and
+heretical law, that of the Talmud.” Petrus’ belief was that the Jewish
+leaders were knowingly and willfully leading their flock astray. He
+believed that they purposely lied in order to conceal their sin of
+killing Jesus, in spite of the fact that they knew that he was the Son
+of God. Petrus Alfonsi also claimed that the Talmud was written to keep
+the Jewish people from seeing that Jesus was the Son of God; he called
+the Talmud “a fabric of lies” and a “heretical book.” .
+
+
+The Dialogi contra Iudaeos represented a turning point in not only
+polemical strategy, but also the perception of Judaism. In the Dialogi,
+Alfonsi argued with himself as his old Jewish self (Moses) and his new
+converted Christian self (Peter). What made this particular strategy of
+polemics so influential was the ability to control the argument
+legitimately without the need of a second party. Since the argument was
+between Judaism and Christianity, and Alfonsi was once a Jew and then a
+Christian, he was able to argue both sides with accuracy. By arguing
+against himself in the Dialogi, he was able to set the parameters of the
+argument without any unforeseen issues from a second party. Petrus was
+able to make each side say what he wanted; because of this, it was
+authoritative, and became a damaging piece to the perception of the
+Jews. . 
+
+[J. D. Bernal - Wikipedia](https://en.wikipedia.org/wiki/J._D._Bernal)
+-----
+...His family was Irish, of mixed Italian and Spanish/Portuguese[8]
+Sephardic Jewish origin on his father's side (his grandfather Jacob
+Genese, properly Ginesi, had adopted the family name Bernal of his
+paternal grandmother around 1837)....
+
+
+> **John Desmond Bernal**
+> [FRS](https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society
+> "Fellow of the Royal
+> Society")[\[3\]](https://en.wikipedia.org/wiki/J._D._Bernal#cite_note-frs-3)
+> ([/bərˈnɑːl/](https://en.wikipedia.org/wiki/Help:IPA/English
+> "Help:IPA/English"); 10 May 1901 – 15 September 1971) was an Irish
+> scientist who pioneered the use of [X-ray
+> crystallography](https://en.wikipedia.org/wiki/X-ray_crystallography
+> "X-ray crystallography") in [molecular
+> biology](https://en.wikipedia.org/wiki/Molecular_biology "Molecular
+> biology"). He published extensively on the [history of
+> science](https://en.wikipedia.org/wiki/History_of_science "History of
+> science"). In addition, Bernal was a political supporter of
+> [communism](https://en.wikipedia.org/wiki/Communism "Communism") and
+> wrote popular books on science and society..
+
+
+
+
+
+historia moral indias - [José de Acosta - Wikipedia](https://en.wikipedia.org/wiki/Jos%C3%A9_de_Acosta)
+----
+
+...José de Acosta was born at Medina del Campo in Spain, where his
+parents lived in this city of the plain, about twenty-four miles from
+Valladolid, in Old Castile, on the left bank of the swampy river
+Zapardiel, and overlooked by the old castle of La Mota. He was of
+converso background,[2] His parents had five sons, Gerónimo, Christóval,
+José, Diego, and Bernardo. The Acosta brothers were fellow townsmen of
+the old soldier Bernal Diaz, who told the story of the conquest of
+Mexico, ....
+
+
+
+> . It is chiefly the _Historia natural y moral_ that has established
+> the reputation of Acosta, as this was one of the very first detailed
+> and realistic descriptions of the [New
+> World](https://en.wikipedia.org/wiki/New_World "New World"). In a form
+> more concise than that employed by his predecessors, [Francisco Lopez
+> de
+> Gómara](https://en.wikipedia.org/wiki/Francisco_Lopez_de_G%C3%B3mara
+> "Francisco Lopez de Gómara") and
+> [Oviedo](https://en.wikipedia.org/wiki/Gonzalo_Fern%C3%A1ndez_de_Oviedo_y_Vald%C3%A9s
+> "Gonzalo Fernández de Oviedo y Valdés"), he treated the natural and
+> philosophic history of the New World from a broader point of
+> view.[\[13\]](https://en.wikipedia.org/wiki/Jos%C3%A9_de_Acosta#cite_note-13).
 
 

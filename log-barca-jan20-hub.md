@@ -188,6 +188,20 @@ cuatro meses, mientras que la finalización se prevé en 12 meses
 
 METABEST
 ====
+inaturalist.com - api and export tool
+----
+
+[Developers · iNaturalist](https://www.inaturalist.org/pages/developers)
+
+
+ In addition to our export tool, these datasets might provide a better
+ source of data than scraping our API. .
+ 
+ https://github.com/inaturalist/inaturalist
+ https://github.com/inaturalist/iNaturalistAndroid
+
+ https://www.inaturalist.org/pages/api+reference
+
 METABESTBEST
 ====
 
@@ -582,3 +596,47 @@ https://devblog.foodsharing.de/index.en.html
 > app.[\[10\]](https://en.wikipedia.org/wiki/Foodsharing.de#cite_note-10).
 
 [foodsharing is finally Open Source!](https://devblog.foodsharing.de/2019/08/26/open-source.html)
+
+
+
+
+[Landscape history - Wikipedia](https://en.wikipedia.org/wiki/Landscape_history)
+----
+
+> In England, landscape history emerged as an academic discipline following the publication of _[The Making of the English Landscape](https://en.wikipedia.org/wiki/The_Making_of_the_English_Landscape "The Making of the English Landscape")_ by [W. G. Hoskins](https://en.wikipedia.org/wiki/W._G._Hoskins "W. G. Hoskins") in 1955, although some topics that are now considered part of landscape history had been identified earlier. Darby,[\[1\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-1) for example, gives many early examples of regional characterisation of landscapes.
+> 
+> Following Hoskins, landscape history expanded in various directions. There are published landscape histories of a number of English counties.[\[2\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-2) Other authors have studied the landscape at earlier periods.[\[3\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-3) One productive avenue has been the study of specific landscape features such as fields, villages, and so on.[\[4\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-4) [Managed woodland](https://en.wikipedia.org/wiki/Ancient_woodland#Woodland_management "Ancient woodland") has been extensively studied by [Oliver Rackham](https://en.wikipedia.org/wiki/Oliver_Rackham "Oliver Rackham").[\[5\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-5)
+> 
+> The scope of landscape history ranges from specific individual features to areas covering hundreds of square miles.[\[6\]](https://en.wikipedia.org/wiki/Landscape_history#cite_note-6) Topics studied by landscape historians include:
+> 
+> - the form (morphology) of settlements - for example whether they are [dispersed](https://en.wikipedia.org/wiki/Dispersed_settlement "Dispersed settlement") or [nucleated](https://en.wikipedia.org/wiki/Nucleated_village "Nucleated village");
+> - the status of settlements - for example [Anglo-Saxon multiple estates](https://en.wikipedia.org/wiki/Anglo-Saxon_multiple_estate "Anglo-Saxon multiple estate");
+> - [deserted medieval villages](https://en.wikipedia.org/wiki/Deserted_medieval_village "Deserted medieval village") which provide evidence of earlier village forms;
+> - [field systems](https://en.wikipedia.org/wiki/Field_system "Field system") which can be used to date landscape features as well as illuminating earlier landscapes;
+> - [field boundaries](https://en.wikipedia.org/wiki/Boundaries_in_landscape_history "Boundaries in landscape history") or boundaries of larger units such as parishes or counties;
+> - [place-names](https://en.wikipedia.org/wiki/Place_name_origins "Place name origins") which have been used to illustrate landscape features, particularly Anglo-Saxon place-names.
+
+
+http://www.landscapestudies.com/
+
+http://www.landscapestudies.com/
+[Back numbers](http://www.landscapestudies.com/index_files/Backnumbers.htm)
+
+[Oliver Rackham - Wikipedia](https://en.wikipedia.org/wiki/Oliver_Rackham)
+
+> **Oliver Rackham**,
+> [OBE](https://en.wikipedia.org/wiki/Officer_of_the_Order_of_the_British_Empire
+> "Officer of the Order of the British Empire"),
+> [FBA](https://en.wikipedia.org/wiki/Fellow_of_the_British_Academy
+> "Fellow of the British Academy") (17 October 1939 – 12 February 2015)
+> was an academic at the [University of
+> Cambridge](https://en.wikipedia.org/wiki/University_of_Cambridge
+> "University of Cambridge") who studied the ecology, management and
+> development of the [British
+> countryside](https://en.wikipedia.org/wiki/United_Kingdom "United
+> Kingdom"), especially trees,
+> [woodlands](https://en.wikipedia.org/wiki/Woodland "Woodland") and
+> [wood pasture](https://en.wikipedia.org/wiki/Wood_pasture "Wood
+> pasture"). His books included _Ancient Woodland_ (1980) and _The
+> History of the Countryside_ (1986)..
+

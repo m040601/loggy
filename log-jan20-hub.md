@@ -1,10 +1,39 @@
 vim: ft=markdown
 
+CURRENT FOX EXTENSIONS
+=====
+
+Amazon.com	1.1	true	amazondotcom@search.mozilla.org
+Bing	1.1	true	bing@search.mozilla.org
+Cookie AutoDelete	3.0.4	true	CookieAutoDelete@kennydo.com
+Copy Selection as Markdown	0.17.0	true	{db9a72da-7bc5-4805-bcea-da3cb1a15316}
+DuckDuckGo	1.0	true	ddg@search.mozilla.org
+eBay	1.0	true	ebay@search.mozilla.org
+Google	1.0	true	google@search.mozilla.org
+Google Container	1.5.0	true	@contain-google
+Greasemonkey	4.9	true	{e4a8a97b-f2ed-450b-b12d-ee082ba24781}
+HTTPS Everywhere	2019.11.7	true	https-everywhere-eff@eff.org
+Skip Redirect	2.2.3	true	skipredirect@sblask
+Tridactyl	1.17.1	true	tridactyl.vim@cmcaine.co.uk
+Twitter	1.0	true	twitter@search.mozilla.org
+uBlock Origin	1.25.0	true	uBlock0@raymondhill.net
+Wikipedia (en)	1.0	true	wikipedia@search.mozilla.org
+Copy as Markdown	2.4.4	false	jid1-tfBgelm3d4bLkQ@jetpack
+Decentraleyes	2.0.13	false	jid1-BoFifL9Vbdl2zQ@jetpack
+DownThemAll!	4.2.6	false	{DDC359D1-844A-42a7-9AA1-88A850A938A8}
+Export Tabs URLs	0.2.12	false	{17165bd9-9b71-4323-99a5-3d4ce49f3d75}
+Facebook Container	2.0.3	false	@contain-facebook
+Gopass Bridge	0.6.2	false	{eec37db0-22ad-4bf1-9068-5ae08df8c7e9}
+Swift Selection Search	3.41.0	false	jid1-KdTtiCj6wxVAFA@jetpack
+Graphics
+
 MORE RSS
 ====
 
 https://openwrt.org/feed.php
 https://www.youtube.com/channel/UCj4SLNED1DiNPHComZTCbzw rex krueger woodworikng for human approved
+
+[Top 75 GIS Blogs & Websites in 2020 | GIS News Blogs | Geospatial Blogs](https://blog.feedspot.com/gis_blogs/)
 
 HELPDESK
 =====
@@ -314,6 +343,47 @@ METABEST geojson.io cli tools  semi-abandoned npm
 > -   [geojsonio.py](https://github.com/jwass/geojsonio.py) lets you shoot geojson from your terminal to geojson.io! (with python)
 > -   [reproject](https://github.com/perliedman/reproject) reprojects geojson on the fly, and then you can pipe to geojson.io!
 
+metatop [tmcw/awesome-geojson: GeoJSON utilities that will make your life easier.](https://github.com/tmcw/awesome-geojson)
+-----
+
+
+metabestbest [OSMPOIDB, eine kontinuierlich aktualisierte POI-Datenbank auf OpenStreetMap-Basis – FOSSGIS 2020](https://www.fossgis-konferenz.de/2020/sessions/9ZPDW7.php)
+----
+
+> POI-Karten aus Daten des OpenStreetMap-Projektes sind eigentlich eine häufige Anwendung. Um so erstaunlicher ist es, dass es bisher de facto keine verbreitete Vorgehensweise gibt ein kontinuierlich aktualisiertes Backend für solche Karten zu betreiben. Im Vortrag möchte ich deshalb eines vorstellen.
+> 
+> Zum Einsatz kommen PostGIS, Imposm und einfache CGI-Skripte.
+> 
+> Das Backend ist im Rahmen der Open Camping Map entstanden, kann aber für beliebige POI-Karten eingesetzt werden.
+> 
+> Als Frontend kann neben Karten auf Basis von Openlayers oder Leaflet auch uMap verwendet werden.
+
+
+https://github.com/giggls/osmpoidb
+http://blog.gegg.us/
+[Announcing Open Camping Map – Subjektive Wahrnehmung](http://blog.gegg.us/2019/01/announcing-open-camping-map/)
+https://camping.openstreetmap.de/
+The backend is based on PostGIS and Imposm and the associated
+configuration is also available at GitHub. It is likely suitable for
+other POI maps. Thus feel free to contact me if you like to build one!
+The most easy frontend for such a map will likely be uMap..;w
+k
+
+[25 Satellite Maps To See Earth in New Ways [2020] - GIS Geography](https://gisgeography.com/satellite-maps/)
+------
+
+ridgeline peak map metatop 
+-----
+[anvaka/peak-map: Make a ridge line chart from any region on Earth](https://github.com/anvaka/peak-map)
+https://anvaka.github.io/peak-map/
+https://flowingdata.com/charttype/frequency-trails/
+https://flowingdata.com/2020/01/06/draw-a-ridgeline-map-showing-elevation-for-anywhere-on-earth/
+
+[HOT Export Tool](https://export.hotosm.org/en/v3/)
+----
+
+> The Export Tool is an open service that creates customized extracts of up-to-date OSM data in various file formats.  
+> Download and use the data simply by crediting the OpenStreetMap contributors.
 PANDOC
 =====
 
@@ -407,6 +477,17 @@ https://medium.com/@angeldan1989/how-to-export-notes-highlights-annotations-from
 > **_\[FeatureSettings\]  
 > ExportHighlights=true_**
 
+karlicoss/kobuddy (update nov2019)
+-----
+[karlicoss/kobuddy: Kobo database backup and parser: extracts notes, highlights, reading progress and more](https://github.com/karlicoss/kobuddy)
+
+> Kobuddy is a tool to backup Kobo Reader sqlite database and extract useful things from it.
+> 
+> It gives you access to books, annotations, progress events and more!
+> 
+> Tested on Kobo Aura One, however database format shouldn’t be different on other devices. I’ll happily accept PRs if you find any issues or want to help with reverse engineering more events.
+> 
+> Installing
 OPENWRT
 ====
 
@@ -1051,6 +1132,60 @@ This answer saved my day! – Jinhua Wang Oct 3 '19 at 13:54
 
 
 
+curl multiple url's
+----
+[Understanding the Hidden Powers of curl | Nordic APIs |](https://nordicapis.com/understanding-the-hidden-powers-of-curl/)
+
+> Hybrid Requests
+> ===============
+> 
+> One interesting use case of the request system is the utilization of hybrid requests. In curl, different requests can be combined on the same command line as follows:
+> 
+> curl -d user=daniel https://example.com https://another.example.com
+> 
+> 1
+> 
+> curl  -d  user=daniel https://example.com https://another.example.com
+> 
+> Of note is the fact that there’s no real limit to the number of URLs that can be used in such a scheme, meaning you could theoretically do a great number of requests to a great number of API endpoints on a single CLI line. This is especially useful when multiple requests have to be made to coalesce content – in fact, in this use case, you could use the same hybrid approach noted here, and then pipe these contents to a filename for combinatory efforts.
+> 
+> You can also set the specific order of this process by using `--next` as follows:
+> 
+> curl -d user=daniel https://example.com --next https://another.example.com
+> 
+> 1
+>Hybrid Requests
+
+One interesting use case of the request system is the utilization of hybrid requests. In curl, different requests can be combined on the same command line as follows:
+curl -d user=daniel https://example.com https://another.example.com
+1
+	
+curl -d user=daniel https://example.com https://another.example.com
+
+Of note is the fact that there’s no real limit to the number of URLs that can be used in such a scheme, meaning you could theoretically do a great number of requests to a great number of API endpoints on a single CLI line. This is especially useful when multiple requests have to be made to coalesce content – in fact, in this use case, you could use the same hybrid approach noted here, and then pipe these contents to a filename for combinatory efforts.
+
+You can also set the specific order of this process by using --next as follows:
+curl -d user=daniel https://example.com --next https://another.example.com
+1
+	
+curl -d user=daniel https://example.com --next https://another.example.com
+
+Conversely, if you wanted to do different things on the same line, you can do that too!
+curl https://example.com --next -d user=daniel https://another.example.com
+1
+	
+curl https://example.com --next -d user=daniel https://another.example.com 
+> curl  -d  user=daniel https://example.com --next https://another.example.com
+> 
+> Conversely, if you wanted to do different things on the same line, you can do that too!
+> 
+> curl https://example.com --next -d user=daniel https://another.example.com
+> 
+> 1
+> 
+> curl https://example.com --next -d user=daniel https://another.example.com
+
+
 TMUX
 =====
 
@@ -1354,6 +1489,40 @@ metatop picocom a very simple, _very low-tech_, terminal server.
 > access these console ports remotely.
 
 
+the compiler -  journalwatch (journactl)
+----
+
+[The-Compiler/journalwatch: Simple log
+parsing utility for the systemd
+journal](https://github.com/The-Compiler/journalwatch)
+
+> journalwatch is a tool which can find error messages in the systemd
+> journal.
+> 
+> It is similiar to tools like
+> [logwatch](http://sourceforge.net/projects/logwatch/) or
+> [logcheck](http://logcheck.org/) except it's much more KISS and only
+> works with the systemd
+> [journal](http://0pointer.de/blog/projects/journalctl.html). It works
+> by defining patterns to match all log lines which are not interesting,
+> and then prints all log lines not matching those patterns (or sends
+> them by mail).
+> 
+> When you start it the first time, it'll write the default pattern and
+> config to `$XDG_CONFIG_HOME/journalwatch` (`$XDG_CONFIG_HOME` is
+> `$HOME/.config` if unset). Details on how to configure journalwatch
+> are available in these files.
+
+
+[The-Compiler/journalwatch: Simple log parsing utility for the systemd journal](https://github.com/The-Compiler/journalwatch)
+
+> journalwatch is a tool which can find error messages in the systemd journal.
+> 
+> It is similiar to tools like [logwatch](http://sourceforge.net/projects/logwatch/) or [logcheck](http://logcheck.org/) except it's much more KISS and only works with the systemd [journal](http://0pointer.de/blog/projects/journalctl.html). It works by defining patterns to match all log lines which are not interesting, and then prints all log lines not matching those patterns (or sends them by mail).
+> 
+> When you start it the first time, it'll write the default pattern and config to `$XDG_CONFIG_HOME/journalwatch` (`$XDG_CONFIG_HOME` is `$HOME/.config` if unset). Details on how to configure journalwatch are available in these files.
+
+
 THESETUP ARCH CONTRIB
 ====
 
@@ -1362,6 +1531,13 @@ community/aurpublish r35.g0f8d149-1 [installed]
     PKGBUILD management/upload framework for the Arch User Repository
 NEWTOOLS
 ===
+
+TaskLite is a CLI task manager built with [Haskell] and [SQLite]
+----
+[Introduction - TaskLite Documentation](https://tasklite.org/introduction.html)
+
+> TaskLite is a CLI task manager built with [Haskell](https://haskell.org) and [SQLite](https://sqlite.org).
+
 
 python (wants gigantic matplot lib dow) [mcastorina/graph-cli
 ----
@@ -1573,6 +1749,37 @@ metabest [discogs/discogs_client: Official Python Client for the Discogs API]
 [discogs/discogs_client: Official Python Client for the Discogs API](https://github.com/discogs/discogs_client)
 
 > This is the official Discogs API client for Python. It enables you to query the Discogs database for information on artists, releases, labels, users, Marketplace listings, and more. It also supports OAuth 1.0a authorization, which allows you to change user data such as profile information, collections and wantlists, inventory, and orders.
+
+metabest yts - shell script search youtube with youtube-dl process json with jq
+----
+[lwilletts/yts: youtube search](https://github.com/lwilletts/yts)
+
+> A quick and dirty shell script around youtube-dl to return youtube
+> search results to the terminal. You can then open the links in your
+> favourite video player: mpv
+
+
+metabest mpvc and ncmpvc - rust clients  for mpv
+----
+
+[lwilletts/mpvc: An mpc-like control interface for mpv.](https://github.com/lwilletts/mpvc)
+
+> An mpc-like control interface for mpv.
+socat ,  https://github.com/lwilletts/mpvc
+
+
+Useful Tricks
+
+    Hotkey daemons like sxhkd can be used to bind mpvc commands to key combinations. Alternatively check your window manager documentation on how to bind keys to commands.
+    Any URL that can be played using mpv can be added to the playlist, e.g. using mps-youtube with player set to mpvc and playerargs set to add.
+    mpvc GNU options can be combined together to give improved results: $ mpvc -P -j 1 will make mpvc always start playing when switching to the next track.
+    Piping files directly into mpvc is possible and preferable when loading multiple directories to be played:
+
+
+
+### rust (last update 2 years
+rust, https://gitlab.com/mpv-ipc/ncmpvc
+rust, https://gitlab.com/mpv-ipc/mpvc
 
 NEWTOOLSWEB
 =====
@@ -2305,6 +2512,66 @@ color tail output with awk or sed
 > If your sed isn't GNU sed, replace `\o033` by a literal escape character and remove `--unbuffered`.
 > 
 > Yet another possibility is to run `tail -f` in an **Emacs** shell buffer and use Emacs's syntax coloring abilities.
+
+
+hand made surfraw
+----
+
+https://old.reddit.com/r/commandline/comments/f995y2/how_to_google_search_from_commandline_using/
+alternate solution ( replace command line with whatever")
+
+	#/bin/sh
+
+	unshift
+
+	w3m "https://www.google.com/search?q=$*"
+
+    permalinkembedsavereport
+
+
+
+
+wget as surfraw browser with grep /sed pipe- getting exactly what i want and noting more
+----
+[Surfraw, by Julian Assange--practical purposes? : privacy](https://old.reddit.com/r/privacy/comments/5z32d4/surfraw_by_julian_assangepractical_purposes/)
+
+> 1.  write an -elvi which questions the documentation.
+> 2.  set SURFRAW\_graphical to no, SURFRAW\_text\_browser to "wget," and SURFRAW\_text\_browser\_args to "-qO -" This will retreive the output of the search results page and direct them to stdout.
+> 3.  pipe that output to sed "sed -n 's/.\*href="\\(\[^"\]\*\\).*/\\1/p' "(Hope I got that right, I have to escape a lot of characters(Edit: shit. So close.)) to get all the links on the results page
+> 4.  optionally loop over extracted links to find specific results with "surfraw W $specific_result"
+> 5.  pipe output to grep -C1 to see display the context of privacy-sensitive terms in documentation on stdout.
+> 
+> OK so that's a pretty advanced way of using it, but by doing so I
+> could, in theory, get the exact information I want, and basically
+> nothing else, without ever touching a browser, or a javascript VM, or
+> anything else besides like, a bunch of unix command-line tools, in a
+> way which I can do repeatedly without having to write the URL's
+> myself.(Edit: This means that the only dependency I added to my system
+> was surfraw, and not like, Webkit or something.).
+
+
+
+here directory survive reboots
+----
+
+[Introducing retreat - a simple way to retreat back to a specified directory when you are in any of it's children. https://github.com/shogunpurple/retreat : commandline](https://old.reddit.com/r/commandline/comments/f6uxf2/introducing_retreat_a_simple_way_to_retreat_back/)
+
+> point2 points 5 days ago [(0 children)](javascript:void(0))
+> 
+> I wanted something that would survive reboots, etc. so I came up with these functions/aliases many years ago:
+> 
+>     here () {
+>         current=$PWD
+>         test -f $HOME/.current && rm $HOME/.current
+>         echo "current='$current'" > $HOME/.current
+>     }
+>     
+>     alias back='cd "$current"'
+>     
+> 
+> My Bash/ZSH rc files include something like
+> 
+>     test -f ~/.current && . ~/.current
 
 
 METABESTBEST
