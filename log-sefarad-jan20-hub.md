@@ -382,6 +382,270 @@ doors of mendes da costa, bueno de mesquita
 
 
 
+
+
+mr rebello of hackney - via james cavanah murphy (irish batalha) - travels in portugal
+----
+
+The Jews of Hackney before 1840 on JSTOR (https://www.jstor.org/stable/29779839)
+
+> Journal Article
+> 
+> The Jews of Hackney before 1840
+> ===============================
+> 
+> MALCOLM BROWN
+> 
+> Jewish Historical Studies
+> 
+> Vol. 30 (1987-1988), pp. 71-89
+
+
+
+The Gentleman's Magazine - Wikipedia (https://en.wikipedia.org/wiki/The_Gentleman%27s_Magazine)
+
+> _**The Gentleman's Magazine**_ was a monthly magazine\[1\]
+> (https://en.wikipedia.org/wiki/The_Gentleman%27s_Magazine#cite_note-1)
+> founded in London (https://en.wikipedia.org/wiki/London "London"),
+> England, by Edward Cave (https://en.wikipedia.org/wiki/Edward_Cave
+> "Edward Cave") in January 1731.\[2\]
+> (https://en.wikipedia.org/wiki/The_Gentleman%27s_Magazine#cite_note-2)
+> It ran uninterrupted for almost 200 years, until 1922. It was the
+> first to use the term _magazine
+> (https://en.wikipedia.org/wiki/Magazine "Magazine")_ (from the French
+> (https://en.wikipedia.org/wiki/French_language "French language")
+> _magazine_, meaning "storehouse") for a periodical
+> (https://en.wikipedia.org/wiki/Periodical "Periodical").\[3\]
+> (https://en.wikipedia.org/wiki/The_Gentleman%27s_Magazine#cite_note-3)
+> Samuel Johnson (https://en.wikipedia.org/wiki/Samuel_Johnson "Samuel
+> Johnson")'s first regular employment as a writer was with _The
+> Gentleman's Magazine_..
+
+
+vol 67 part 1
+.... I find the death of the late Mr. Rebello, of Hackney; ...
+....I perfeółly agree with Mr. Rye in his observation, that this
+traffick has been ... of a pair of dies, whence the Hackney token,
+represented in Mr. Pye's book, was struck. ... had never been done by
+Mr. Rebello; and the dies were interchanged and .......
+...At Hackney, David Alvis Rebello, esq. well known for his attachment
+to the study of the works of nature and of .....
+
+
+...An Arrangement of Provincial Coins, Tokens and Medalets, issued in Great ...
+By James CONDER...
+
+### david alves rebello - coins
+View records in the collection Hackney History and thousands of other
+fascinating records and collections on ... The Collection of Coins and
+Tokens of David Alves Rebello, a Jew of Mare Street, Hackney ... Mr
+Tomb's Garden in Homerton..
+
+
+baron of suasso - loan to william of orange - lopes suasso - lima prado - lopes frances - braganca - bayona -amsterdam
+----
+
+Francisco Lopes Suasso - Wikipedia (https://en.wikipedia.org/wiki/Francisco_Lopes_Suasso)
+
+> **Francisco Lopes Suasso, second Baron d'Avernas le Gras** (_c._ 1657
+> – 22 April 1710) was a banker and financier of the Dutch Republic
+> (https://en.wikipedia.org/wiki/Dutch_Republic "Dutch Republic"). He
+> was also known within the Sephardic Jewish
+> (https://en.wikipedia.org/wiki/Sephardic_Jewish "Sephardic Jewish")
+> community as **Abraham Israel Suasso**..
+
+
+
+...A notable instance of the support of the house of Suasso to the Dutch
+stadtholders is the loan of two million guilders which Suasso made to
+William of Orange in 1688 in support of his invasion of England to claim
+the thrones of King James II.[1] T....
+
+
+
+...uasso was responsible for a number of elements of the invasion, and
+through his father-in-law in Hamburg he was able to make speedy
+arrangements for the transport of Swedish and Pomeranian troops provided
+in November 1688 by Charles XI of Sweden to assist William.[6] The
+coffer in which William repaid the loan to Suasso is today on display in
+the Willet-Holthuisen Museum in Amsterdam.[1]...
+
+
+
+Glorious Revolution - Wikipedia (https://en.wikipedia.org/wiki/Glorious_Revolution)
+
+> The **Glorious Revolution**, or **Revolution of 1688** (Irish
+> (https://en.wikipedia.org/wiki/Irish_language "Irish language"): _An
+> Réabhlóid Ghlórmhar_, Scottish Gaelic
+> (https://en.wikipedia.org/wiki/Scottish_Gaelic_language "Scottish
+> Gaelic language"): _Rèabhlaid Ghlòrmhor_ or Welsh
+> (https://en.wikipedia.org/wiki/Welsh_language "Welsh language"):
+> _Chwyldro Gogoneddus_), was the November 1688 deposition and
+> subsequent replacement of James II and VII
+> (https://en.wikipedia.org/wiki/James_II_and_VII "James II and VII") as
+> ruler of England, Scotland and Ireland by his daughter Mary II
+> (https://en.wikipedia.org/wiki/Mary_II "Mary II") and his Dutch nephew
+> and Mary's husband, William III of Orange
+> (https://en.wikipedia.org/wiki/William_III_of_Orange "William III of
+> Orange"). T.
+
+
+### family lopes suasso
+
+Libourne - Wikipedia (https://en.wikipedia.org/wiki/Libourne)
+
+> **Libourne** (French pronunciation: ​\[libuʁn\]
+> (https://en.wikipedia.org/wiki/Help:IPA/French "Help:IPA/French");
+> Gascon (https://en.wikipedia.org/wiki/Gascon_language "Gascon
+> language"): _Liborna_ \[liˈbuɾnɔ\]
+> (https://en.wikipedia.org/wiki/Help:IPA/Occitan "Help:IPA/Occitan"))
+> is a commune (https://en.wikipedia.org/wiki/Communes_of_France
+> "Communes of France") in the Gironde
+> (https://en.wikipedia.org/wiki/Gironde "Gironde") department
+> (https://en.wikipedia.org/wiki/Departments_of_France "Departments of
+> France") in Nouvelle-Aquitaine
+> (https://en.wikipedia.org/wiki/Nouvelle-Aquitaine
+> "Nouvelle-Aquitaine") in southwestern France
+> (https://en.wikipedia.org/wiki/France "France"). It is a
+> sub-prefecture (https://en.wikipedia.org/wiki/Sub-prefecture
+> "Sub-prefecture") of the department..
+
+
+Lopes Suasso - Wikipedia (https://en.wikipedia.org/wiki/Lopes_Suasso)
+
+> The family history begins with Dr. Pedro Lopes Fránces who moved to
+> Libourne (https://en.wikipedia.org/wiki/Libourne "Libourne") as a
+> medical doctor. His grandson Antonio
+> (https://en.wikipedia.org/w/index.php?title=Antonio_Lopes_Suasso&action=edit&redlink=1
+> "Antonio Lopes Suasso (page does not exist)") (1614-1685) was granted
+> title of Baron of Avernas le Gras (Brabant) by Charles II of Spain
+> (https://en.wikipedia.org/wiki/Charles_II_of_Spain "Charles II of
+> Spain"). He moved to the Netherlands and en was parnas of the
+> Portuguese-Jewish community in The Hague
+> (https://en.wikipedia.org/wiki/The_Hague "The Hague"). His descendants
+> held important leading functions within the Portuguese-Jewish
+> communities in the Netherlands. Through its banking activities, the
+> family became one of the wealthiest families in the Netherlands. They
+> are well known for having financed the Glorious Revolution
+> (https://en.wikipedia.org/wiki/Glorious_Revolution "Glorious
+> Revolution").
+
+The Lopes Suasso art collection became the foundation for the Stedelijk
+Museum of which Jan Eduard van Someren Brand (1856-1904) was the first
+curator. .
+
+
+### pedro lopes frances
+
+... Isabeau is geboren rond 1590 te Bragana (Portugal) overleden in 1667
+te Bordeaux....
+
+
+Welkom op mijn website over de f (http://www.stamboomsijbrands.nl/suasso.htm)
+
+> Frances (Francisco Lopes) en Onbekend.
+> 
+> Uit dit huwelijk is heden 1 kind bekend.
+> 
+> 01\. Pedro Lopes Fraces geboren te onbekend overleden te onbekend.           
+> 
+> Frances werd geboren rond 1530 in vermoedelijk Portugal.
+> 
+> Verder is er heden niets bekend over dit gezin.
+> 
+> Pedro Lopes Fraces (Pierre Lopes Fradais) en Cathalina Alvares.
+> 
+> Pedro en Cathalina trouwde te onbekend. Uit dit huwelijk zijn heden 2 kinderen bekend.
+> 
+> 01\. Don Francisco Lopes geboren rond 1585 te Braganca (P) overleden rond 1659 Aquitaine/Bordeux (Fr).
+> 
+> 02\. Antonio Dias Frances geboren rond 1590 te Braganca (P) overleden te onbekend.
+> 
+> Verder is er heden niets bekend over dit gezin.
+
+isaac Avuhaf, who died in 1493, author of the Menoraas Hammor, or Lamp of Light, ...
+----
+
+travels in portugal crawford and the jews of braganza
+----
+
+...Then he asked me if I was aware that Spinosa himself, the great
+philosopher of Amsterdam, was born in Hol- land of a father and mother
+who were themselves of Portuguese birth? I said I was not. Thereupon he
+startled me considerably by demanding to know what my opinion might be
+upon Spinosa's system of philosophy. I question whether a harmless
+tourist was ever asked so searching a question before by a chance
+acquaintance. It has been my fortune to have submitted myself for vivd
+voce examination in the " schools" of a certain English University; and,
+later in life, to have been subjected to a still more terrible public
+examination; but on neither of these occasions do I remember to have
+been so taken aback as when called upon for an impromptu opinion upon
+the Pantheism of Spinosa by this grave Portuguese gentleman riding by my
+side on the remote mountains of Traz-os-Montes. I modestly replied that
+I was afraid I had not given the subject so much attention as it
+deserved: that the system was, no doubt, an ingenious one, but that I
+personally did not much hold with it. "Nor do I," said my interlocutor,
+eagerly; "neither do our people. Though Spinosa is, per- haps, the
+greatest man our race has produced, we of the house of Israel hold him
+in no honour. He was a recusant and an apostate from our religion. ...
+
+
+
+amstel porcelain fabrik  ??? yes no ???
+----
+
+
+
+according to "Travels in Portugal. By John Latouche [pseud.] With
+illustrations ... Crawfurd, Oswald, 1834-1909.'
+
+a jew in braganza says so :
+
+Travels in Portugal. By John Latouche [pseud.] With illustrations by the Right Hon. T. Sotheron Estcourt., . - Text-only - Full View | HathiTrust Digital Library (https://babel.hathitrust.org/cgi/ssd?id=mdp.39015063904109;seq=138)
+
+> that ancestors of his own had settled at Amstel, in Holland, and had
+> subsequently either established or helped to establish the celebrated
+> porcelain manu- facture of that town; that the workers at Amstel had
+> been, almost to a man, Jews from Saxony and Portugal.
+
+
+
+
+Dutch porcelain factory near Amsterdam, originally founded at Weesp
+(1764; see Weesp Porcelain Factory), then moved to Oude Loosdrecht
+(1771), Oude Amstel (1784) and Nieuwe Amstel (1799); it closed in ...
+
+
+...Dutch porcelain factory near Amsterdam, originally founded at Weesp
+(1764; see Weesp Porcelain Factory), then moved to Oude Loosdrecht
+(1771), Oude Amstel (1784) and Nieuwe Amstel (1799); it closed in 1810
+(see Netherlands, Kingdom of the §VII 3.). The term ‘Amstel porcelain’
+is sometimes used to denote the products of the period 1784–1810, when
+the factory was in Oude Amstel and Nieuwe Amstel, but is also used to
+denote all the products of the factory from 1764 to 1810. The original
+workmen were from Dresden, and the early pottery resembles white Dresden
+pottery with landscape and figure decorations; the late pottery tends to
+follow French models, especially Sèvres. Amstel tableware and
+utilitarian containers suited bourgeois tastes, and apart from a few
+busts in biscuit there was no attempt to mimic the refined technical
+mastery of Delft pottery. Decoration and shape were eclectic, so the
+pottery never developed a strong visual identity. Some pottery is
+entirely white, with ornament in low relief; piercings are sometimes
+outlined in blue; cartouches contained a wide variety of pictures, often
+portraying flowers or landscapes; Sèvres cornflowers are a common
+adornment....
+
+
+History Dutch Porcelain (https://www.argenterieantique.nl/historie/history-dutch-porcelain/)
+
+> **WEESP PORCELAIN 1759 - 1770**  
+>   
+> After a short preliminary period  Earl of Gronsveld-Diepenbroick-Impel
+> was succesful in mastering the manufacture of porcelain. The core of
+> the factory in Weesp was formed by experienced porcelain workers who
+> were “bought” from the German and French workshops..
+
+
 ROLLING
 ====
 
@@ -662,5 +926,21 @@ Mexico, ....
 > "Gonzalo Fernández de Oviedo y Valdés"), he treated the natural and
 > philosophic history of the New World from a broader point of
 > view.[\[13\]](https://en.wikipedia.org/wiki/Jos%C3%A9_de_Acosta#cite_note-13).
+
+
+
+QUESTOM JUDAICA: FELGUEIRAS 
+----
+QUESTOM JUDAICA: FELGUEIRAS (https://questomjudaica.blogspot.com/2016/02/felgueiras.html)
+
+> Segundo as informações do Abade de Baçal, o autor da história mais
+> completa do distrito de Bragança, em Felgueiras ainda existiria a
+> prática da circuncisom com algumha frequência nas crianças em casos
+> especiais (prepúcios de cabeça coberta, como vulgarmente se dizia)
+> como medida higiénica. Esta prática seria rodeada de muito secretismo,
+> devido às habituais pressões que a igreja católica exercia sobre a
+> comunidade judaica lá fixada. A circuncisom era umha das principais
+> práticas judaicas mas que ao longo dos tempos acabou por se extinguir
+> por completo..
 
 

@@ -1,12 +1,46 @@
 vim: ft=markdown
 
 
+FOOTAGE
+====
+
+Dehesa, el bosque del lince ibérico - Trailer (HD) - YouTube (https://www.youtube.com/watch?v=wTNRKWYV7RE)
+https://wandafilms.com/site/sinopsis/dehesa_el_bosque_del_lince_iberico
 BOATS
 ====
 TRAINS
 ====
 NEWS
 ====
+La USAL continuará supervisando el Programa de Vigilancia Radiológica Ambiental en Saelices el Chico 
+----
+
+y Juzbado (https://salamancartvaldia.es/not/233441/usal-continuara-supervisando-programa-vigilancia-radiologica/)
+
+> El plazo fijado por este nuevo convenio es de cuatro años, durante los
+> que **se invertirán 304.705,96 euros**, aportados en un 70 % por el
+> CSN y el resto a cargo de la Universidad de Salamanca. A lo largo de
+> este tiempo, y como en ocasiones anteriores, personal del Laboratorio
+> de Radiaciones Ionizantes perteneciente al Departamento de Física
+> Fundamental llevará a cabo un programa periódico de muestreo y
+> análisis en el entorno de las instalaciones Quercus, en Saelices el
+> Chico, y Juzbado, basado en el Programa de Vigilancia Radiológica
+> Ambiental elaborado por Enusa, la empresa que gestiona ambas..
+
+Los zorros acaban con la vida de un ternero recién parido en Aldea del Obispo
+----
+
+(https://salamancartvaldia.es/not/233150/zorros-acaban-vida-ternero-recien-parido-aldea-obispo/)
+
+> **Asaja Salamanca** ha dado a conocer que el pasado domingo **varios zorros** acabaron con la vida en una **explotación de la localidad de Aldea del Obispo** de un ternero recién parido, al que devoraron la lengua además de morderle el hocico. Desde **Asaja** apuntan que la llegada del ganadero a la explotación (que cuenta con **35 vacas**) evitó un segundo ataque de animales salvajes, ya que **los buitres** se habían acercado a las inmediaciones de la finca tras el ataque inicial de los zorros.
+> 
+> El ataque acaecido en Aldea del Obispo es el **segundo de zorros** del
+> que se tiene constancia en la comarca mirobrigense en menos de un mes,
+> ya que el 6 de febrero mataron a otro ternero y dejaron malherido a la
+> reproductora en una explotación de Ciudad Rodrigo. Asimismo, se
+> recuerda que **hace poco más de mes y medio los buitres devoraron a un
+> becerro vivo**..
+
 TOPNEWS
 ====
 
@@ -186,6 +220,15 @@ El alcalde, Manuel Domínguez, estima que los caminos estarán abiertos en
 cuatro meses, mientras que la finalización se prevé en 12 meses
 
 
+
+METABEST Los propietarios de los terrenos donde Iberdrola quiere montar una planta fotovoltaica
+-----
+
+, en pie de guerra (https://salamancartvaldia.es/not/233358/propietarios-terrenos-donde-iberdrola-quiere-montar-planta-pie/)
+
+> En este sentido, estos propietarios –entre los que se encuentra el **Ayuntamiento de Ciudad Rodrigo**\- ya consideran inaudito cómo se están dando los pasos, ya que según aseguran, a muchos no se les ha notificado nada personalmente, siendo la única información al respecto la publicación en el **Boletín Oficial de la Provincia de Salamanca** (el pasado 11 de febrero) del listado de terrenos que serán ocupados de forma forzosa para llevar a cabo el proyecto (https://sede.diputaciondesalamanca.gob.es/documentacion/bop/2020/20200211/BOP-SA-20200211-001.pdf (https://sede.diputaciondesalamanca.gob.es/documentacion/bop/2020/20200211/BOP-SA-20200211-001.pdf)).
+
+
 METABEST
 ====
 inaturalist.com - api and export tool
@@ -201,6 +244,61 @@ inaturalist.com - api and export tool
  https://github.com/inaturalist/iNaturalistAndroid
 
  https://www.inaturalist.org/pages/api+reference
+
+
+Academia Montsefarad - rotary chaves
+-----
+
+ernesto areias
+https://www.avozdetrasosmontes.pt/noticia/25752
+https://www.facebook.com/pg/CEJATROTARY
+https://montsefarad.wixsite.com/ivsimposio
+
+Cronica: Academia Montsefarad IV Simpósio Sobre Judaismo | Jornal Nordeste (https://www.jornalnordeste.com/opiniao/academia-montsefarad-iv-simposio-sobre-judaismo)
+
+https://www.facebook.com/CEJATROTARY/photos/a.1594671677213934/3215439891803763/?type=3&__xts__%5B0%5D=68.ARDg2l8D-Ke2kg17ZZNS61ouvuUWUX4qzqXEHQX1X3MLN8rrnriXLvuMAgagLYXHoOcmfMuCohDTUEyOdzPDLe1RVPUHqR92kGZmLuwjOHUuJfMXO-StqJ_SP9YcbLgXD27Yr8Zt1qWHCZ1_e2SB_PG67Yl_d-UNYsC9PJbF-YE6k2va4l40XSWYPuVMnpaUXdUeWr1dSRvHPMDDYsKgJrpae4Bcbd6JeO3SbLAbxMrYPtqjqVWB8mi5oEWDHQMbgKgZXfKAO07fwncDjlQFGm1EGb_cz67c3IMg_DD6n_hdzo8l-eC-q1sZnwmHRYEgau0YhqEGo-ubzz8CT2gS5SFX7cwm&__tn__=-R
+
+Esta é a Revista Montsefarad, n.º 1, propriedade da Academia para o
+estudo da História e Património sefarditas de Trás-os-Montes (Academia
+Montsefarad), que será apresentada no IV Simpósio sobre judaísmo, dia 13
+de março, em Chaves.
+Este n.º 1 contém as comunicações dos II e III Simpósios
+
+
+### Jorge Alves Ferreira
+
+Natural de Chaves, licenciado em História e mestre em Estudos
+Portugueses Multidisciplinares (especialização em História) com a tese
+“A presença Cristã Nova em Chaves no período Filipino (1580-1640)”.
+Desde 2008 tem-se dedicado a estudar as comunidades
+judaico/cristãs-novas na região do Alto Tâmega, com trabalhos publicados
+em revistas da especialidade. Durante dois anos publicou mensalmente
+artigos de divulgação no semanário A Voz de Chaves. Membro fundador do
+CEJAT e da Academia MontSefarad e Presidente da Comissão Instaladora.
+
+### Ernesto Salgado Areias
+
+Natural de Valpaços, foi professor dos Ensinos Básico e Secundário.
+Licenciou-se em Direito pela Faculdade de Direito da Universidade de
+Lisboa em 1985, estando inscrito como advogado na Ordem dos Advogados
+desde 1987. Advogado de profissão, é membro de várias associações, entre
+as quais a Academia MontSefarad, de que é membro fundador e um dos
+principais impulsionadores. Tem sabido fazer a ponte entre a atividade
+profissional, associativa e a escrita, sendo autor de dois romances,
+merecendo destaque o romance histórico “Demónios por Sefarad”..
+
+
+
+### António Júlio Andrade
+
+Natural de Felgueiras, concelho de Torre de Moncorvo, estudou nos
+seminários de Vinhais, Bragança e Braga e na Faculdade de Filosofia da
+Universidade do Porto. Possui o curso de Técnico de Turismo Cultural
+ministrado no Centro Nacional de Cultura em Lisboa. Foi professor do
+Ensino Secundário e atualmente trabalha na Câmara Municipal de Torre de
+Moncorvo como Técnico de Bibliotecas, Arquivos e Documentação. Durante
+10 anos foi Diretor do Jornal Terra Quente, quinzenário que se publica
+em Mirandela. Membro associado da Academia MontSefarad..
 
 METABESTBEST
 ====
@@ -639,4 +737,32 @@ http://www.landscapestudies.com/
 > [wood pasture](https://en.wikipedia.org/wiki/Wood_pasture "Wood
 > pasture"). His books included _Ancient Woodland_ (1980) and _The
 > History of the Countryside_ (1986)..
+
+
+ccdr-n - norte conjuntura
+----
+
+Norte Conjuntura | Comissão de Coordenação de Desenvolvimento Regional do Norte (https://www.ccdr-n.pt/norte-conjuntura)
+
+> Com periodicidade trimestral, o relatório "Norte Conjuntura" reúne e
+> analisa, desde 2006, a informação disponível mais relevante com vista
+> à identificação precoce das tendências que marcam a evolução
+> económica, a curto prazo, da Região Norte no contexto nacional..
+
+
+ccdr-n - norte estrutura
+----
+
+NORTE ESTRUTURA | Comissão de Coordenação de Desenvolvimento Regional do Norte (https://www.ccdr-n.pt/norte-estrutura)
+
+> A CCDR-N lançou em abril de 2017 a nova publicação "NORTE ESTRUTURA",
+> vocacionada para a análise de tendências de médio e longo prazo da
+> Região do Norte no contexto nacional. Face ao retorno muito positivo
+> do relatório "NORTE CONJUNTURA", que cumpriu em 2016 uma década de
+> publicações trimestrais ininterruptas, e no âmbito das competências de
+> análise das políticas de desenvolvimento regional, o "NORTE ESTRUTURA"
+> surge com o objetivo de apresentar informação de referência mais
+> consolidada do que aquela que vai sendo compilada a curto prazo. Em
+> suma, pretende oferecer, trimestralmente, uma análise estrutural de
+> aspetos relevantes da economia regional..
 

@@ -81,6 +81,19 @@ mail and report via LoRa to The Things Network. The sensor is simply a
 microswitch, selected after finding a reed switch problematic to
 install. Finally an SDR was used to debug the operation of the radio.\\
 
+
+
+rpp0/gr-lora: GNU Radio blocks for receiving LoRa modulated radio messages using SDR
+-----
+
+(https://github.com/rpp0/gr-lora)
+
+> The gr-lora project aims to provide a collection of GNU Radio blocks
+> for receiving LoRa modulated radio messages using a Software Defined
+> Radio (SDR). More information about LoRa itself can be found on the
+> website of the LoRa Alliance (https://www.lora-alliance.org/)..
+
+
 3d
 ====
 
@@ -203,6 +216,167 @@ more 433 keyfobs
 
 
 
+mesh
+====
+
+metabest oss7 DASH7 Alliance – An open specification  uni antwerpen ghent ??? 
+-----
+https://www.aloxy.io/ chemical valves ?
+Prof. Maarten Weyn and Glenn Ergeerts are both founders of Aloxy and part of the high level technical team at Aloxy.
+https://dash7-alliance.org
+https://www.youtube.com/watch?v=ead-fFj4fyc&feature=youtu.be&list=PL6jN_KMUDdhG2-RTyzPkCslqji7iLVzvk
+https://github.com/MOSAIC-LoPoW/dash7-ap-open-source-stack
+https://mosaic-lopow.github.io/dash7-ap-open-source-stack/
+https://github.com/MOSAIC-LoPoW
+IDLab performs fundamental and applied research on internet technologies and data science. IDLab is a joint research initiative between the University of Antwerp and Ghent University, and is a core research group of imec. We are interested in DASH7 as part of the research of low power localisation and communication. IDLab started the development of OSS-7 and is an active DASH7 Alliance member, participating in for example the Protocol Action Group and the University Action Group of the alliance. 
+
+
+
+> The DASH7 Alliance Protocol (D7A) is an Open Standard for bi-directional,  sub-Ghz medium range wireless communication tailored for ultra lower sensor-actuator applications using private networks. D7A stems from ISO 18000-7 for Active RFID and operates in the sub-GHz ISM bands. The protocol specification is free to use without any patent or licence requirements. You can freely download the latest D7A version 1.2 specifications from this website.DASH7 Alliance – An open specification (https://dash7-alliance.org/)
+
+> The DASH7 Alliance Protocol (D7A) is an Open Standard for
+> bi-directional,  sub-Ghz medium range wireless communication tailored
+> for ultra lower sensor-actuator applications using private networks.
+> D7A stems from ISO 18000-7 for Active RFID and operates in the sub-GHz
+> ISM bands. The protocol specification is free to use without any
+> patent or licence requirements. You can freely download the latest D7A
+> version 1.2 specifications from this website.
+
+### jpnorair/OpenTag: OpenTag Mainline Distribution (https://github.com/jpnorair/OpenTag)
+
+> OpenTag is an open-source RTOS that implements the DASH7 standard for
+> wireless sensor networking and M2M comms. DASH7 is a wireless standard
+> that was borne out of the US Military, and it is designed for
+> _extreme_ low-power and low- latency wireless communication, so it is
+> great for communication between moving things or for anything that can
+> benefit from a lower power requirement.
+
+home [Indigresso Wiki] (http://www.indigresso.com/wiki/doku.php)
+
+> The Indigresso Wiki documents all of the open-source projects that I (JP Norair (http://www.indigresso.com/wiki/doku.php?id=jp_norair "jp_norair")) have driven to a state of completion, or at least near-completion. To date, these projects are:
+> 
+> - DASH7 Mode 2 (http://www.indigresso.com/wiki/doku.php?id=dash7_mode_2:main "dash7_mode_2:main"): A very clever, ultra-low-power wireless technology
+>     
+> - OpenTag (http://www.indigresso.com/wiki/doku.php?id=opentag:main
+>   "opentag:main"): An embedded stack for running DASH7 Mode 2 on
+>   microcontrollers or bigger systems.
+
+
+
+meshstatic critic and others
+----
+
+https://news.ycombinator.com/item?id=22540066
+
+ The idea of these radio mesh network things is great. The reality is
+ terrible because radio waves need line of sight unless you've got a
+ repeater. This is completely impractical when hiking, or in a city
+ filled with buildings. They end up with crazy short range between
+ devices and you need an implausibly long string of them to get from a
+ person off the grid to a mesh point on the grid. The only exception to
+ this being someone high on a hill with no bumpy bits of other hills
+ between them and whoever has the other mesh point that happens to be
+ on-grid..
+
+Gotenna couldn't make this work with all their $$ because of the simple physics of radio waves. Yes they sell devices that technically do what they claim, they just fall flat on their faces when they encounter hills, or buildings... or anything that isn't flat.
+
+ Use the most appropriate of the many ham radio digital packet systems for whatever wavelength you're broadcasting on and choose the appropriate part of the spectrum that is designated for digital packet use.
+
+Also be a good radio citizen and try other frequencies if the current one is in use.
+
+I understand that the ham license is pretty much a deal breaker for adoption BUT it's what's required to use the decent frequencies and access to repeaters. As this seems to be an open source kind of project and not a "hey lets sell bajillions" kinda thing, that seems like a plausible option.
+
+reply 
+
+
+### difference to disaster radio
+
+We're working with those guys and might share the same protocol stack. Discussions underway.
+
+The difference is: disaster.radio is targeted as a "just in case emergency radio build on custom hardware, that joins a mesh with other folks who bought the same emergency radio."
+
+This is a $30 radio (with built in GPS+radio+CPU+battery+OLED screen) already available from a chinese mfg. Then you put our app on it and have a group navigator you can use with your friends while skiing or hiking, instead of buying a $100 closed source kickstarter (and it will run eight days on a charge)"
+
+reply
+gps
+====
+
+
+metabest ubx vs nmea - Using a GPS with TASMOTA (Part I) esp8266hints
+----
+(https://esp8266hints.wordpress.com/2020/03/06/using-a-gps-with-tasmota-part-i/)
+
+https://github.com/Staars/Tasmota_UBX_GPS
+
+Using a GPS with TASMOTA (Part II) | esp8266hints (https://esp8266hints.wordpress.com/2020/03/06/using-a-gps-with-tasmota-part-ii/)
+
+> If you happen to take your ESP8266/GPS combo with you when you’re
+> hiking, paragliding or orienteering, then this section might be of
+> interest.  Christian has added the option of logging GPS data to the
+> ESP8266 flash, so you can save your experience for perpetuity (well,
+> you can probably save some of it anyway …there’s not _that_ much flash
+> on an ESP8266)..
+
+
+### alt 2
+https://esp8266hints.wordpress.com/2018/03/31/esp8266-gps-ntp-server-in-the-making/
+https://github.com/liebman/ESPNTPServer
+If the idea of an ESP interfaced to a GPS module tickles your fancy (as
+it did mine), there’s also Chris Liebman’s stand-alone ESPNTPServer
+project, which I’ve mentioned before in these pages and which now has
+its own PCB and 3d-printed case..
+
+esp
+====
+
+
+
+modtronix ethernet esp32 esp32MX-E  (and other ethernet boards)
+----
+
+Crowd Supply (https://www.crowdsupply.com/modtronix/esp32mx-e)
+https://github.com/modtronix-com/esp32MX-E
+https://www.cnx-software.com/2019/11/28/esp32mx-e-esp32-board-ethernet-usb-c/
+https://modtronix.com/
+
+> The esp32MX-E has an advanced power supply circuit that accommodates
+> multiple inputs, provides 3.3 V and 5 V outputs, and delivers over 2 A
+> of current to the user. It has high current switch mode regulators, at
+> both 3.3 V and 5 V, to ensure low power consumption and high
+> efficiency. Power can be supplied via the USB C connector, a 2.1 mm
+> barrel connector, or the external power supply pin. This allows board
+> designers to integrate the esp32MX-E as a daughterboard and get 3.3 V,
+> 5 V, and supply voltage via the pin header connector..
+
+
+### https://www.crowdsupply.com/silicognition/wesp32/updates/ethernet-to-wifi-bridge-demo-code
+
+
+
+metatop olimex esp32 adf radio
+-----
+
+https://www.youtube.com/watch?v=1_gQoLr_kQE
+https://github.com/OLIMEX/dance_radio
+
+ESP32-ADF - Open Source Hardware Board (https://www.olimex.com/Products/IoT/ESP32/ESP32-ADF/open-source-hardware)
+
+> Using ESP32-ADF you can make an Amazon Alexa speaker, or internet
+> radio receiver and streaming device, SIP VoIP telephone, Wi-Fi walkie
+> talkie and many other interesting projects..
+
+
+
+METATOP new esp  boards
+----
+
+https://olimex.wordpress.com/2020/03/11/esp32-new-boards-in-stock/
+
+
+new ? esp32-cam express if 
+----
+
+https://github.com/espressif/esp32-camera
 INDUSTRIAL
 =====
 modbus
@@ -388,6 +562,21 @@ METABEST
 ---
 
 https://github.com/open-boat-projects-org
+
+metabest ct-Open-Source/ctraspion: Turns a Raspberry Pi into a WLAN router to take a look at network traffic 
+----
+
+https://www.heise.de/select/ct/2020/1/1577558160606355
+of smart home and IoT devices (https://github.com/ct-Open-Source/ctraspion)
+
+> Turns a Raspberry Pi into a WLAN router to take a look at network traffic of smart home and IoT devices. All apps are reachable via web browser. Published by german computer magazine c't (https://ct.de/).
+> 
+> Its initial release incorporates Pi-hole (https://pi-hole.net/),
+> ntopng (https://www.ntop.org/products/traffic-analysis/ntop/),
+> Wireshark (https://www.wireshark.org/), Shell In A Box
+> (https://github.com/shellinabox/shellinabox) and mitmproxy
+> (https://mitmproxy.org/)..
+
 
 METABESTBEST
 =====

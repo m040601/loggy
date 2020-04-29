@@ -35,6 +35,12 @@ https://www.youtube.com/channel/UCj4SLNED1DiNPHComZTCbzw rex krueger woodworikng
 
 [Top 75 GIS Blogs & Websites in 2020 | GIS News Blogs | Geospatial Blogs](https://blog.feedspot.com/gis_blogs/)
 
+https://blog.oomap.co.uk/ maps
+
+https://esp8266hints.wordpress.com/2020/03/06/using-a-gps-with-tasmota-part-i/ APPROVED PI TOP
+https://olimex.wordpress.com/ approved
+https://randomnerdtutorials.com/ approved
+
 HELPDESK
 =====
 
@@ -384,6 +390,41 @@ https://flowingdata.com/2020/01/06/draw-a-ridgeline-map-showing-elevation-for-an
 
 > The Export Tool is an open service that creates customized extracts of up-to-date OSM data in various file formats.  
 > Download and use the data simply by crediting the OpenStreetMap contributors.
+Mapper | OpenOrienteering (https://www.openorienteering.org/apps/mapper/)
+
+
+METATOP OpenOrienteering Mapper (android win linux)(contour tracer laser etc)- qt5 aur 
+----
+https://www.openorienteering.org/apps/mapper/
+> OpenOrienteering Mapper is an orienteering mapmaking program and
+> provides a free alternative to the existing proprietary solution. Its
+> main advantages compared to it are:.
+
+OpenOrienteeringMap - OpenStreetMap Wiki (https://wiki.openstreetmap.org/wiki/OpenOrienteeringMap)
+
+> **OpenOrienteeringMap** (oomap.co.uk/ (http://oomap.co.uk/)) is a
+> custom Mapnik rendering of worldwide OSM data (most of it) loosely
+> using the orienteering map specifications (see Wikipedia article
+> (http://en.wikipedia.org/wiki/Orienteering_map "wikipedia:Orienteering
+> map") or IOFmapping (https://wiki.openstreetmap.org/wiki/IOFmapping
+> "IOFmapping") on this wiki) defined ISOM (with a few features borrowed
+> from ISSOM). This rendering is created by Oliver O'Brien
+> (https://www.openstreetmap.org/user/Ollie)..
+
+Responsible Person
+Anbieter und Verantwortlicher für den Inhalt
+
+Kai Pastor
+Im Muenchfeld 13
+55122 Mainz, Germany
+Phone: +49 173 5771165
+E-Mail: dg0yt AT darc DOT de
+
+oomap.co.uk - openorienteering another ? exports pdf
+-----
+
+https://blog.oomap.co.uk/2009/12/oom/
+
 PANDOC
 =====
 
@@ -494,7 +535,8 @@ OPENWRT
 metabest [OpenWrt Project: package: watchcat](https://openwrt.org/packages/pkgdata/watchcat)
 ---
 
-> Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.\\\ \\\
+> Allows to configure a periodically reboot, or after losing internet
+> connectivity. Configured trough UCI /etc/config/system.\\\ \\\
 
 netperf and openwrt scripts (a la speedtest)
 ---
@@ -1185,6 +1227,36 @@ curl https://example.com --next -d user=daniel https://another.example.com
 > 
 > curl https://example.com --next -d user=daniel https://another.example.com
 
+	
+pdftotex convert breaks to visible page change metatop
+-----
+dredmorbius 5 hours ago
+
+I've had remarkably good results in general (for reading) using the Poppler library's "pdftotext" utility. Since it defaults to writing output to file, I wrap that in a bash function to arrive at a less-like pager, with page breaks noted:
+
+    pdfless ()
+    {
+       pdftotext -layout "$1" - |
+       sed 's/\f/\n\n ----------------- ----------------- <page> ----------------- ----------------- \n\n\n/g' |
+       ${PAGER:-less -S}
+    }
+
+
+
+
+
+metabest again multiple line awk records as pages
+-----
+
+[Multiple Line (The GNU Awk User’s Guide)](https://www.gnu.org/software/gawk/manual/html_node/Multiple-Line.html#Multiple-Line)
+
+> One technique is to use an unusual character or string to separate
+> records. For example, you could use the formfeed character (written
+> ‘\\f’ in `awk`, as in C) to separate them, making each record a page
+> of the file. To do this, just set the variable `RS` to `"\f"` (a
+> string containing the formfeed character). Any other character could
+> equally well be used, as long as it won’t be part of the data in a
+> record..
 
 TMUX
 =====
@@ -1781,6 +1853,38 @@ Useful Tricks
 rust, https://gitlab.com/mpv-ipc/ncmpvc
 rust, https://gitlab.com/mpv-ipc/mpvc
 
+grobid
+----
+https://github.com/kermitt2/grobid/
+ For academic papers: GROBID [0] is a machine learning library for
+ extracting, parsing and re-structuring raw documents such as PDF into
+ structured XML/TEI encoded documents with a particular focus on
+ technical and scientific publications..
+
+pdf2json
+----
+ [flexpaper/pdf2json: PDF2JSON is a conversion library based on XPDF (3.02) which can be used for high performance PDF page by page conversion to JSON and XML format. It also supports compressing data to minimize size. PDF2JSON is available for Windows, OSX and Linux. Please see https://flowpaper.com for more information](https://github.com/flexpaper/pdf2json)
+
+> PDF2JSON is a conversion library based on XPDF (3.02) which can be
+> used for high performance PDF page by page conversion to JSON and XML
+> format. It also supports compressing data to minimize size. PDF2JSON
+> is available for Windows, OSX and Linux. Please see
+> [https://flowpaper.com](https://flowpaper.com) for more information
+
+
+METAWHAT liquidsoap (lotz of ocaml deps)  - the internet radio toolchain
+----
+
+https://github.com/savonet/liquidsoap
+
+https://www.liquidsoap.info/
+Liquidsoap is a powerful tool for building complex audio and video stream generators, typically targetting internet radios and webtvs. It consists of a simple script language, which has a first-class notion of source (basically a stream) and provides elementary source constructors and source compositions from which you can build the stream generator you want. This design makes liquidsoap flexible and easily extensible.
+
+
+metabestbest fork of litcave fbpdf(2) that works fabulously in the console
+----
+
+[jichu4n/jfbview: PDF and image viewer for the Linux framebuffer.](https://github.com/jichu4n/jfbview)
 NEWTOOLSWEB
 =====
 
@@ -3094,6 +3198,26 @@ using compressed WebP by GIMP. So if you want to make the web faster
 of GIF. See, you don’t have to be a 10x engineer to reduce the size of
 the assets by 10x!.
 
+
+
+fill pdf forms and generate qr code (417 etc) for validation
+-----
+
+...	 Yes to embedding. In Canada, folks have always been able to e-file tax returns, but the CRA (Canada Revenue Agency) also has fillable PDF form for folks who insist on mailing in their returns (with their receipts and stuff so they don't have to store them and risk losing them).
+
+When you're done filling the form, the PDF runs form validity checks and generates a 2D barcode [1] -- which stores your all field entry data -- on the first page. This 2D barcode can then be digitally extracted on the receiving end with either a 2D barcode scanner or a computer algorithm. No loss of fidelity.
+
+Looks like Acrobat supports generation of QR, PDF417 and Data Matrix 2D barcodes.[2]
+
+[1] https://www.canada.ca/en/revenue-agency/services/tax/busines...
+
+[2] https://helpx.adobe.com/acrobat/using/pdf-barcode-form-field...
+
+reply 
+
+
+
+
 PI
 ===
 
@@ -3110,3 +3234,20 @@ https://en.wikipedia.org/wiki/Circuit_breaker
 https://de.wikipedia.org/wiki/Sch%C3%BCtz_(Schalter)
 https://en.wikipedia.org/wiki/Contactor
 
+
+
+metabest noscanner ? paste a  scan (image) of personal signature to email someone a pdf with xournal
+-----
+
+	
+edent 10 hours ago
+
+I use Xournal - https://sourceforge.net/projects/xournal/
+
+It lets me type in to forms - or draw text over them if necessary. Then I paste in a scan of my signature. Then save as a PDF an email across.
+
+I've been doing this for years. Job applications, mortgages, medical questionnaires. No one has every queried it.
+
+If you're hand delivering a printed PDF, it's just going to be copy-typed by a human into a computer. No need to make it too fancy.
+
+reply

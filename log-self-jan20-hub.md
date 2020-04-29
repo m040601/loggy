@@ -87,6 +87,36 @@ reply
 
 
 
+
+ayn rand the trader principle
+----
+
+ But Rand's basic guideline for human relationships was what she called
+ the trader principle: deal with others by trading value for value, by
+ mutual consent to mutual advantage, never seeking nor granting the
+ unearned, never sacrificing yourself to others nor others to yourself.
+ In other words, seek only win-win relationships..
+
+The maxim to "create more value than you capture" is a corollary. If you try to capture more than you create, you're seeking the unearned. When you create more than you capture, you're making sure that those you trade with are getting something out of the deal, too.
+
+
+The amateur waits for inspiration, the professional knows that it will come after he starts.
+----
+ "The War of Art," if anyone needs a source. ;w
+
+
+Do whatever you can't stop thinking about | Hacker News (https://news.ycombinator.com/item?id=22517505)
+
+> The following quote helped me a lot: "The professional knows that the mundane physical act of sitting down and starting to work, sets in motion a mysterious process that produces inspiration.
+> 
+> The amateur waits for inspiration, the professional knows that it will come after he starts.
+> 
+> The professional therefore acts in the face of fear, when the amateur fears a big creative endeavor he waits for the fear to disappear, the professional knows this will never happen and starts anyway."
+> 
+> Basically, what it says is that you'll never feel like doing something
+> that you don't want to do, and that's exactly the reason why you
+> should just start doing and get it over with. That's my opinion.
+
 ROLLING
 =====
 
