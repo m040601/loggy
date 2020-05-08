@@ -308,6 +308,15 @@ Note that command will have to take care of setting the stty settings correctly,
 > 
 > You can see that `tty` is the console where process starts, and `tty0` is a always current console.
 
+
+
+
+> To exclude a file from the update, create a file called `.mpdignore`
+> in its parent directory. Each line of that file may contain a list of
+> shell wildcards. Matching files in the current directory and all
+> subdirectories are excluded.
+
+
 MAPS
 ====
 
