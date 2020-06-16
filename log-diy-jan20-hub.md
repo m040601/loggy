@@ -1,3 +1,13 @@
+opensource tech
+====
+
+
+[Open Source Low Tech](https://opensourcelowtech.org/)
+SOLAR
+====
+
+
+[Basic walkthrough of how the solarflower works. - YouTube](https://www.youtube.com/watch?v=WrMltEp-dcw)
 METATOP
 ====
 
@@ -55,3 +65,18 @@ Bridges to Prosperity Construction Manual | Engineering For Change
 Bridges to Prosperity: The global leader in rural infrastructure development (https://bridgestoprosperity.org/)
 
 > We've built more than 250 footbridges, serving over 1 million community members throughout the world.
+
+[Power Tool Manufacturers and Who Really Owns Them | PTR](https://www.protoolreviews.com/news/power-tool-manufacturers-who-owns-them/43632/)
+----
+
+
+chicken wire parabolic antenna
+----
+
+
+
+This is a paraboloidal reflector dish, more or less a sattelite dish,
+that can easily be made from two sheets of plywood or other board,
+chicken wire or other mesh, and cable/zip ties. .
+[Bringing Internet to the Jungle at Plastic Bottle Village, Panama - OpenSourceLowTech.org - YouTube](https://www.youtube.com/watch?v=ob64K1U14qE)
+[Wifi/Mobile Reflector Dish Tutorial - OpenSourceLowTech.org](https://opensourcelowtech.org/wifidish.html)

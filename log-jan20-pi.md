@@ -377,6 +377,15 @@ new ? esp32-cam express if
 ----
 
 https://github.com/espressif/esp32-camera
+
+pi
+=====
+
+manjaro-arm · GitLab (https://gitlab.manjaro.org/manjaro-arm)
+----
+
+https://osdn.net/projects/manjaro-arm/storage/rpi4/xfce/20.04/
+Status of OpenGLES 2.0 with Panfrost/Lima - General Discussion - Manjaro Linux Forum (https://forum.manjaro.org/t/status-of-opengles-2-0-with-panfrost-lima/113591)
 INDUSTRIAL
 =====
 modbus
@@ -597,6 +606,11 @@ to run a DB-9 connector out to the board edge. There is also a cost in
 PCB space; space at the board edge is especially precious..
 
 
+
+manjaro-arm · GitLab (https://gitlab.manjaro.org/manjaro-arm)
+----
+https://osdn.net/projects/manjaro-arm/storage/rpi4/xfce/20.04/
+Status of OpenGLES 2.0 with Panfrost/Lima - General Discussion - Manjaro Linux Forum (https://forum.manjaro.org/t/status-of-opengles-2-0-with-panfrost-lima/113591)
 
 rolling
 ====

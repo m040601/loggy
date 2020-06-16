@@ -944,3 +944,14 @@ QUESTOM JUDAICA: FELGUEIRAS (https://questomjudaica.blogspot.com/2016/02/felguei
 > por completo..
 
 
+Martin of Braga - Wikipedia (https://en.wikipedia.org/wiki/Martin_of_Braga)
+----
+
+> fter the council, a bishop named Polemius of Astorga wrote to Martin of Braga asking for advice on the conversion of rural pagans. Polemius was especially concerned about their perceived idolatry (https://en.wikipedia.org/wiki/Idolatry "Idolatry") and sin (https://en.wikipedia.org/wiki/Sin "Sin"). Martin's reply was a treatise in the form of a sermon, enclosed in his responding letter to Polemius.
+> 
+> Out of all of Martin's works, _De correctione rusticorum (On the
+> Reform of Rustics)_ is of particular interest to modern scholars. It
+> contains both a detailed catalogue of sixth-century Iberian pagan
+> practices, and an unusually tolerant approach to them by Martin..
+
+

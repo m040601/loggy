@@ -10,6 +10,14 @@ BOATS
 ====
 TRAINS
 ====
+ROUTES
+====
+
+
+turismo activa cuellar serranilo agueda kayak - 1 hora 20 minutos - may 20 - 4 nautical miles
+---
+
+https://www.wikiloc.com/kayaking-canoeing-trails/cuellar-serranillo-49709602
 NEWS
 ====
 La USAL continuará supervisando el Programa de Vigilancia Radiológica Ambiental en Saelices el Chico 

@@ -117,6 +117,23 @@ Do whatever you can't stop thinking about | Hacker News (https://news.ycombinato
 > that you don't want to do, and that's exactly the reason why you
 > should just start doing and get it over with. That's my opinion.
 
+more JAPANESE RIVER
+=====
+
+miki asakura 80s foreign covers
+what a feeling
+need  a hero
+https://www.youtube.com/watch?v=ImggdrwK4PE
+https://www.youtube.com/watch?v=OErHkE2H5jo
+[スチュワーデス物語「What a feeling」1983 麻倉未稀 - Invidious](https://invidio.us/watch?v=KT-54Dh1GKg)
+
+
+excelent video quality
+60s keep me hangigng  on miniskerts
+japanese tv galas nhk majorets kimono
+32th NHK Kouhaku Uta Gassen 1981 12 31 VHS - YouTube
+(https://www.youtube.com/watch?v=30sW9rCovDU&list=PLRUYp3xjbc8Q48UCDXaTOo-I9NYOQKlNe&index=6)
+
 ROLLING
 =====
 
