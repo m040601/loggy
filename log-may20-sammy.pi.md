@@ -10,5 +10,10 @@ Skytraq PX1122R Tiny Multi-Band RTK GNSS Module Offers Centimeter Accuracy (http
 > deformation monitoring. RTK applications require a base and a rover.
 > The base can either be a third-party RTK base station service, or a
 > PX1122R module configured accordingly..
+esp
+===
+
+[Three-Dollar Router Rebooter Has One Job | Hackaday](https://hackaday.com/2020/05/06/three-dollar-router-rebooter-has-one-job/)
+
 ROLLING
 ====

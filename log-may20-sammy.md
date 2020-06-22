@@ -1,5 +1,12 @@
 vim: ft=markdown
 
+PROJECTS
+=====
+
+t9 predictive keypada infrared
+-----
+
+
 HELPDESK
 ====
 
@@ -104,6 +111,7 @@ MORERSS
 ====
 
 diy opensource low tech [OpenSourceLowTech - YouTube](https://www.youtube.com/user/SolarflowerOrg/videos)
+diy checked metabest rasp duino solar https://syonyk.blogspot.com/
 NEWSBOAT
 =====
 
@@ -156,6 +164,34 @@ Or more fully:
 :new
 :r !xclip -sel clip -o -t text/html
 :!%pandoc -f html -t markdown-raw_html-native_divs-native_spans --wrap=none
+
+SHELL
+=====
+
+metatop redirection cheatsheet - tee etc
+----
+
+
+          || visible in terminal ||   visible in file   || existing
+  Syntax  ||  StdOut  |  StdErr  ||  StdOut  |  StdErr  ||   file   
+==========++==========+==========++==========+==========++===========
+    >     ||    no    |   yes    ||   yes    |    no    || overwrite
+    >>    ||    no    |   yes    ||   yes    |    no    ||  append
+          ||          |          ||          |          ||
+   2>     ||   yes    |    no    ||    no    |   yes    || overwrite
+   2>>    ||   yes    |    no    ||    no    |   yes    ||  append
+          ||          |          ||          |          ||
+   &>     ||    no    |    no    ||   yes    |   yes    || overwrite
+   &>>    ||    no    |    no    ||   yes    |   yes    ||  append
+          ||          |          ||          |          ||
+ | tee    ||   yes    |   yes    ||   yes    |    no    || overwrite
+ | tee -a ||   yes    |   yes    ||   yes    |    no    ||  append
+          ||          |          ||          |          ||
+ n.e. (*) ||   yes    |   yes    ||    no    |   yes    || overwrite
+ n.e. (*) ||   yes    |   yes    ||    no    |   yes    ||  append
+          ||          |          ||          |          ||
+|& tee    ||   yes    |   yes    ||   yes    |   yes    || overwrite
+|& tee -a ||   yes    |   yes    ||   yes    |   yes    ||  append
 
 MUTT
 ====
@@ -232,6 +268,26 @@ If the setting starts with + or -, then the following tags will be added or remo
 Section Tags contains a list of supported tags.
 ### per directory dot mpdignore files 
 User’s Manual — Music Player Daemon 0.22 documentation (https://www.musicpd.org/doc/html/user.html#the-music-directory-and-the-database)
+
+
+OPENWRT
+----
+
+[Three-Dollar Router Rebooter Has One Job | Hackaday](https://hackaday.com/2020/05/06/three-dollar-router-rebooter-has-one-job/)
+----
+
+While the code for making this happen may sound trivial, [Mike]
+nevertheless delves into documenting it. It makes a great example of how
+to implement a simple event-driven finite state machine in a way that’s
+clear and concise. By structuring the code so that there is a finite
+number of specific states the device can be in (router power on, router
+power off, and testing connection) and by defining exactly how and when
+the device switches between those states, operation and troubleshooting
+becomes a much more manageable job. Another great example is this IoT
+Garage Door Opener project. If you’re programming devices that interface
+to physical things, these techniques are definitely good practice..
+
+http://www.whatimade.today/make-an-automatic-router-re-starter-for-3-with-an-esp8266-01-and-single-relay/
 BROWSER
 =====
 
@@ -272,6 +328,12 @@ standard output..
 
 
 
+
+
+metabest freebsd bastille - clean clear - containers jails
+----
+
+[Getting Started With Bastille | BastilleBSD](https://bastillebsd.org/getting-started/)
 METABEST
 =====
 
@@ -317,10 +379,62 @@ uses 'adapters' pandoc , ffmpeg etc
 
 	exec cat "$cachefname"
 
+
+underrated
+=====
+lftp
+----
 METABESTBEST
 ====
 
 
+t9 algorithm numeric keypads - infrared key pad ???
+-----
+
+[T9 (predictive text) - Wikipedia](https://en.wikipedia.org/wiki/T9_(predictive_text))
+
+t9 is predicated on the use of a keypad with nothing besides numbers, the
+asterisk and the pound key (known as the hash key in Commonwealth
+countries). Many features, such as predictive text, have been adopted by
+and improved by future generations of keyboard software. However, T9
+remains viable. For example, those with larger fingertips still use the
+T9 based keyboard on smartphones for text entry, because key press
+accuracy increases with the larger screen area per key on a
+numeric-style 4×3 keyboard. Such T9 formats.
+
+https://en.wikipedia.org/wiki/LetterWise
+https://en.wikipedia.org/wiki/Predictive_textk
+https://en.wikipedia.org/wiki/ITap
+https://en.wikipedia.org/wiki/Multi-tap
+https://en.wikipedia.org/wiki/Q9_input_method
+https://en.wikipedia.org/wiki/Adaptxt
+https://en.wikipedia.org/wiki/T9_(predictive_text)
+https://en.wikipedia.org/wiki/Phoneword
+https://en.wikipedia.org/wiki/Microsoft_SwiftKey
+https://en.wikipedia.org/wiki/Telephone_keypad
+
+
+https://en.wikipedia.org/wiki/E.161 - numeric keypad
+-----
+https://en.wikipedia.org/wiki/Telephone_keypad
+https://en.wikipedia.org/wiki/Vertical_service_code
+https://en.wikipedia.org/wiki/Short_code
+
+E.161 is an ITU-T Recommendation that defines the arrangement of digits,
+letters, and symbols on telephone keypads and rotary dials. It also
+defines the recommended mapping between the basic Latin alphabet and
+digits (e.g., "DEF" on 3).[1] Uses for this mapping include: .
+
+
+github predictive text
+-----
+
+
+https://github.com/hy987/T9-Predictive-Text
+https://github.com/yunsim/T9-predictive-text
+https://www.sainsmograf.com/labs/t9-emulator/
+https://github.com/arifwn/t9-emulator
+https://github.com/jrolfs/javascript-trie-predict/blob/master/predict.js
 
 stats always on mpv terminal
 ----
@@ -745,3 +859,49 @@ https://ga.video.cdn.pbs.org/videos/if-cities-could-dance/a7c8f330-2de4-4476-bb6
 $ ffmpeg -i https://ga.video.cdn.pbs.org/videos/if-cities-could-dance/a7c8f330-2de4-4476-bb64-b23ae0bb2951/2000112404/hd-16x9-mezzanine-1080p/3f1sh5t6_richmond_iccd-16x9-1080p-1080p-6500k.m3u8 -c copy pbs-vid.mp4
 ;w
 ;w
+
+
+
+METABEST simple cli plotting with watch and gnuplot raspberry temperature
+-----
+
+
+How to graph the CPU temperature overtime?
+
+Install gnuplot
+
+Gnuplot can graph datas in the terminal, does not require any X server and use very little ressources.
+
+It works smooth even on the slowest raspberry pi's model 1/zero.
+
+sudo apt install gnuplot
+
+Script example to build a gnuplot file:
+
+temperature script to store the data overtime.
+
+	#!/bin/sh
+	echo $(date +%s ; cat /sys/class/thermal/thermal_zone0/temp) | tee >> temperature.plot
+
+	Give execution rights to this script:
+
+	chmod +x temperature
+
+	Detach and run in 1s loop till next reboot:
+
+	nohup watch ./temperature &
+
+	Later, graph the datas:
+
+	gnuplot -e "set terminal dumb $(tput cols) $(tput lines);plot 'temperature.plot' using 0:2 with lines"
+
+	enter image description here
+
+	This is a barebone example, temperature in Celsius * 1000, and seconds since the start, to be extended in your own scripts suite.
+
+	To kill the watch loop, killall watch
+
+	Happy hacking ;)
+
+	[hardware - What is the maximum / minimum operational temperature? - Raspberry Pi Stack Exchange](https://raspberrypi.stackexchange.com/questions/103/what-is-the-maximum-minimum-operational-temperature/104362#104362)
+

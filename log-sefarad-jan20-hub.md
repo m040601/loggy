@@ -646,6 +646,60 @@ History Dutch Porcelain (https://www.argenterieantique.nl/historie/history-dutch
 > were “bought” from the German and French workshops..
 
 
+
+
+arthur del prado - asml - chip machines - suriname ? batavia - 1931 - 2016
+-----
+Arthur Hendrik del Prado (17 november 1931 – 9 september 2016) was een Nederlandse ondernemer. 
+https://nl.wikipedia.org/wiki/Arthur_del_Prado
+
+
+
+https://nos.nl/artikel/2132739-asm-oprichter-arthur-del-prado-overleden.html
+De in Nederlands-Indië geboren Del Prado studeerde onder meer economie
+en bedrijfskunde. In Amerika, waar hij aan Harvard studeerde, kwam hij
+in aanraking met de opkomende chipindustrie. Hij bracht de
+chiptechnologie naar Europa en richtte er in 1964 een bedrijf voor op,
+Advanced Semiconductor Materials (ASM)..
+https://bits-chips.nl/artikel/how-the-del-prados-got-into-the-semiconductor-business/
+The origins of Arthur del Prado’s career – and thus ASM International’s roots – reside in a burgeoning Silicon Valley. Like many other Dutch citizens emigrating abroad since the late 1940s, young Arthur sought his fortunes in the New World. The bright young man joined the prestigious Harvard Business School but he didn’t earn a degree. Joined by his wife, he was eager to make his fortune in the United States and if Harvard didn’t prove to be his way to move ahead, he would find another way.
+The origins of Arthur del Prado’s career – and thus ASM International’s
+roots – reside in a burgeoning Silicon Valley. Like many other Dutch
+citizens emigrating abroad since the late 1940s, young Arthur sought his
+fortunes in the New World. The bright young man joined the prestigious
+Harvard Business School but he didn’t earn a degree. Joined by his wife,
+he was eager to make his fortune in the United States and if Harvard
+didn’t prove to be his way to move ahead, he would find another way.
+
+After arriving in Northern California, on the other side of the American
+continent, Del Prado was soon struck by the hustle and bustle there in
+the late 1950s..
+
+
+After arriving in Northern California, on the other side of the American
+continent, Del Prado was soon struck by the hustle and bustle there in
+the late 1950s..
+
+
+
+father:
+Julius eduard del Prado
+https://www.geni.com/people/Julius-Eduard-del-Prado/6000000078162189883
+ estimated between 1838 and 1898
+
+
+Julius del prado
+https://www.myheritage.com.pt/names/julius_del%20prado
+Julius Eduard del Prado, 1859 - 1930
+Julius Eduard del Prado nasceu em dia mês 1859, em local de nascimento, à Elisabeth Wilhelmina del Prado.
+Julius casou-se com Isabella Louisa del Prado (nascida Sillevolde) em dia mês 1886, aos 26 anos de idade em local de casamento.
+Isabella nasceu em 20 de setembro de 1865, em Paramaribo, Suriname.
+Eles tiveram 8 filhos: Arthur Eugene del Prado, Desiré Guillaume del Prado e 6 outros filhos.
+A sua ocupação era Profissão.
+Julius faleceu em dia mês 1930, aos 70 anos de idade em local da morte.
+Ele foi enterrado em Local de enterrramento.
+
+
 ROLLING
 ====
 
