@@ -73,6 +73,151 @@ http://www.cnr.cn/yuleguangbo/
 https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%A4%AE%E4%BA%BA%E6%B0%91%E5%B9%BF%E6%92%AD%E7%94%B5%E5%8F%B0%E9%98%85%E8%AF%BB%E4%B9%8B%E5%A3%B0
 
 
+HISTORY
+====
+
+METABEST  - though i am gone song binbin - red guards
+----
+
+
+Mao launched his Cultural Revolution to purge the authorities of perceived ideological foes, but initially its most ardent young supporters were the sons and daughters of powerful party officials, who saw the campaign as a chance to display and hone their revolutionary credentials.
+
+
+https://sinosphere.blogs.nytimes.com/2014/01/13/bowed-and-remorseful-former-red-guard-recalls-teachers-death/
+
+But the apology from Song Binbin, reported by The Beijing News on
+Monday, quickly drew attention and was featured on many Chinese news
+websites. Here was a daughter of a veteran revolutionary apologizing for
+what has been widely described as the first killing of a teacher in the
+decade-long Cultural Revolution..
+
+
+https://en.wikipedia.org/wiki/Hu_Jie
+Hu Jie (胡杰; born 1958) is a Chinese filmmaker and artist known for the
+films Searching for Lin Zhao's Soul (2004), Though I Am Gone (2007), and
+Spark (2013), which constitute a "trilogy of documentaries about Maoist
+China".[1] Spark received the top prize at the 2014 Taiwan Independent
+Documentary Festival.[2] .
+
+
+https://en.wikipedia.org/wiki/Though_I_Am_Gone
+
+Jump to search
+Though I am Gone
+Traditional	我雖死去
+Simplified	我虽死去
+Mandarin	Wǒ suī sǐqù
+Directed by	Hu Jie
+Written by	Hu Jie
+Music by	In the Taihang Mountains
+Release date
+	2006
+Running time
+	70 minutes
+Country	Beijing, China
+Language	Mandarin
+
+Though I Am Gone (Wo sui siqu (我虽死去)) is a Chinese documentary film by Hu Jie about Bian Zhongyun,[1][2] the vice principal of the Girls Middle School Attached to Beijing Normal University[3], who was beaten to death by her students in August 1966 during China's Cultural Revolution.
+
+The film includes the commentary and photographs taken by the deceased
+woman's husband, "Wang Qingyao, an 85 year-old, and a scholar of the
+Modern History Research Institute, Chinese Academy of Social
+Sciences"[3]. [4] The film is banned in China, where the Communist Party
+reacted sensitively to the film because "many of the former members of
+the Red Guard who attended Bian's middle school were members of the
+families of high-ranking officials that are still revered today..
+
+
+today
+https://en.wikipedia.org/wiki/Song_Binbin
+
+
+
+Song Binbin (Chinese: 宋彬彬; pinyin: Sòng Bīnbīn; born 1949), also known as Song Yaowu (Chinese: 宋要武), was a senior leader in the Chinese Red Guards during the Cultural Revolution. She is known for beating her deputy principal to death with wooden sticks, along with other students.
+
+Binbin was born in 1949[1] the "daughter of Song Renqiong, one of China’s founding leaders known as the Eight Immortals, was in 1966 a senior leader among the leftist Red Guards at her girls’ school in Beijing. The Red Guard worked to overthrow China's institutional frameworks to demonstrate their devotion to Mao."[2] Binbin led a rebellion at Experimental High School which was attached to Beijing Normal University, in Beijing, China. Newspapers reported she took part in the beating of the deputy principal, Bian Zhongyun, to death in August 1966 with a wooden stick.[3] Bian was the first teacher killed in the Cultural Revolution, and her slaying led to further killings by the Red Guards, and eventually over one million of the Guards gathered in Tiananmen Square, where Binbin famously pinned a red band on Mao Zedong's arm. The scene was captured in a famous photograph, causing the Red August.
+
+"After the Cultural Revolution, Ms. Song went to the United States to
+study and completed a doctorate at the Massachusetts Institute of
+Technology. She worked for the Massachusetts Department of Environmental
+Protection...In 2003, she moved back to China."[4] She has since
+apologized for the actions of the Red Guards during the Cultural
+Revolution.[5] .
+
+
+Socialist Education Movement is regarded as the precursor of the Cultural Revoluti
+----
+
+
+https://en.wikipedia.org/wiki/Socialist_Education_Movement
+
+
+https://en.wikipedia.org/wiki/Seven_Thousand_Cadres_Conference
+-----
+The Seven Thousand Cadres Conference (simplified Chinese: 七千人大会; traditional Chinese: 七千人大會), or 7000 Cadres Conference, was one of the largest work conferences ever of the Communist Party of China (CPC) which took place in Beijing, China from January 11 through February 7, 1962.[1][2][3][4][5] The conference was attended by over 7,000 party officials nationwide, focusing on the issues of the Great Leap Forward which resulted in the deaths of tens of millions in the Great Chinese Famine.[1][2][5]
+
+During the conference, Liu Shaoqi, the 2nd President of China, delivered
+an important speech that formally attributed 30% of the famine to
+natural disasters and 70% to man-made mistakes, which were mainly the
+far-left policies of the Great Leap Forward since 1958.[2][4][6] The
+policies of Mao Zedong were criticized, and Mao also made
+self-criticism.[2][4][7][8] Lin Biao, however, continued his praises of
+Mao at the conference.[4][5][8] The conference promoted "democratic
+centralism" within the Communist Party.[5][6] .
+
+
+https://en.wikipedia.org/wiki/Soong_sisters
+----
+
+https://en.wikipedia.org/wiki/Four_big_families_of_the_Republic_of_China
+https://en.wikipedia.org/wiki/Four_big_families_of_the_Republic_of_China
+[Sino-German cooperation (1926–1941) - Wikipedia](https://en.wikipedia.org/wiki/Sino-German_cooperation_(1926%E2%80%931941))
+-----
+Cooperation between China and Germany was instrumental in modernizing
+the industry and the armed forces of the Republic of China between 1926
+and 1941. .
+
+
+In the 1880s, the German shipyard AG Vulcan Stettin built two of the most modern and powerful warships of its day (the pre-dreadnought battleships Zhenyuan and Dingyuan) for the Chinese Beiyang Fleet, which saw considerable action in the First Sino-Japanese War. After China's first modernization efforts apparently failed after its defeat in war, Yuan Shi-kai requested German help in creating the Self-Strengthening Army (Chinese: 自強軍; pinyin: Zìqiáng Jūn) and the Newly-Created Army (新建陸軍; Xīnjìan Lùjūn). German assistance concerned military, industrial, and technical matters. For example, in the late 1880s, the Chinese government signed a contract with the German company Krupp to build a series of fortifications around Port Arthur.
+
+Germany, however, had a major impact on the development of Chinese law. In the years preceding the fall of the Qing dynasty, Chinese reformers began drafting a civil code, based largely on the German Civil Code,[4] which had already been adopted in neighbouring Japan. Although the draft code was not promulgated before the collapse of the Qing dynasty, it was the basis for the Civil Code of the Republic of China introduced in 1930, which is the current civil law on Taiwan and has influenced current law in Mainland China. The General Principles of Civil Law of the People's Republic of China, drafted in 1985, for example, is modeled after the German Civil Code
+
+
+
+
+
+https://en.wikipedia.org/wiki/Encirclement_campaigns
+Encirclement campaigns were the campaigns launched by forces of the Chinese Nationalist Government against forces of the Communist Party of China during the early stage of the Chinese Civil War.
+
+Formulated by German advisors Hans von Seeckt and Alexander von
+Falkenhausen, the campaigns were launched between the late 1920s to the
+mid-1930s with the goal of isolating and destroying the developing
+Chinese Red Army. The Nationalist forces launched encirclement campaigns
+against Communist bases in several separate locations across China.[1] .
+
+
+https://en.wikipedia.org/wiki/Hans_von_Seeckt
+Seeckt served as a member of parliament from 1930 to 1932. From 1933 to
+1935 he was repeatedly in China as a military consultant to Chiang
+Kai-shek in his war against the Chinese Communists and was directly
+responsible for devising the Encirclement Campaigns, that resulted in a
+string of victories against the Chinese Red Army and forced Mao Zedong
+into a 9,000 km retreat, also known as the Long March. .
+
+
+
+ From 1933–1935 he served as an adviser to Chiang Kai-shek and helped to
+ establish a new basis for Sino-German cooperation until 1941. In
+ October 1933, Seeckt arrived in China to head the German military
+ mission.[85] At the time of his arrival, Sino-German relations were in
+ a bad state owing to the racial arrogance of the Germans, and Chiang
+ was considering firing the Germans and bringing in a French military
+ mission.[85] In order to save the military mission, Seeckt ordered the
+ German officers to behave with more tact towards the Chinese and to
+ start showing some respect for Chinese sensibilities.[85] In this way,
+ Seeckt saved Germany's position in China.
+
+
 ROLLING
 =====
 metabest sdunpack (rust stardict) plato bspwm guy

@@ -112,6 +112,10 @@ MORERSS
 
 diy opensource low tech [OpenSourceLowTech - YouTube](https://www.youtube.com/user/SolarflowerOrg/videos)
 diy checked metabest rasp duino solar https://syonyk.blogspot.com/
+diy checked interesting-geeks https://blog.oddbit.com/archives/
+
+
+
 NEWSBOAT
 =====
 
@@ -252,6 +256,14 @@ It uses the following two libraries:
 Readability.js by Mozilla in version from commit 977be42d1fb33781401001318813ab9fe4568647. This library is also used for the Firefox Reader View and it simplifies the page so that only the important parts are clipped. (Licensed under Apache License Version 2.0)
 Turndown by Dom Christie in version 5.0.1 is used to convert the simplified HTML (from Readability.js) into markdown. (Licensed under MIT License)
 
+
+
+
+recipe scrapers
+----
+
+https://github.com/hhursev/recipe-scrapers
+https://github.com/poundifdef/plainoldrecipe
 mpd
 -----
 
@@ -334,6 +346,102 @@ metabest freebsd bastille - clean clear - containers jails
 ----
 
 [Getting Started With Bastille | BastilleBSD](https://bastillebsd.org/getting-started/)
+https://github.com/BastilleBSD/bastille/blob/master/docs/index.rst
+https://gitlab.com/bastillebsd-templates
+
+
+https://news.ycombinator.com/item?id=21533880
+ Yet another Jails management tool, written in sh. There are plenty of
+ them already: ezjail, cbsd, iocage and many others. All those tools
+ does pretty much the same thing and all of them has the same problem -
+ poor user experience and unfinished product. And if you use jails in
+ production, you're always better of by creating and managing them
+ without third party products. FreeBSD Jails stuck in the loop for years
+ - core devs does not provide fully packaged product, and everyone else
+ tries to implement their own version. .
+
+
+graphviz yaml WireViz is a tool for easily documenting cables, wiring harnesses and
+----
+https://github.com/formatc1702/WireViz
+connector pinouts. It takes plain text, YAML-formatted files as input
+and produces beautiful graphical output (SVG, PNG, ...) thanks to
+GraphViz. It handles automatic BOM (Bill of Materials) creation and has
+a lot of extra features..
+
+
+
+Snarl is a tool for writing literate blog posts. It's primary purpose is
+----
+[Snarl: A tool for literate blogging · The Odd Bit](https://blog.oddbit.com/post/2020-01-15-snarl-a-tool-for-literate-blog/)
+https://github.com/larsks/snarl
+to permit you to extract code from a Markdown document in order to test
+it and ensure its accuracy. It has feature similar to many other
+literate programming tools:.
+
+metabestbest fiche (written in c) termbin.com - paste service using netcat - one month life
+----
+
+fiche [termbin.com - terminal pastebin](https://termbin.com/) nc netcat termbin.com 9999 ???
+
+There is only one thing you need to use this service - netcat.To check
+if you already have it installed, type in terminal nc.
+
+
+echo just testing!  | nc termbin.com 9999
+cat ~/some_file.txt | nc termbin.com 9999
+ls -la | nc termbin.com 9999
+
+ termbin.com is powered by Fiche - open source command line pastebin
+ server. There is a link to github repository:
+ https://github.com/solusipse/fiche. .
+
+
+echo 'alias tb="nc termbin.com 9999"' >> .bashrc
+echo XXX | tb
+
+use https://l.termbin.com/XYZ
+to get colorized output
+
+NEWTOOLS:web
+====
+
+fiche (written in c) termbin.com - paste service using netcat - one month life
+----
+
+fiche [termbin.com - terminal pastebin](https://termbin.com/) nc netcat termbin.com 9999 ???
+
+There is only one thing you need to use this service - netcat.To check
+if you already have it installed, type in terminal nc.
+
+
+echo just testing!  | nc termbin.com 9999
+cat ~/some_file.txt | nc termbin.com 9999
+ls -la | nc termbin.com 9999
+
+ termbin.com is powered by Fiche - open source command line pastebin
+ server. There is a link to github repository:
+ https://github.com/solusipse/fiche. .
+
+
+echo 'alias tb="nc termbin.com 9999"' >> .bashrc
+echo XXX | tb
+
+use https://l.termbin.com/XYZ
+to get colorized output
+
+transfer.sh alternative - ttm.sh 0x0.st open source  - simple python web 
+----
+
+https://tildegit.org/tildeverse/ttm.sh
+NEWTOOLS:services
+=====
+
+
+transfer.sh alternative - ttm.sh 0x0.st open source  - simple python web 
+----
+
+https://tildegit.org/tildeverse/ttm.sh
 METABEST
 =====
 
@@ -460,6 +568,104 @@ Turndown by Dom Christie in version 5.0.1 is used to convert the simplified HTML
 METABESTBEST rga ripgrep all - creates a cached version of the indexed text files (audio metadata tags pdf ebook zip tar etc)
 ----
 [rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog](https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/)
+metabestbest systemd-nspawn and raspberry pi  using qemu and binfmt to update an arm image
+----
+
+
+### 1 
+
+One very cool thing that you can do with it is to use binfmt_misc to tell the kernel to use `qemu-arm` to run ARM binaries, then you can chroot in to an ARM device's filesystem from your x86 workstation, and all of the ARM binaries just work.
+
+	
+	
+bscphil 10 months ago [–]
+
+I've used this to `apt-get upgrade` a netboot Raspberry Pi installation from the server way faster than you can do it on the Pi itself.
+
+	
+	
+
+### npm tool
+
+ systemd-nspawn raspberry pi container.
+
+Uses qemu-arm-static to emulate arm7 on any Linux host
+
+
+https://github.com/mafintosh/raspberry-pi-container
+https://developer.aliyun.com/mirror/npm/package/raspberry-pi-container
+
+### https://blog.oddbit.com/post/2016-02-07-systemd-nspawn-for-fun-and-well-mostly-f/
+
+Linux allows you to run binaries intended for other architectures via the binfmt-misc subsystem, which allows you to use bits at the beginning of a file to match against an appropriate interpreter. This can be used, for example, to make Java binaries directly executable. We're going to use this technique to accomplish the following:
+
+    Teach our system how to run Raspberry Pi ARM binaries, and
+    Allow us to spawn a systemd-nspawn container into a Raspberry Pi filesystem.
+
+
+### https://github.com/sakaki-/raspbian-nspawn-64
+
+Bootable RPi4 B and RPi3 B/B+ image with 64-bit kernel, 32-bit Raspbian
+Buster 'Desktop' host OS, 64-bit Debian Buster guest OS in lightweight,
+autostarted systemd-nspawn container..
+
+
+### qemu-user-static on x86 to manage the pi arch image - binfmt
+
+https://rkd.me.uk/posts/automating-arch-linux-setup-on-an-rpi.html
+
+Because my laptop is x86_64 and the Pi is ARM, the Pi binaries won't run on my laptop, so I can't just chroot into the install. However, the Linux kernel has a concept of 'binfmt support', effectively 'use this program to run this sort of binary'. This means that I can install qemu-user-static, and it will seamlessly emulate an ARM system when running ARM binaries.
+
+On Arch, using yay to access AUR packages, that's done like this:
+
+yay -S qemu-user-static
+sudo systemctl restart systemd-binfmt.service
+systemctl status systemd-binfmt.service
+
+
+
+
+### loop mount raspbian  image "editing" - with loseup and systemd-nspawn
+
+So what can you do with this?
+You can add a file named "ssh" (or ssh.txt) to enable SSH logins on
+first boot. You can add a pre-configured wpa_supplicant.conf file to
+connect to your wireless network. You can edit config.txt or
+cmdline.txt, and that's only the first partition..
+
+     That sounds very useful to me! Is there a way that I can even use apt to install packages that is not in the original image myself? I assume I need to mount the image to an real Raspberry Pi to do that.... if it is even possible. 
+
+As others have said, yes absolutely this can be done. For the sake of concreteness, I'll provide a compete workflow for doing so in this post.
+
+This time, I'm going to:
+
+    use loseup (as suggested by ShiftPlusOne) rather than kpartx, since the former comes bundled by default on Raspbian, whereas the latter does not;
+    use systemd-nspawn to manage the chroot-ing, as it takes care of setting up and tearing down the necessary bind mounts, which are easy to do but also easy to forget;
+    use zerofree to maximize the root partition's compressibility post-modification; and
+    assume you wish to add an additional package to the current "Raspbian Stretch with desktop" image, and are going to be manipulating the image on an RPi, also running Raspbian.
+
+### [dhruvvyas90/qemu-rpi-kernel: Qemu kernel for emulating Rpi on QEMU](https://github.com/dhruvvyas90/qemu-rpi-kernel)
+
+
+### [Run UBOS in an ARMv7 Linux container (e.g. Raspberry Pi 2, 3) - UBOS Documentation](https://ubos.net/docs/users/installation/armv7h_container.html)
+
+If you already run Linux on an ARMv7-based device such as a Raspberry Pi
+2, Raspberry Pi 3, or BeagleBone Black, you can run UBOS in a Linux
+container with systemd-nspawn. This allows you to try out UBOS without
+having to do a bare metal installation. The only requirement is that
+your Linux device runs systemd in a recent version..
+
+### [Using Systemd to run Openwrt on Raspberry Pi 4...welcome to join - Community Builds, Projects & Packages - OpenWrt Forum](https://forum.openwrt.org/t/using-systemd-to-run-openwrt-on-raspberry-pi-4-welcome-to-join/57833)
+
+
+
+It seems like putting OpenWrt ext4 inside a directory and booting it with systemd-nspawn should be very easy, but I haven't tried it. but nspawn is basically like chroot but more powerful. give it a try and let us know!
+
+### you can look up this sakaki guy who has done lots of nspawn projects.o
+[sakaki-/raspbian-nspawn-64: Bootable RPi4 / RPi3 image with 64-bit kernel, 32-bit Raspbian Buster host OS, 64-bit Debian Buster guest OS in nspawn container](https://github.com/sakaki-/raspbian-nspawn-64)
+
+
+
 METAFUCK
 ====
 
@@ -905,3 +1111,25 @@ temperature script to store the data overtime.
 
 	[hardware - What is the maximum / minimum operational temperature? - Raspberry Pi Stack Exchange](https://raspberrypi.stackexchange.com/questions/103/what-is-the-maximum-minimum-operational-temperature/104362#104362)
 
+
+
+
+metatop raspberry [Systemd unit for managing USB gadgets · The Odd Bit](https://blog.oddbit.com/post/2018-10-19-systemd-unit-for-managing-usb-/)
+----
+
+https://learn.adafruit.com/turning-your-raspberry-pi-zero-into-a-usb-gadget/overview
+https://github.com/larsks/systemd-usb-gadget
+
+
+The second mechanism makes use of the libcomposite driver to create multifunction gadgets. The manual procedure is documented in the kernel documentation. While it's a useful feature, the configuration process requires several steps and if you only do it infrequently it can be easy to forget.
+
+In order to make this easier for me to manage, I've wrapped the process up in a systemd template unit that takes care of the various steps necessary to both create and remove a multifunction USB gadget.
+
+Once installed, creating a gadget that offers both a serial interface and a network interface is as simple as:
+
+
+
+
+agetty [A passwordless serial console for your Raspberry Pi · The Odd Bit]
+-----
+(https://blog.oddbit.com/post/2020-02-24-a-passwordless-serial-console/)
