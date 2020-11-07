@@ -197,6 +197,22 @@ metatop redirection cheatsheet - tee etc
 |& tee    ||   yes    |   yes    ||   yes    |   yes    || overwrite
 |& tee -a ||   yes    |   yes    ||   yes    |   yes    ||  append
 
+
+
+
+
+
+Oneliners jul20
+-----
+
+
+echo "tee can split a pipe in two"|tee >(rev) >(tr ' ' '_')
+
+Sample Output
+
+tee can split a pipe in two
+tee_can_split_a_pipe_in_two
+owt ni epip a tilps nac eet
 MUTT
 ====
 
@@ -403,6 +419,14 @@ echo XXX | tb
 use https://l.termbin.com/XYZ
 to get colorized output
 
+
+
+projects:applications:xfmpc [Xfce Goodies] mpd client
+----
+
+https://goodies.xfce.org/projects/applications/xfmpc
+
+
 NEWTOOLS:web
 ====
 
@@ -488,7 +512,18 @@ uses 'adapters' pandoc , ffmpeg etc
 	exec cat "$cachefname"
 
 
-underrated
+
+
+The mpd_oled program displays an information screen including a music
+----
+https://github.com/antiprism/mpd_oled
+frequency spectrum on an OLED screen connected to a Raspberry Pi (or
+similar) running MPD, this includes Moode, Volumio and RuneAudio. The
+program supports I2C and SPI 128x64 OLED displays with an SSD1306,
+SSD1309, SH1106 or SSH1106 controller..
+
+
+META underrated
 =====
 lftp
 ----
@@ -666,6 +701,9 @@ It seems like putting OpenWrt ext4 inside a directory and booting it with system
 
 
 
+
+
+
 METAFUCK
 ====
 
@@ -806,6 +844,31 @@ inputrc readlinet alt dot
     Alt-1 <let go of 1 but keep alt pressed and add> . or just Esc, then 1, then . to gets the first argument (like !:1). You can use any number, of course, to reach any argument.
 
     permalinkembedsaveparent
+FUCKFUCK tmux choose,delete,list,load,paste,save,set,show BUFFER - work
+with urlscan w3m urls
+----
+
+META FUCKFUCKFUCK
+====
+
+
+again headphone mixer mpd
+----
+
+https://www.musicpd.org/doc/html/plugins.html#alsa-plugin
+he according hardware mixer plugin understands the following settings:
+
+Setting	Description
+mixer_device DEVICE	Sets the ALSA mixer device name, defaulting to default which lets ALSA pick a value.
+mixer_control NAME	Choose a mixer control, defaulting to PCM. Type amixer scontrols to get a list of available mixer controls.
+mixer_index NUMBER	Choose a mixer control index. This is necessary if there is more than one control with the same name. Defaults to 0 (the first one).
+The following attributes can be configured at runtime using the outputset command:
+
+
+
+
+dmesg -w
+-----
 THESETUP
 =====
 

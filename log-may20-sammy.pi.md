@@ -214,5 +214,16 @@ https://github.com/nschurando/optiboot-nrf24l01
 https://www.youtube.com/watch?v=8xJqVeZkEw8
 https://www.2bitornot2bit.com/blog/arduino-bootloader-with-ota-over-the-air-support-over-nrf24l01
 https://hackaday.com/2018/01/18/over-the-air-updates-for-your-arduino/
+PI
+====
+
+
+The mpd_oled program displays an information screen including a music
+----
+https://github.com/antiprism/mpd_oled
+frequency spectrum on an OLED screen connected to a Raspberry Pi (or
+similar) running MPD, this includes Moode, Volumio and RuneAudio. The
+program supports I2C and SPI 128x64 OLED displays with an SSD1306,
+SSD1309, SH1106 or SSH1106 controller..
 ROLLING
 ====
