@@ -23,6 +23,24 @@ Sustainable Technology Promotion Platform (STePP) | United Nations Industrial De
 > UNIDO ITPO Tokyo’s **Sustainable Technology Promotion Platform** (**STePP**) is designed to share information on Japanese technologies that contribute to sustainable industrialization, in order to promote the transfer of such technologies to developing and emerging countries.
 
 
+
+ 	
+distiled water cleaning old keyboard
+----
+
+Sometimes water damage can be undone by completely soaking in distilled water to rid the impure water and rinse off the salts, and then letting dry.
+
+Distilled water isn't conductive, it's the salts that are.
+
+reply
+	
+	
+beenBoutIT 1 hour ago [–]
+
+You can speed this process up by gently scrubbing with Dawn dish soap and lots of regular water, as long as you keep it wet. The key is to thoroughly rinse everything with distilled water before anything starts drying off.
+
+reply
+
 ROLLING
 ====
 

@@ -340,6 +340,14 @@ themselves, often capturing Christians) and pagans as perpetual slaves.
 
 
 
+
+gregorio goncalves - missionario china - regalo felipe II - libros jap china escorial
+----
+
+
+Gregório Gonçalves, que viveu e missionou em Macau entre 1553-. 1564 ... China era ter missionários a falarem, a lerem e a escreverem chinês, chamando.
+
+
 METABEST
 ====
 METABESTBEST
@@ -699,6 +707,48 @@ A sua ocupação era Profissão.
 Julius faleceu em dia mês 1930, aos 70 anos de idade em local da morte.
 Ele foi enterrado em Local de enterrramento.
 
+
+
+
+super interesting [Confessing Church - Wikipedia](https://en.wikipedia.org/wiki/Confessing_Church)
+----
+
+nazism and protestantism
+
+On 13 November 1933 a rally of German Christians was held at the Berlin Sportpalast, where — before a packed hall — banners proclaimed the unity of National Socialism and Christianity, interspersed with the omnipresent swastikas. A series of speakers[34] addressed the crowd's pro-Nazi sentiments with ideas such as:
+
+    the removal of all pastors unsympathetic with National Socialism
+    the expulsion of members of Jewish descent, who might be arrogated to a separate church
+    the implementation of the Aryan Paragraph church-wide
+    the removal of the Old Testament from the Bible
+    the removal of "non-German" elements from religious services
+    the adoption of a more "heroic" and "positive" interpretation of Jesus, who in pro-Aryan fashion should be portrayed to be battling mightily against corrupt Jewish influences.[35]
+
+
+...
+
+After the Barmen Declaration, there were in effect two opposing movements in the German Protestant Church:
+
+    the German Christian movement and
+    the Confessing Church (the Bekennende Kirche, BK), often naming itself Deutsche Evangelische Kirche too, in order to reinforce its claim to be the true church[37]
+
+It should nevertheless be emphasized that the Confessing Church's rebellion was directed at the regim
+
+Aftermath
+Some of the leaders of the Confessing Church, such as Martin Niemöller or Heinrich Grüber, were sent to Nazi concentration camps. While Grüber and Niemöller survived, not all did: Dietrich Bonhoeffer was sent initially to Tegel Prison, then to Buchenwald concentration camp, and finally to Flossenbürg concentration camp, where he was hanged. This left Christians who did not agree with the Nazis without leadership for much of the era. 
+
+[Kirchenkampf - Wikipedia](https://en.wikipedia.org/wiki/Kirchenkampf)
+https://de.wikipedia.org/wiki/Deutsche_Evangelische_Kirche
+https://en.wikipedia.org/wiki/Peace_of_Augsburg
+https://en.wikipedia.org/wiki/Adolph_Hoffmann
+https://en.wikipedia.org/wiki/German_Christian
+https://en.wikipedia.org/wiki/Emmanuel_Hirsch
+https://de.wikipedia.org/wiki/Intakte_Kirchen
+https://en.wikipedia.org/wiki/Pfarrernotbund
+https://en.wikipedia.org/wiki/Martin_Niem%C3%B6ller
+https://en.wikipedia.org/wiki/Hermann_Maas
+https://en.wikipedia.org/wiki/First_they_came_...
+https://en.wikipedia.org/wiki/Stuttgart_Declaration_of_Guilt
 
 ROLLING
 ====
