@@ -347,6 +347,12 @@ gregorio goncalves - missionario china - regalo felipe II - libros jap china esc
 
 Gregório Gonçalves, que viveu e missionou em Macau entre 1553-. 1564 ... China era ter missionários a falarem, a lerem e a escreverem chinês, chamando.
 
+As Ânuas do Colégio de Macau, por exemplo, são um repositório 
+---
+importantíssimo de informação para a história da missionação dos jesuítas e, 
+« sobretudo, para a história do ensino e da dinâmica educativa da Companhia », 
+para além de conterem um « enorme manancial de informações biográficas 
+sobre inúmeros religiosos, através das quais se podem traçar percursos não só
 
 METABEST
 ====
