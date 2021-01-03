@@ -137,3 +137,47 @@ japanese tv galas nhk majorets kimono
 ROLLING
 =====
 
+
+[European Qualifications Framework - Wikipedia](https://en.wikipedia.org/wiki/European_Qualifications_Framework)
+-----
+
+
+
+part time
+-----
+
+As mentioned, I had my own company for a while, even more than once, and I have had employees. I have worked full-time too. Do you know what I discovered? People will give their best for about half the time, then the other half is spent trying to avoid working, thinking about when they can get home, and doing less than optimal.
+
+As mentioned, I had my own company for a while, even more than once, and I have had employees. I have worked full-time too. Do you know what I discovered? People will give their best for about half the time, then the other half is spent trying to avoid working, thinking about when they can get home, and doing less than optimal.
+
+[No, you cannot have a third of my life!](https://unixsheikh.com/articles/no-you-cannot-have-a-third-of-my-life.html)
+
+You want to know something else? You can actually increase productivity by as much as 75% by having only part-time workers!
+
+You think time is wasted teaching more people how to do their job, or you think time is wasted in double the amount of management, but you're dead wrong! You can run almost any kind of company you would using full-time employees with part-time employees instead. It's all about attitude and planning. What you'll get in return is a very happy and extremely productive work force.
+
+Now, I'm not here to tell you what to do or how to spend your time. We each face our struggles and daily challenges. But I would like to make you pause for a moment.
+
+Think about it! If you have a choice, when and if you live to become old, how do you want your life to look when you look back at it?
+
+
+I simply leave the computer
+----
+https://datagubbe.se/subversive/
+After years of instant access to an infinite supply of crap content, my
+brain has been conditioned to constantly demand more. Now, instead of
+hunting for more content to waste time on when I don't feel like
+programming, drawing or writing, I simply leave the computer. It might
+sound self-evident, but the brain works in mysterious ways.
+
+
+I spend less time consuming and more time producing. Not that the
+software and pictures I produce on my spare time will find a large
+audience, but I'm having fun with my computers. I used to think this
+kind of fun was almost only possible on my old Amigas (and I still
+consider them more fun), but it turns out that when a machine is not a
+wide open faucet for stupidity feeds, I associate it less with bad
+things and more with creativity..
+
+Re-learning patience: Maybe I don't have access to something Right This Instant. When I do get access, I realize that perhaps it wasn't all that important to begin with. Also: Turns out there's stuff to look at in nature.
+

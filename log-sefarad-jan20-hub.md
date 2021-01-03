@@ -354,6 +354,39 @@ importantíssimo de informação para a história da missionação dos jesuítas
 para além de conterem um « enorme manancial de informações biográficas 
 sobre inúmeros religiosos, através das quais se podem traçar percursos não só
 
+
+
+
+metabest Until recent times many authors, without much discussion, had hailed the Frenchman Alexandre de Rhodes as the father of the Quoc Ngu,
+----------
+
+    Jacques’ investigation offers a constructive and interesting
+    contribution to the development of studies on this Southeast Asian
+    country. His carefully researched and profound analysis makes use of
+    many archival sources and manuscript materials, e.g., from the
+    holdings of the Ajuda Library and the National Library of Lisbon,
+    the National Centre for Social Science and Humanities of Vietnam,
+    and various study centres of Macao.c
+
+
+    The development and adoption of a Romanized script had an enormous impact on Vietnam's intellectual development and has been attributed to the work of Alexandre de Rhodes. This study contends that Rhodes' achievement was due to the efforts of earlier Portuguese linguists upon whose work he built. The development and eventual official adoption of a Romanized script has had an enormous impact on Vietnam's cultural and intellectual development and has been a major contributor to its high literacy rate and its modernization. Among linguists, the development of the Roman
+
+
+    It highlights the personality of Francisco de Pina, a Jesuit to whom Jacques attributes the first authorship of the Manuductio ad linguam tunckinensem.
+
+
+    The arrival of the first members of the Paris Society of Foreign Missions in 1666 boosted the French presence in the Far East. Simultaneously, the Portuguese presence, that of the Society of the Jesus, was declining. This was one of the factors that led to underrating the achievements of the Jesuits in the field of language studies and to exalting the priority and value of the French influence on Vietnamese culture
+
+
+    The Jesuits Antonio Barbosa, Gaspar do Amaral, and Francisco de Pina, mentioned also by Rhodes, should be remembered among the pioneers of the Vietnamese language.
+
+
+    tions and established missions among them, e.g., in the regions of Quang Nam and Binh Dinh (Quy Nhon) and in the cosmopolitan city of Hoi An. T
+
+[Orchid Press - Book Review - Portuguese Pioneers of Vietnamese Linguistics](http://www.orchidbooks.com/book_reviews/port_pioneer.html)
+
+
+
 METABEST
 ====
 METABESTBEST
