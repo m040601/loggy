@@ -6,11 +6,6 @@ carcosa.net
 MORERSS
 ====
 
-via nojs.club
-interesting geeks
-https://datagubbe.se
-https://datagubbe.se/atom.xml
-
 
 SHELL
 ===
@@ -185,5 +180,23 @@ It's fucking nine-year-olds. Our fans have, like, a
              streams in a month. It's fucking nine-year-olds. Our fans have, like, a
              hundred and fifty albums that they listen to, on a sort of rotation, at
              least one of them once a month.
+
+
+
+a google account without a gmail
+----
+
+    Today I discovered something fantasic: I can have a google account without a gmail
+        account.
+
+	    I use fastmail for my personal email. It works great, but I
+	    had to tell people to share
+	        Google Docs to my old gmail account. Now, I can just
+		tell people to share Google Docs to
+		    my personal email (hosted by gmail), which is
+		    registered with google.
+
+		        [1]
+			https://accounts.google.com/SignUpWithoutGmail
 
 
